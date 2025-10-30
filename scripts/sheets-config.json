@@ -1,0 +1,31 @@
+{
+  "sheets": {
+    "board": {
+      "jsonUrl": "https://script.google.com/macros/s/AKfycbwFp7rVS8fgr6foQ9dTBiwr-0kwaGWMNDO6TaZVYzyGqdrMlZvdEFNsGyBNI3K5U1R4qw/exec",
+      "outputPath": "data/board/members.yaml",
+      "description": "Board members data (elected and appointed positions)"
+    },
+    "events": {
+      "jsonUrl": "https://script.google.com/macros/s/AKfycbw23HYfXz020p8f8reNuVnRCFvHCStK4PVQ1MEt2j2ZE0pY9QvdIqSk1DMR82BqflNAYw/exec",
+      "outputPath": "data/events/upcoming.yaml",
+      "description": "Upcoming PTSA events"
+    },
+    "staff": {
+      "jsonUrl": "https://script.google.com/macros/s/AKfycbxgXCSa-f1xWD6e45kTBJnQsYGMUY2GvfK4pRoV5tu94D_OmCqQz64gEKhhCLFfeDAqDg/exec",
+      "outputPath": "data/staff/favorites.yaml",
+      "description": "Staff favorite things"
+    }
+  },
+  "images": {
+    "board_photos": {
+      "method": "drive",
+      "folderId": "YOUR_BOARD_PHOTOS_FOLDER_ID",
+      "outputPath": "static/img/board"
+    }
+  },
+  "options": {
+    "validateData": true,
+    "backupBeforeSync": false,
+    "prettifyYaml": true
+  }
+}

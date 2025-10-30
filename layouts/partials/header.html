@@ -10,17 +10,22 @@
       </div>
     {{ end }}
   </div>
-  
+
   <nav class="main-nav">
     <div class="container">
-      
+      <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
       <ul class="nav-menu">
         <li class="nav-item">
           <a href="/">Home</a>
         </li>
 
         <li class="nav-item has-dropdown">
-          <a>
+          <a class="dropdown-toggle">
             About PTSA
             <span class="dropdown-arrow">▾</span>
           </a>
@@ -43,7 +48,7 @@
         </li>
 
         <li class="nav-item has-dropdown">
-          <a>
+          <a class="dropdown-toggle">
             Resources
             <span class="dropdown-arrow">▾</span>
           </a>
@@ -62,3 +67,51 @@
     </div>
   </nav>
 </header>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const mobileToggle = document.querySelector('.mobile-menu-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+    const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+
+    // Mobile menu toggle
+    if (mobileToggle) {
+      mobileToggle.addEventListener('click', function() {
+        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !isExpanded);
+        navMenu.classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+      });
+    }
+
+    // Dropdown toggles for mobile
+    dropdownToggles.forEach(toggle => {
+      toggle.addEventListener('click', function(e) {
+        // Only toggle on mobile
+        if (window.innerWidth <= 768) {
+          e.preventDefault();
+          const parent = this.closest('.nav-item');
+          parent.classList.toggle('active');
+        }
+      });
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.main-nav') && navMenu.classList.contains('active')) {
+        navMenu.classList.remove('active');
+        mobileToggle.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('menu-open');
+      }
+    });
+
+    // Close menu on window resize to desktop
+    window.addEventListener('resize', function() {
+      if (window.innerWidth > 768 && navMenu.classList.contains('active')) {
+        navMenu.classList.remove('active');
+        mobileToggle.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('menu-open');
+      }
+    });
+  });
+</script>

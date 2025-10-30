@@ -66,9 +66,21 @@
       <div class="section-card">
         <h2>Upcoming Events</h2>
         {{ $events := .Site.Data.events.upcoming }}
+        {{ $now := now }}
         {{ if $events }}
+        <!-- Filter to only show future events -->
+        {{ $futureEvents := slice }}
+        {{ range $events }}
+          {{ if .date }}
+            {{ $eventDate := time .date }}
+            {{ if ge $eventDate $now }}
+              {{ $futureEvents = $futureEvents | append . }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ if $futureEvents }}
         <div class="events-preview">
-          {{ range first 3 $events }}
+          {{ range first 3 $futureEvents }}
           <div class="event-item">
             <div class="event-date">
               <span class="month">{{ time.Format "Jan" .date }}</span>
@@ -82,6 +94,9 @@
           {{ end }}
         </div>
         <a href="/events/" class="view-all">View All Events →</a>
+        {{ else }}
+        <p>No upcoming events at this time. Check back soon!</p>
+        {{ end }}
         {{ end }}
       </div>
 

@@ -1,454 +1,420 @@
-- name: 'Leslie Malone'
-  amazon_link: ''
-  favorite_snacks: 'Doritos, popcorn, spicy trail mix'
-  favorite_restaurants: 'Azteca'
-  favorite_beverages: 'Diet Coke'
-  favorite_stores: 'Nordstrom, Home Goods, Target'
-  favorite_colors: 'Blue'
-  favorite_flowers: 'Peony'
-  hobbies: 'Shopping'
-  favorite_things: 'Coffee, snacks, blankets, hulu'
-  classroom_needs: ''
-  appreciation: 'Notes, coffee, kind words'
-
-- name: 'Leah Grant'
-  amazon_link: ''
-  favorite_snacks: 'BBQ Chips'
-  favorite_restaurants: 'Bucatini'
-  favorite_beverages: 'Coffee and pepsi'
-  favorite_stores: ''
-  favorite_colors: 'Blue'
-  favorite_flowers: 'Roses, hydrangea'
-  hobbies: 'Travel, reading'
-  favorite_things: 'Books, coffee, flowers, going to movies, travel, beach, swimming'
-  classroom_needs: 'Fidget toys'
-  appreciation: ''
-
-- name: 'Elizabeth Schmeichel'
-  amazon_link: ''
-  favorite_snacks: 'dark chocolates, trail mixes, fruit, and anything baked!'
+- name: "Leslie Malone"
+  amazon_link: ""
+  favorite_snakcs: "Doritos, popcorn, spicy trail mix"
+  favorite_restaurants: "Azteca"
+  favorite_beverages: "Diet Coke"
+  favorite_stores: "Nordstrom, Home Goods, Target"
+  favorite_colors: "Blue"
+  favorite_flowers: "Peony"
+  hobbies: "Shopping"
+  favorite_things: "Coffee, snacks, blankets, hulu"
+  classroom_needs: ""
+  appreciation: "Notes, coffee, kind words"
+- name: "Leah Grant"
+  amazon_link: ""
+  favorite_snakcs: "BBQ Chips"
+  favorite_restaurants: "Bucatini"
+  favorite_beverages: "Coffee and pepsi"
+  favorite_stores: ""
+  favorite_colors: "Blue"
+  favorite_flowers: "Roses, hydrangea"
+  hobbies: "Travel, reading"
+  favorite_things: "Books, coffee, flowers, going to movies, travel, beach, swimming"
+  classroom_needs: "Fidget toys"
+  appreciation: ""
+- name: "Elizabeth Schmeichel"
+  amazon_link: ""
+  favorite_snakcs: "dark chocolates, trail mixes, fruit, and anything baked!"
   favorite_restaurants: "Anthony's, Jersey Mike's, South Fork Bakery"
-  favorite_beverages: 'Gatorade (zero sugar), Herbal Teas, Water, Vanilla Bean (2scoop powder) Lattes'
-  favorite_stores: 'Hobby Lobby, Target, Fred Meyers'
-  favorite_colors: 'Purple & Dark Green'
-  favorite_flowers: 'Water Lilies & Gardenias'
-  hobbies: 'Sports, Painting, Home Decor, Outdoor Anything'
-  favorite_things: 'Cooking, Sleeping, Eating, Family Times, Games, Coloring Books, Stickers'
-  classroom_needs: 'Comfy chairs to snuggle'
-  appreciation: 'affirmations, gifts, acts of services'
-
-- name: 'Tina Leger'
-  amazon_link: ''
-  favorite_snacks: 'Popcorn, Trail Mix, Dark Chocolate'
-  favorite_restaurants: 'Jersey Mikes, Five Guys, Chik  Fil-A'
-  favorite_beverages: 'Diet Coke, Coke Zero, Diet Dr. Pepper'
-  favorite_stores: 'Home Goods, Hobby Lobby'
-  favorite_colors: 'Pink, Periwinkle, Sage Green'
-  favorite_flowers: 'Peonies, Roses, Tulips'
-  hobbies: 'drawing, crafts, watching movies'
-  favorite_things: 'Seasonal Decor (for desk), anything Mary Engelbreit,'
-  classroom_needs: ''
-  appreciation: 'Gift cards!'
-
-- name: 'Graham Wood'
-  amazon_link: 'https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fwishlist%2Fls%2F3EWPL9XVBONWU%2Fref%3Dnav_wishlist_lists_2%3FviewType%3Dlist&data=05%7C02%7Cwoodgt%40mukilteo.wednet.edu%7C7b79113abf8d4651090808dded7110ce%7Ca2d4d43f15d149d48d873e7d7dc64397%7C0%7C0%7C638927792072726193%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=LWOGj5773ZMN0%2FcmqLhlJH3ezcoq9x2yshEUf7ApYcc%3D&reserved=0'
-  favorite_snacks: 'Trail mix'
+  favorite_beverages: "Gatorade (zero sugar), Herbal Teas, Water, Vanilla Bean (2scoop powder) Lattes"
+  favorite_stores: "Hobby Lobby, Target, Fred Meyers"
+  favorite_colors: "Purple & Dark Green"
+  favorite_flowers: "Water Lilies & Gardenias"
+  hobbies: "Sports, Painting, Home Decor, Outdoor Anything"
+  favorite_things: "Cooking, Sleeping, Eating, Family Times, Games, Coloring Books, Stickers"
+  classroom_needs: "Comfy chairs to snuggle"
+  appreciation: "affirmations, gifts, acts of services"
+- name: "Tina Leger"
+  amazon_link: ""
+  favorite_snakcs: "Popcorn, Trail Mix, Dark Chocolate"
+  favorite_restaurants: "Jersey Mikes, Five Guys, Chik  Fil-A"
+  favorite_beverages: "Diet Coke, Coke Zero, Diet Dr. Pepper"
+  favorite_stores: "Home Goods, Hobby Lobby"
+  favorite_colors: "Pink, Periwinkle, Sage Green"
+  favorite_flowers: "Peonies, Roses, Tulips"
+  hobbies: "drawing, crafts, watching movies"
+  favorite_things: "Seasonal Decor (for desk), anything Mary Engelbreit,"
+  classroom_needs: ""
+  appreciation: "Gift cards!"
+- name: "Wood"
+  amazon_link: "https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.amazon.com%2Fhz%2Fwishlist%2Fls%2F3EWPL9XVBONWU%2Fref%3Dnav_wishlist_lists_2%3FviewType%3Dlist&data=05%7C02%7Cwoodgt%40mukilteo.wednet.edu%7C7b79113abf8d4651090808dded7110ce%7Ca2d4d43f15d149d48d873e7d7dc64397%7C0%7C0%7C638927792072726193%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=LWOGj5773ZMN0%2FcmqLhlJH3ezcoq9x2yshEUf7ApYcc%3D&reserved=0"
+  favorite_snakcs: "Trail mix"
   favorite_restaurants: "Yeh Yeh's or Pagliacci Pizza"
-  favorite_beverages: 'coffee or iced tea'
-  favorite_stores: 'Blick art store'
-  favorite_colors: 'green and blue'
-  favorite_flowers: 'sunflower'
-  hobbies: 'art, music, hiking, paddleboarding, snowboarding'
-  favorite_things: 'My family and dog Maggie'
-  classroom_needs: 'wobble stools, drawing pads, art markers'
-  appreciation: 'Just a thank you and support from staff and families'
-
-- name: 'John Stengele'
-  amazon_link: 'Foam multi-purpose balls -  https://www.amazon.com/Worldwide-Gator-Skin-Dodgeballs-Set/dp/B00LNHGGES/ref=sr_1_1_sspa?crid=5ZUBUI0MUCCA&dib=eyJ2IjoiMSJ9.H5PTAgdydVoxQVO8Qqq25jM7aKSant3ADBCXeqsw1TGn7weHfcXIKAY_aABB0bLlFbj_R4Fxn4UbjHqTrGoBVavvgvpOhqSAJxZU21IfXxM3vpCDYLsn4B_Geeydq2W-AEQUXG7pQIKDHG-GwYkEsYFxaRtSpT_Xi93PH7CiHMpNsFcR7890SUHMHEd_4vS2i1NU8kQf6rZBT5wCrB88byQ9HQUMtZTchwe0PijjCuAdZqksa_By6JlIOsoB6GCxjWLfmPtd1d_bQaqvcl6h4knakI_s-uq9kyi9C1Bu8oQ.yv_FTeektUdGYlxDLytBUmHxgHUCnzSyhaFvoum5-4g&dib_tag=se&keywords=gator+skin+dodgeball+balls&qid=1759343602&sprefix=gator+skin%2Caps%2C249&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1'
-  favorite_snacks: "Dot's Pretzels (any flavor), peanuts, pistachios, Tortilla chips"
-  favorite_restaurants: 'Diamond Knot, Taco Time, Taqueria Puebla (next to Red Cork)'
-  favorite_beverages: 'Coffee with cream'
-  favorite_stores: 'REI, ACE Hardware, Amazon'
-  favorite_colors: 'Green, Black, Blue, Crimson, Grey'
-  favorite_flowers: 'Any and All'
-  hobbies: 'Disc Golf, Soccer, Hiking, Kayaking, Backpacking, Camping, Gardening'
-  favorite_things: 'Family, my puppies, soccer, and nature'
-  classroom_needs: 'Always in need of new equipment'
-  appreciation: 'Art, letters, emails from students and family'
-
-- name: 'Madisyn Leenstra'
-  amazon_link: ''
-  favorite_snacks: 'Cheez its, chocolate, trail mix'
-  favorite_restaurants: 'Chops, chipotle'
-  favorite_beverages: 'Vanilla latte, red wine'
-  favorite_stores: 'Safeway, target, costco'
-  favorite_colors: 'blue and green (go hawks!)'
-  favorite_flowers: 'Any'
-  hobbies: 'jigsaw puzzles'
-  favorite_things: 'Kind words'
-  classroom_needs: 'pre sharpened pencils, scissors, markers'
-  appreciation: 'kind words, hugs'
-
-- name: 'Michelle McLaughlin'
-  amazon_link: ''
-  favorite_snacks: 'cheese and crackers'
-  favorite_restaurants: 'Din Tai Fung or Mexican'
-  favorite_beverages: 'Any sparkling water'
-  favorite_stores: 'Natural Life'
-  favorite_colors: 'Green and pink'
-  favorite_flowers: 'sunflowers or daisies'
-  hobbies: 'easy hiking, walks, sunset chasing, reading, buying & selling secondhand.'
-  favorite_things: 'rain, sunsets, beaches, mountains, road trips, girls brunch'
-  classroom_needs: 'small or medium squishmallow to use for emotional support for injured/upset kids'
+  favorite_beverages: "coffee or iced tea"
+  favorite_stores: "Blick art store"
+  favorite_colors: "green and blue"
+  favorite_flowers: "sunflower"
+  hobbies: "art, music, hiking, paddleboarding, snowboarding"
+  favorite_things: "My family and dog Maggie"
+  classroom_needs: "wobble stools, drawing pads, art markers"
+  appreciation: "Just a thank you and support from staff and families"
+- name: "John Stengele"
+  amazon_link: "https://www.amazon.com/Worldwide-Gator-Skin-Dodgeballs-Set/dp/B00LNHGGES/ref=sr_1_1_sspa?crid=5ZUBUI0MUCCA&dib=eyJ2IjoiMSJ9.H5PTAgdydVoxQVO8Qqq25jM7aKSant3ADBCXeqsw1TGn7weHfcXIKAY_aABB0bLlFbj_R4Fxn4UbjHqTrGoBVavvgvpOhqSAJxZU21IfXxM3vpCDYLsn4B_Geeydq2W-AEQUXG7pQIKDHG-GwYkEsYFxaRtSpT_Xi93PH7CiHMpNsFcR7890SUHMHEd_4vS2i1NU8kQf6rZBT5wCrB88byQ9HQUMtZTchwe0PijjCuAdZqksa_By6JlIOsoB6GCxjWLfmPtd1d_bQaqvcl6h4knakI_s-uq9kyi9C1Bu8oQ.yv_FTeektUdGYlxDLytBUmHxgHUCnzSyhaFvoum5-4g&dib_tag=se&keywords=gator+skin+dodgeball+balls&qid=1759343602&sprefix=gator+skin%2Caps%2C249&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+  favorite_snakcs: "Dot's Pretzels (any flavor), peanuts, pistachios, Tortilla chips"
+  favorite_restaurants: "Diamond Knot, Taco Time, Taqueria Puebla (next to Red Cork)"
+  favorite_beverages: "Coffee with cream"
+  favorite_stores: "REI, ACE Hardware, Amazon"
+  favorite_colors: "Green, Black, Blue, Crimson, Grey"
+  favorite_flowers: "Any and All"
+  hobbies: "Disc Golf, Soccer, Hiking, Kayaking, Backpacking, Camping, Gardening"
+  favorite_things: "Family, my puppies, soccer, and nature"
+  classroom_needs: "Always in need of new equipment"
+  appreciation: "Art, letters, emails from students and family"
+- name: "Madisyn Leenstra"
+  amazon_link: ""
+  favorite_snakcs: "Cheez its, chocolate, trail mix"
+  favorite_restaurants: "Chops, chipotle"
+  favorite_beverages: "Vanilla latte, red wine"
+  favorite_stores: "Safeway, target, costco"
+  favorite_colors: "blue and green (go hawks!)"
+  favorite_flowers: "Any"
+  hobbies: "jigsaw puzzles"
+  favorite_things: "Kind words"
+  classroom_needs: "pre sharpened pencils, scissors, markers"
+  appreciation: "kind words, hugs"
+- name: "Michelle McLaughlin"
+  amazon_link: ""
+  favorite_snakcs: "cheese and crackers"
+  favorite_restaurants: "Din Tai Fung or Mexican"
+  favorite_beverages: "Any sparkling water"
+  favorite_stores: "Natural Life"
+  favorite_colors: "Green and pink"
+  favorite_flowers: "sunflowers or daisies"
+  hobbies: "easy hiking, walks, sunset chasing, reading, buying & selling secondhand."
+  favorite_things: "rain, sunsets, beaches, mountains, road trips, girls brunch"
+  classroom_needs: "small or medium squishmallow to use for emotional support for injured/upset kids"
   appreciation: "Just let me know I'm appreciated, I guess?"
-
-- name: 'Sarah Dutchin'
-  amazon_link: 'https://www.amazon.com/hz/wishlist/ls/DZPFB47BF58Y/ref=nav_wishlist_lists_3'
-  favorite_snacks: 'Brie cheese and soft french bread, nachos, soft chocolate chip cookies, scones'
-  favorite_restaurants: 'Ivars, Tapped, Starbucks'
-  favorite_beverages: 'Flavored waters: Black Cherry, Tangerine, Blood Orange; Blond Vanilla Latte'
-  favorite_stores: 'TJ Maxx/Marshalls'
-  favorite_colors: 'Pink, green, Crimson/Gray'
-  favorite_flowers: 'Tulips, gerbera daisies'
-  hobbies: 'Bake, run, walk, read'
-  favorite_things: 'Fresh Sharpies, gnomes, seasonally scented candles, holiday earrings'
-  classroom_needs: ''
-  appreciation: 'Handwritten notes never go out of style! Kids telling me they like school and what they have learned. A surprise latte is always fun.'
-
-- name: 'Jen Johnson'
-  amazon_link: 'https://www.amazon.com/hz/wishlist/ls/19T4SAYZ4DBO1/ref=nav_wishlist_lists_3'
-  favorite_snacks: 'Chocolate Covered Gummy Bears, Protein Bars, Sour Candy'
-  favorite_restaurants: 'The Keg, Demitris, Salt and Iron, Bar Dojo'
-  favorite_beverages: 'Iced Soy Lattes, Olipop'
-  favorite_stores: 'Amazon, Bookstores, Target'
-  favorite_colors: 'Green, Blue'
-  favorite_flowers: 'Peonies, Hydrngeas'
-  hobbies: 'Orange Theory, Reading, Playing w/my nephews and cats, Exploring w/Mr. Johnson'
-  favorite_things: '???'
-  classroom_needs: 'A new rug, Snacks for the Kids'
-  appreciation: 'Thanked/Acknowledged for working hard-- by kids and parents :)'
-
-- name: 'Jamie Smith'
-  amazon_link: 'https://www.amazon.com/hz/wishlist/ls/1OCUWF72Z87R/ref=nav_wishlist_lists_2'
-  favorite_snacks: 'Fruit'
-  favorite_restaurants: 'Tapped'
-  favorite_beverages: 'Liquid IV water'
-  favorite_stores: 'Amazon'
-  favorite_colors: ''
-  favorite_flowers: ''
-  hobbies: 'Light Pink'
-  favorite_things: 'Plants, travel, home improvement, reading'
-  classroom_needs: 'Extra headphones and crayons'
-  appreciation: 'Hugs and handwritten letters!'
-
-- name: 'Katrina Hall (Ms. Hall)'
-  amazon_link: 'https://www.btsb.com/sosl/serenelake'
-  favorite_snacks: 'popcorn, red vines, Whoppers'
-  favorite_restaurants: ''
-  favorite_beverages: 'iced vanilla lattes, sparkling water, Diet Coke'
-  favorite_stores: 'Third Place Books'
-  favorite_colors: 'red'
-  favorite_flowers: 'gerbera daisies'
-  hobbies: 'reading, dancing, hiking'
-  favorite_things: 'books!'
-  classroom_needs: 'books from my wishlist'
-  appreciation: 'kind notes'
-
-- name: 'Lori Bumstead'
-  amazon_link: ''
-  favorite_snacks: 'Popcorn, Nuts, pretzels'
-  favorite_restaurants: 'I like mexican and thai food.'
-  favorite_beverages: 'Diet Coke or coffee with vanilla creamer'
-  favorite_stores: 'Target or a Craft Store'
-  favorite_colors: 'Green and Blue'
-  favorite_flowers: 'Dahlia, peony'
-  hobbies: 'Crafting, Reading'
-  favorite_things: 'Smiling faces from our sea otter students, a walk on a cold sunny day and sitting by a campfire next to the river at our family property in the Methow VAlley.'
-  classroom_needs: 'Coffee and drinks for the staff room?'
-  appreciation: 'I love receiving notes from students. It is the best part of my day!'
-
-- name: 'Becky Hovik'
-  amazon_link: ''
-  favorite_snacks: 'salami, red licorice (not twizzlers)'
-  favorite_restaurants: 'Playa Bonita'
-  favorite_beverages: 'Mango dragonfriut refresher light ice, light water'
-  favorite_stores: 'Amazon Simon says Stamp (online)'
-  favorite_colors: 'purple'
-  favorite_flowers: 'wild flowers'
-  hobbies: 'crafting-card making'
-  favorite_things: ''
-  classroom_needs: 'a gift certificate to hobby Lobby or Amazon to buy stem supplies'
-  appreciation: 'Starbucks'
-
-- name: 'Cassandra Smelser'
-  amazon_link: "Don't have one"
-  favorite_snacks: 'fresh fruit, charcuterie (meats, cheese, crackers)'
-  favorite_restaurants: 'China City, Taco Time'
-  favorite_beverages: 'Cherry Coke, Starbucks Cinnamon Dolce Latte, Iced Mocha Breve'
+- name: "Sarah Dutchin"
+  amazon_link: "https://www.amazon.com/hz/wishlist/ls/DZPFB47BF58Y/ref=nav_wishlist_lists_3"
+  favorite_snakcs: "Brie cheese and soft french bread, nachos, soft chocolate chip cookies, scones"
+  favorite_restaurants: "Ivars, Tapped, Starbucks"
+  favorite_beverages: "Flavored waters: Black Cherry, Tangerine, Blood Orange; Blond Vanilla Latte"
+  favorite_stores: "TJ Maxx/Marshalls"
+  favorite_colors: "Pink, green, Crimson/Gray"
+  favorite_flowers: "Tulips, gerbera daisies"
+  hobbies: "Bake, run, walk, read"
+  favorite_things: "Fresh Sharpies, gnomes, seasonally scented candles, holiday earrings"
+  classroom_needs: ""
+  appreciation: "Handwritten notes never go out of style! Kids telling me they like school and what they have learned. A surprise latte is always fun."
+- name: "Jen Johnson"
+  amazon_link: "https://www.amazon.com/hz/wishlist/ls/19T4SAYZ4DBO1/ref=nav_wishlist_lists_3"
+  favorite_snakcs: "Chocolate Covered Gummy Bears, Protein Bars, Sour Candy"
+  favorite_restaurants: "The Keg, Demitris, Salt and Iron, Bar Dojo"
+  favorite_beverages: "Iced Soy Lattes, Olipop"
+  favorite_stores: "Amazon, Bookstores, Target"
+  favorite_colors: "Green, Blue"
+  favorite_flowers: "Peonies, Hydrngeas"
+  hobbies: "Orange Theory, Reading, Playing w/my nephews and cats, Exploring w/Mr. Johnson"
+  favorite_things: "???"
+  classroom_needs: "A new rug, Snacks for the Kids"
+  appreciation: "Thanked/Acknowledged for working hard-- by kids and parents :)"
+- name: "Jamie Smith"
+  amazon_link: "https://www.amazon.com/hz/wishlist/ls/1OCUWF72Z87R/ref=nav_wishlist_lists_2"
+  favorite_snakcs: "Fruit"
+  favorite_restaurants: "Tapped"
+  favorite_beverages: "Liquid IV water"
+  favorite_stores: "Amazon"
+  favorite_colors: ""
+  favorite_flowers: ""
+  hobbies: "Light Pink"
+  favorite_things: "Plants, travel, home improvement, reading"
+  classroom_needs: "Extra headphones and crayons"
+  appreciation: "Hugs and handwritten letters!"
+- name: "Katrina Hall (Ms. Hall)"
+  amazon_link: "https://www.btsb.com/sosl/serenelake"
+  favorite_snakcs: "popcorn, red vines, Whoppers"
+  favorite_restaurants: ""
+  favorite_beverages: "iced vanilla lattes, sparkling water, Diet Coke"
+  favorite_stores: "Third Place Books"
+  favorite_colors: "red"
+  favorite_flowers: "gerbera daisies"
+  hobbies: "reading, dancing, hiking"
+  favorite_things: "books!"
+  classroom_needs: "books from my wishlist"
+  appreciation: "kind notes"
+- name: "Lori Bumstead"
+  amazon_link: ""
+  favorite_snakcs: "Popcorn, Nuts, pretzels"
+  favorite_restaurants: "I like mexican and thai food."
+  favorite_beverages: "Diet Coke or coffee with vanilla creamer"
+  favorite_stores: "Target or a Craft Store"
+  favorite_colors: "Green and Blue"
+  favorite_flowers: "Dahlia, peony"
+  hobbies: "Crafting, Reading"
+  favorite_things: "Smiling faces from our sea otter students, a walk on a cold sunny day and sitting by a campfire next to the river at our family property in the Methow VAlley."
+  classroom_needs: "Coffee and drinks for the staff room?"
+  appreciation: "I love receiving notes from students. It is the best part of my day!"
+- name: "Becky Hovik"
+  amazon_link: ""
+  favorite_snakcs: "salami, red licorice (not twizzlers)"
+  favorite_restaurants: "Playa Bonita"
+  favorite_beverages: "Mango dragonfriut refresher light ice, light water"
+  favorite_stores: "Amazon Simon says Stamp (online)"
+  favorite_colors: "purple"
+  favorite_flowers: "wild flowers"
+  hobbies: "crafting-card making"
+  favorite_things: ""
+  classroom_needs: "a gift certificate to hobby Lobby or Amazon to buy stem supplies"
+  appreciation: "Starbucks"
+- name: "Cassandra Smelser"
+  amazon_link: ""
+  favorite_snakcs: "fresh fruit, charcuterie (meats, cheese, crackers)"
+  favorite_restaurants: "China City, Taco Time"
+  favorite_beverages: "Cherry Coke, Starbucks Cinnamon Dolce Latte, Iced Mocha Breve"
   favorite_stores: "Trader Joe's"
-  favorite_colors: 'Teal'
-  favorite_flowers: 'Gerbra Daisies'
-  hobbies: 'Traveling, baking, cooking, pedicures'
+  favorite_colors: "Teal"
+  favorite_flowers: "Gerbra Daisies"
+  hobbies: "Traveling, baking, cooking, pedicures"
   favorite_things: "Homemade cookies, coffee (lattes, Frappuccino's, cold brew)"
-  classroom_needs: 'a 3 hole punch, new electric pencil sharpener'
-  appreciation: 'drop off coffee or lunch one day, homemade cookies/goodies'
-
-- name: 'Cable Smith'
-  amazon_link: ''
-  favorite_snacks: 'Beef Jerky'
-  favorite_restaurants: 'Mod Pizza'
-  favorite_beverages: 'Lemonade'
-  favorite_stores: 'Costco'
-  favorite_colors: 'Purple'
-  favorite_flowers: 'Hyacinth'
-  hobbies: 'Sporting events (huskies, Mariners, Seahawks)'
-  favorite_things: 'My wife, my german shepherd, baseball, being outdoors'
-  classroom_needs: 'headphones, more scoop chairs or some kind of floor seats for kiddos to read'
-  appreciation: 'Just being acknowledged or told "doing a good job."'
-
-- name: 'Jennifer Gee'
-  amazon_link: ''
-  favorite_snacks: 'granola/chocolate'
-  favorite_restaurants: 'I like to try new restaurants. Anytime I get to go out is a treat!'
-  favorite_beverages: 'coffee/iced green tea w/lemonade'
-  favorite_stores: 'Nordstrom Rack/Home Goods'
-  favorite_colors: 'green'
-  favorite_flowers: 'tulips'
-  hobbies: 'reading/golf/college basketball/outside activities with family and friends'
-  favorite_things: 'family and friends'
-  classroom_needs: 'Snacks/pencils/whiteboard markers(black)'
-  appreciation: 'notes or emails about things families hear are going well in our groups'
-
-- name: 'Jessi Jarvis'
-  amazon_link: 'https://www.amazon.com/hz/wishlist/ls/3GD8FA6EX6UKL?ref_=wl_share'
-  favorite_snacks: 'Anything chocolate and peanut butter, mixed nuts, pretty much any kind of potato chip'
+  classroom_needs: "a 3 hole punch, new electric pencil sharpener"
+  appreciation: "drop off coffee or lunch one day, homemade cookies/goodies"
+- name: "Cable Smith"
+  amazon_link: ""
+  favorite_snakcs: "Beef Jerky"
+  favorite_restaurants: "Mod Pizza"
+  favorite_beverages: "Lemonade"
+  favorite_stores: "Costco"
+  favorite_colors: "Purple"
+  favorite_flowers: "Hyacinth"
+  hobbies: "Sporting events (huskies, Mariners, Seahawks)"
+  favorite_things: "My wife, my german shepherd, baseball, being outdoors"
+  classroom_needs: "headphones, more scoop chairs or some kind of floor seats for kiddos to read"
+  appreciation: "Just being acknowledged or told \"doing a good job.\""
+- name: "Jennifer Gee"
+  amazon_link: ""
+  favorite_snakcs: "granola/chocolate"
+  favorite_restaurants: "I like to try new restaurants. Anytime I get to go out is a treat!"
+  favorite_beverages: "coffee/iced green tea w/lemonade"
+  favorite_stores: "Nordstrom Rack/Home Goods"
+  favorite_colors: "green"
+  favorite_flowers: "tulips"
+  hobbies: "reading/golf/college basketball/outside activities with family and friends"
+  favorite_things: "family and friends"
+  classroom_needs: "Snacks/pencils/whiteboard markers(black)"
+  appreciation: "notes or emails about things families hear are going well in our groups"
+- name: "Jessi Jarvis"
+  amazon_link: "https://www.amazon.com/hz/wishlist/ls/3GD8FA6EX6UKL?ref_=wl_share"
+  favorite_snakcs: "Anything chocolate and peanut butter, mixed nuts, pretty much any kind of potato chip"
   favorite_restaurants: "Chipotle, Panera, Jersey Mike's"
-  favorite_beverages: 'Diet coke and coffee'
-  favorite_stores: 'Third Place Books, anything local'
-  favorite_colors: 'Purple and teal'
-  favorite_flowers: 'Tulips'
-  hobbies: 'Making music with friends and family, reading, taking walks'
-  favorite_things: 'Little birds, specifically northwest backyard birds but really any little birds'
-  classroom_needs: 'Books about emotions, mindset, inclusion, and diversity. Cool fidgets, simple games, games about feelings'
+  favorite_beverages: "Diet coke and coffee"
+  favorite_stores: "Third Place Books, anything local"
+  favorite_colors: "Purple and teal"
+  favorite_flowers: "Tulips"
+  hobbies: "Making music with friends and family, reading, taking walks"
+  favorite_things: "Little birds, specifically northwest backyard birds but really any little birds"
+  classroom_needs: "Books about emotions, mindset, inclusion, and diversity. Cool fidgets, simple games, games about feelings"
   appreciation: "I love when I get a little note that I can keep to re-read when I'm having a hard day. And I LOVE when students make art that I can hang up in my office."
-
-- name: 'Vikki Roberts'
-  amazon_link: "I don't know how to make one of these."
-  favorite_snacks: 'plain baked lays potato chips or hummus and veggies'
-  favorite_restaurants: 'Azul, Calabria,'
-  favorite_beverages: 'Starbucks coconut milk latte with 2 raw sugars or water'
-  favorite_stores: 'costco'
-  favorite_colors: 'pink or blue'
-  favorite_flowers: 'sun flowers and daisy'
-  hobbies: 'beading, gardening, baking gluten free and vegan'
-  favorite_things: 'cats, socks,'
-  classroom_needs: 'pens, student workbooks for our phonics curriculum'
-  appreciation: 'notes'
-
-- name: 'Mallory Hanson'
-  amazon_link: 'https://www.amazon.com/hz/wishlist/ls/ECP8W4TZS0T9?ref_=wl_share'
-  favorite_snacks: 'I love trying new crunchy snacks, chocolate (anything but palmer), Cheez-itz, etc.'
-  favorite_restaurants: 'Anything local to WA & PNW! (all different cuisines)'
-  favorite_beverages: 'Sugar Free Redbull (any flav), White Chocolate Oat milk latte (Extra Hot or Iced), Zero Sugar Coke (any Flav), Sparkling Water!'
-  favorite_stores: 'REI, Trader Joes, Woods Coffee, Staples, Kennelly Keys'
-  favorite_colors: 'Forest Green & Rainbow'
-  favorite_flowers: 'Rhododendron'
-  hobbies: 'Hiking, Cooking, Baking, Kendama, Drawing'
-  favorite_things: 'Music, Food, Sports, Outdoors, the Arts!'
-  classroom_needs: 'Hand Sanitizer, Class set of Whiteboards, things from wishlist'
-  appreciation: 'To be noticed.'
-
-- name: 'Matthew Griffin'
-  amazon_link: "I don't use amazon. I could use some more notebooks. https://www.amazon.com/Oxford-Primary-Notebooks-Practice-1002542/dp/B0D5G2GZW9/ref=sr_1_8?crid=1TRYUU3XYFNIB&dib=eyJ2IjoiMSJ9.rKZhx8Gjrt6F-Epl8JswMPq63DwfQS6tWiZwDGvc9BcEovEg1H1AsdeRClCyYUv4d9vlvbT8YkQUb-q2fbw9gCat-iQ7KT3-LJa0Qg5kTURJ_Wl-JWoPrIz9iioEp0M7rhI6sw8jWr_Z3lQOxvbxlyD95Tps31ApvgdXG40a5QXVk4lmjN_ojx1VSuyDJiXnx6LM03EQVoeIJlym_McEowJ28o-E14zWYQYhLzGoiQ7fs4LfvRUf9pYYMuX9ry-GpcSLvsj5-wJ_sjUGX5l70K8qkHM-TWRxAygaPmn58WA.SHkzx9M94386jP0sf5RDatfoOA9Pt122yHZu81YEWyQ&dib_tag=se&keywords=notebooks+primary+ruled&qid=1759790310&sprefix=notebooks+primary+rule%2Caps%2C195&sr=8-8"
-  favorite_snacks: 'Dried Mango (no added sugar) Granola bars (with no gelatin)'
-  favorite_restaurants: 'Any Thai Restaurant'
-  favorite_beverages: 'Water'
-  favorite_stores: 'Math and Stuff, or Blue Highway (any boardgame store)'
-  favorite_colors: 'Orange'
-  favorite_flowers: 'Any perennial (blueberry shrubs if they count as a flower)'
-  hobbies: 'Disc golf'
-  favorite_things: 'Mariners Baseball'
-  classroom_needs: 'Eventually I want to have a 3d printer to print student creations they make in a CAD program.'
-  appreciation: 'Words of affirmation.'
-
-- name: 'Nancy Everroad'
-  amazon_link: 'sending later'
-  favorite_snacks: 'Spicy cheese doritos/ pretzel sticks'
-  favorite_restaurants: 'Azul in Mill Creek'
-  favorite_beverages: 'Diet Dr. Pepper, flavored water,'
-  favorite_stores: 'Amazon, target,'
-  favorite_colors: 'pink'
-  favorite_flowers: 'Gerbera daisies spring /sunflowers fall'
-  hobbies: 'biking, walking, reading, dancing, writing, skiing, pickleball'
-  favorite_things: 'candles, warm blankets, chai tea, time with family and friends, laughing, kindness'
-  classroom_needs: 'electric pencil sharpener'
-  appreciation: 'Words of encouragement, smile, lots of cash (heehee)'
-
-- name: 'Ellie Knapp'
-  amazon_link: ''
-  favorite_snacks: 'White cheddar popcorn and goldfish'
-  favorite_restaurants: 'Salt and Iron and Jimmy Johns'
-  favorite_beverages: 'Black coffee and Diet Pepsi'
-  favorite_stores: 'Target, Lululemon, Athleta'
-  favorite_colors: 'Teal, pink, and blue'
-  favorite_flowers: 'Peonies'
-  hobbies: 'Being with my dogs and spending time with friends and family.'
-  favorite_things: 'Fun pens and books.'
-  classroom_needs: 'About to go on maternity leave so I am good this year!'
-  appreciation: 'Notes from students'
-
-- name: 'Dawn Matwichuk'
-  amazon_link: 'https://www.amazon.com/hz/wishlist/ls/UULHWECBG99R?ref_=list_d_wl_lfu_nav_2'
-  favorite_snacks: 'Trail mix, chocolate/peanut butter'
-  favorite_restaurants: 'Cheesecake Factory, Azteca'
-  favorite_beverages: 'White chocolate mocha'
-  favorite_stores: 'Amazon, Walmart'
-  favorite_colors: 'Bright pink'
-  favorite_flowers: 'Tulips, roses, Dahlias'
-  hobbies: 'bead making, crafting, tablescapes'
-  favorite_things: 'The beach'
-  classroom_needs: 'snacks for the kids'
-  appreciation: 'Written notes'
-
-- name: 'Amy Peters'
-  amazon_link: 'https://www.amazon.com/hz/wishlist/ls/RNFUOCAIF9T0?ref_=wl_share'
-  favorite_snacks: 'trail mix, crunchy plain salty chips, dark chocolate'
-  favorite_restaurants: 'Starbucks, Chipotle, Italian food'
-  favorite_beverages: 'double shot Tall 2 pump vanilla latte'
-  favorite_stores: 'Nordstrom, Target, Amazon, REI'
-  favorite_colors: 'Jewel tones: evergreen, ruby red, royal purple, navy blue'
-  favorite_flowers: 'peonies'
-  hobbies: 'Yoga, baking/cooking, reading, watching movies'
-  favorite_things: 'UW Huskies, glassybaby votives,'
-  classroom_needs: 'puzzles, card or board games, washable crayola fine tip markers'
-  appreciation: 'cards, notes, drawings, etc.'
-
-- name: 'Krista Neighbors'
-  amazon_link: 'N/A'
-  favorite_snacks: 'Cheese and Crackers'
-  favorite_restaurants: 'Panera'
-  favorite_beverages: 'Iced Nonfat Latte'
-  favorite_stores: 'Anthropologie'
-  favorite_colors: 'Purple'
-  favorite_flowers: 'Dahlias and Peonies'
-  hobbies: 'Tennis'
-  favorite_things: 'Anything Husies'
-  classroom_needs: 'See Jen Gee - we have a shared classroom :)'
-  appreciation: 'I love cards'
-
-- name: 'Kristen Engels'
-  amazon_link: ''
-  favorite_snacks: 'kettle corn'
-  favorite_restaurants: 'cheesecake factory'
-  favorite_beverages: 'iced espresso'
-  favorite_stores: 'nordstrom rack'
-  favorite_colors: 'teal'
-  favorite_flowers: 'lily'
-  hobbies: 'singing, swimming'
-  favorite_things: 'building rapport with students, helping them discover new information on their own, being on the beach, swimming in the ocean, singing classical music.'
+- name: "Vikki Roberts"
+  amazon_link: ""
+  favorite_snakcs: "plain baked lays potato chips or hummus and veggies"
+  favorite_restaurants: "Azul, Calabria,"
+  favorite_beverages: "Starbucks coconut milk latte with 2 raw sugars or water"
+  favorite_stores: "costco"
+  favorite_colors: "pink or blue"
+  favorite_flowers: "sun flowers and daisy"
+  hobbies: "beading, gardening, baking gluten free and vegan"
+  favorite_things: "cats, socks,"
+  classroom_needs: "pens, student workbooks for our phonics curriculum"
+  appreciation: "notes"
+- name: "Mallory Hanson"
+  amazon_link: "https://www.amazon.com/hz/wishlist/ls/ECP8W4TZS0T9?ref_=wl_share"
+  favorite_snakcs: "I love trying new crunchy snacks, chocolate (anything but palmer), Cheez-itz, etc."
+  favorite_restaurants: "Anything local to WA & PNW! (all different cuisines)"
+  favorite_beverages: "Sugar Free Redbull (any flav), White Chocolate Oat milk latte (Extra Hot or Iced), Zero Sugar Coke (any Flav), Sparkling Water!"
+  favorite_stores: "REI, Trader Joes, Woods Coffee, Staples, Kennelly Keys"
+  favorite_colors: "Forest Green & Rainbow"
+  favorite_flowers: "Rhododendron"
+  hobbies: "Hiking, Cooking, Baking, Kendama, Drawing"
+  favorite_things: "Music, Food, Sports, Outdoors, the Arts!"
+  classroom_needs: "Hand Sanitizer, Class set of Whiteboards, things from wishlist"
+  appreciation: "To be noticed."
+- name: "Matthew Griffin"
+  amazon_link: "https://www.amazon.com/Oxford-Primary-Notebooks-Practice-1002542/dp/B0D5G2GZW9/ref=sr_1_8?crid=1TRYUU3XYFNIB&dib=eyJ2IjoiMSJ9.rKZhx8Gjrt6F-Epl8JswMPq63DwfQS6tWiZwDGvc9BcEovEg1H1AsdeRClCyYUv4d9vlvbT8YkQUb-q2fbw9gCat-iQ7KT3-LJa0Qg5kTURJ_Wl-JWoPrIz9iioEp0M7rhI6sw8jWr_Z3lQOxvbxlyD95Tps31ApvgdXG40a5QXVk4lmjN_ojx1VSuyDJiXnx6LM03EQVoeIJlym_McEowJ28o-E14zWYQYhLzGoiQ7fs4LfvRUf9pYYMuX9ry-GpcSLvsj5-wJ_sjUGX5l70K8qkHM-TWRxAygaPmn58WA.SHkzx9M94386jP0sf5RDatfoOA9Pt122yHZu81YEWyQ&dib_tag=se&keywords=notebooks+primary+ruled&qid=1759790310&sprefix=notebooks+primary+rule%2Caps%2C195&sr=8-8"
+  favorite_snakcs: "Dried Mango (no added sugar) Granola bars (with no gelatin)"
+  favorite_restaurants: "Any Thai Restaurant"
+  favorite_beverages: "Water"
+  favorite_stores: "Math and Stuff, or Blue Highway (any boardgame store)"
+  favorite_colors: "Orange"
+  favorite_flowers: "Any perennial (blueberry shrubs if they count as a flower)"
+  hobbies: "Disc golf"
+  favorite_things: "Mariners Baseball"
+  classroom_needs: "Eventually I want to have a 3d printer to print student creations they make in a CAD program."
+  appreciation: "Words of affirmation."
+- name: "Nancy Everroad"
+  amazon_link: ""
+  favorite_snakcs: "Spicy cheese doritos/ pretzel sticks"
+  favorite_restaurants: "Azul in Mill Creek"
+  favorite_beverages: "Diet Dr. Pepper, flavored water,"
+  favorite_stores: "Amazon, target,"
+  favorite_colors: "pink"
+  favorite_flowers: "Gerbera daisies spring /sunflowers fall"
+  hobbies: "biking, walking, reading, dancing, writing, skiing, pickleball"
+  favorite_things: "candles, warm blankets, chai tea, time with family and friends, laughing, kindness"
+  classroom_needs: "electric pencil sharpener"
+  appreciation: "Words of encouragement, smile, lots of cash (heehee)"
+- name: "Ellie Knapp"
+  amazon_link: ""
+  favorite_snakcs: "White cheddar popcorn and goldfish"
+  favorite_restaurants: "Salt and Iron and Jimmy Johns"
+  favorite_beverages: "Black coffee and Diet Pepsi"
+  favorite_stores: "Target, Lululemon, Athleta"
+  favorite_colors: "Teal, pink, and blue"
+  favorite_flowers: "Peonies"
+  hobbies: "Being with my dogs and spending time with friends and family."
+  favorite_things: "Fun pens and books."
+  classroom_needs: "About to go on maternity leave so I am good this year!"
+  appreciation: "Notes from students"
+- name: "Dawn Matwichuk"
+  amazon_link: "https://www.amazon.com/hz/wishlist/ls/UULHWECBG99R?ref_=list_d_wl_lfu_nav_2"
+  favorite_snakcs: "Trail mix, chocolate/peanut butter"
+  favorite_restaurants: "Cheesecake Factory, Azteca"
+  favorite_beverages: "White chocolate mocha"
+  favorite_stores: "Amazon, Walmart"
+  favorite_colors: "Bright pink"
+  favorite_flowers: "Tulips, roses, Dahlias"
+  hobbies: "bead making, crafting, tablescapes"
+  favorite_things: "The beach"
+  classroom_needs: "snacks for the kids"
+  appreciation: "Written notes"
+- name: "Amy Peters"
+  amazon_link: "https://www.amazon.com/hz/wishlist/ls/RNFUOCAIF9T0?ref_=wl_share"
+  favorite_snakcs: "trail mix, crunchy plain salty chips, dark chocolate"
+  favorite_restaurants: "Starbucks, Chipotle, Italian food"
+  favorite_beverages: "double shot Tall 2 pump vanilla latte"
+  favorite_stores: "Nordstrom, Target, Amazon, REI"
+  favorite_colors: "Jewel tones: evergreen, ruby red, royal purple, navy blue"
+  favorite_flowers: "peonies"
+  hobbies: "Yoga, baking/cooking, reading, watching movies"
+  favorite_things: "UW Huskies, glassybaby votives,"
+  classroom_needs: "puzzles, card or board games, washable crayola fine tip markers"
+  appreciation: "cards, notes, drawings, etc."
+- name: "Krista Neighbors"
+  amazon_link: ""
+  favorite_snakcs: "Cheese and Crackers"
+  favorite_restaurants: "Panera"
+  favorite_beverages: "Iced Nonfat Latte"
+  favorite_stores: "Anthropologie"
+  favorite_colors: "Purple"
+  favorite_flowers: "Dahlias and Peonies"
+  hobbies: "Tennis"
+  favorite_things: "Anything Husies"
+  classroom_needs: "See Jen Gee - we have a shared classroom :)"
+  appreciation: "I love cards"
+- name: "Kristen Engels"
+  amazon_link: ""
+  favorite_snakcs: "kettle corn"
+  favorite_restaurants: "cheesecake factory"
+  favorite_beverages: "iced espresso"
+  favorite_stores: "nordstrom rack"
+  favorite_colors: "teal"
+  favorite_flowers: "lily"
+  hobbies: "singing, swimming"
+  favorite_things: "building rapport with students, helping them discover new information on their own, being on the beach, swimming in the ocean, singing classical music."
   classroom_needs: "a cart that holds the kids' binders"
-  appreciation: 'coffee, words of affirmation'
-
-- name: 'Rebecca Cort'
-  amazon_link: 'https://www.amazon.com/hz/wishlist/ls/271TU7BA3ZMD6?ref_=list_d_wl_lfu_nav_2'
-  favorite_snacks: 'Garden Salsa Sunchips, Cool Ranch Doritos, 100grand candy bars'
-  favorite_restaurants: 'Ixtapa, Shake Shack, Ivars, Kyoto, Taco Time'
-  favorite_beverages: 'Strawberry & Passionfruit Redbull Italian Soda w/splash of cream, Dr. Pepper, White Chocolate Mocha w/an extra pump'
-  favorite_stores: 'Target and Amazon'
-  favorite_colors: 'Purple'
-  favorite_flowers: 'Carnations'
-  hobbies: 'Going to Disney, Spending time with my kids, Reading , and Swimming.'
-  favorite_things: 'All things Disney, Precious Moments, and Books'
-  classroom_needs: 'Class snack, baby wipes, and other things listed on my school Amazon Wish List.'
-  appreciation: 'Handwritten thank you cards and student drawings.'
-
-- name: 'Devin Ames'
-  amazon_link: 'https://www.amazon.com/hz/wishlist/ls/1NCMZJVOYAGKR?type=wishlist&filter=unpurchased&sort=custom&viewType=list'
-  favorite_snacks: 'nuts, dark chocolate, anything salty'
+  appreciation: "coffee, words of affirmation"
+- name: "Rebecca Cort"
+  amazon_link: "https://www.amazon.com/hz/wishlist/ls/271TU7BA3ZMD6?ref_=list_d_wl_lfu_nav_2"
+  favorite_snakcs: "Garden Salsa Sunchips, Cool Ranch Doritos, 100grand candy bars"
+  favorite_restaurants: "Ixtapa, Shake Shack, Ivars, Kyoto, Taco Time"
+  favorite_beverages: "Strawberry & Passionfruit Redbull Italian Soda w/splash of cream, Dr. Pepper, White Chocolate Mocha w/an extra pump"
+  favorite_stores: "Target and Amazon"
+  favorite_colors: "Purple"
+  favorite_flowers: "Carnations"
+  hobbies: "Going to Disney, Spending time with my kids, Reading , and Swimming."
+  favorite_things: "All things Disney, Precious Moments, and Books"
+  classroom_needs: "Class snack, baby wipes, and other things listed on my school Amazon Wish List."
+  appreciation: "Handwritten thank you cards and student drawings."
+- name: "Devin Ames"
+  amazon_link: "https://www.amazon.com/hz/wishlist/ls/1NCMZJVOYAGKR?type=wishlist&filter=unpurchased&sort=custom&viewType=list"
+  favorite_snakcs: "nuts, dark chocolate, anything salty"
   favorite_restaurants: "Tapped, Wild Wasabi, Ivar's, Salt n Straw (does that count?) :)"
-  favorite_beverages: 'Water, Poppi sodas, vanilla lattes'
+  favorite_beverages: "Water, Poppi sodas, vanilla lattes"
   favorite_stores: "Target, Trader Joe's, any bookstore"
-  favorite_colors: 'blue and gray'
-  favorite_flowers: 'peonies, sweet peas, daisies'
-  hobbies: 'cooking, gardening, travel, reading, music'
-  favorite_things: 'time with family/friends, going to sporting events & shows, owls, candles, cozy socks'
-  classroom_needs: 'markers, art/craft supplies, stickers for kids'
-  appreciation: 'words/notes of appreciation'
-
-- name: 'Rachna Kewalramani'
-  amazon_link: ''
-  favorite_snacks: ''
-  favorite_restaurants: 'Farzi Cafe, Bellevue'
-  favorite_beverages: 'Lattes'
-  favorite_stores: 'Macy'
-  favorite_colors: 'Black, Blue'
-  favorite_flowers: 'Rose, Carnation, Peony, Carnation'
-  hobbies: 'Cooking, Reading'
-  favorite_things: ''
-  classroom_needs: ''
-  appreciation: 'Flowers 💐'
-
-- name: 'Anne Steinmetz'
-  amazon_link: ''
-  favorite_snacks: 'dark chocolate / starbucks coffee'
-  favorite_restaurants: 'Diamond Knot'
-  favorite_beverages: 'Iced Caramel Macchiato'
-  favorite_stores: 'Value Village ;-)'
-  favorite_colors: 'Yellow'
-  favorite_flowers: 'Gardenia'
-  hobbies: 'baking and gardening'
-  favorite_things: 'kitchen gadgets'
-  classroom_needs: ''
-  appreciation: 'thank you'
-
-- name: 'Tim Harrington'
-  amazon_link: "Don't have one."
-  favorite_snacks: 'Pistachios, Original Sun Chips, fruit'
+  favorite_colors: "blue and gray"
+  favorite_flowers: "peonies, sweet peas, daisies"
+  hobbies: "cooking, gardening, travel, reading, music"
+  favorite_things: "time with family/friends, going to sporting events & shows, owls, candles, cozy socks"
+  classroom_needs: "markers, art/craft supplies, stickers for kids"
+  appreciation: "words/notes of appreciation"
+- name: "Rachna Kewalramani"
+  amazon_link: ""
+  favorite_snakcs: ""
+  favorite_restaurants: "Farzi Cafe, Bellevue"
+  favorite_beverages: "Lattes"
+  favorite_stores: "Macy"
+  favorite_colors: "Black, Blue"
+  favorite_flowers: "Rose, Carnation, Peony, Carnation"
+  hobbies: "Cooking, Reading"
+  favorite_things: ""
+  classroom_needs: ""
+  appreciation: "Flowers 💐"
+- name: "Anne Steinmetz"
+  amazon_link: ""
+  favorite_snakcs: "dark chocolate / starbucks coffee"
+  favorite_restaurants: "Diamond Knot"
+  favorite_beverages: "Iced Caramel Macchiato"
+  favorite_stores: "Value Village ;-)"
+  favorite_colors: "Yellow"
+  favorite_flowers: "Gardenia"
+  hobbies: "baking and gardening"
+  favorite_things: "kitchen gadgets"
+  classroom_needs: ""
+  appreciation: "thank you"
+- name: "Tim Harrington"
+  amazon_link: ""
+  favorite_snakcs: "Pistachios, Original Sun Chips, fruit"
   favorite_restaurants: "Christiano's,"
   favorite_beverages: "Don't have one.  Water"
   favorite_stores: "Trader Joe's"
-  favorite_colors: 'Blue'
-  favorite_flowers: 'Gerber Daisies'
-  hobbies: 'Spending time with my dog, walking, working out.'
-  favorite_things: 'My dog Moseley, Gonzaga Bulldogs, Denver Broncos'
-  classroom_needs: 'A pencil sharpener'
-  appreciation: 'A nice note'
-
-- name: 'Alison Lang'
-  amazon_link: ''
-  favorite_snacks: 'Dark Chocolate'
-  favorite_restaurants: 'Red Cork'
-  favorite_beverages: 'Sparkling Water'
-  favorite_stores: 'William & Sonoma'
-  favorite_colors: 'Red'
-  favorite_flowers: 'Sun Flowers'
-  hobbies: 'Glass Blowing, Cooking, Gardening'
-  favorite_things: 'Travel'
-  classroom_needs: 'Legos'
-  appreciation: 'A smile!'
-
-- name: 'Jennifer Thompson'
-  amazon_link: ''
-  favorite_snacks: 'Popcorn and Dark Chocolate'
-  favorite_restaurants: 'Azuls'
-  favorite_beverages: 'Diet Coke'
-  favorite_stores: 'Target, Old Navy and Macys'
-  favorite_colors: 'Red'
-  favorite_flowers: 'Lily'
-  hobbies: 'Gardening, Scrapbooking and Reading'
-  favorite_things: 'Seattle Sports, Huskies, Family'
-  classroom_needs: 'Tissue, Baby Wipes,  and Hand Sanitizer'
-  appreciation: 'Thoughtful Note'
-
-- name: 'Janet Determan'
-  amazon_link: 'https://www.amazon.com/hz/wishlist/ls/UJ3SYVEAO3W7?ref_=wl_share'
-  favorite_snacks: 'Sour Patch Watermellons, salted dark chocolate with or without caramel, protein bars'
+  favorite_colors: "Blue"
+  favorite_flowers: "Gerber Daisies"
+  hobbies: "Spending time with my dog, walking, working out."
+  favorite_things: "My dog Moseley, Gonzaga Bulldogs, Denver Broncos"
+  classroom_needs: "A pencil sharpener"
+  appreciation: "A nice note"
+- name: "Alison Lang"
+  amazon_link: ""
+  favorite_snakcs: "Dark Chocolate"
+  favorite_restaurants: "Red Cork"
+  favorite_beverages: "Sparkling Water"
+  favorite_stores: "William & Sonoma"
+  favorite_colors: "Red"
+  favorite_flowers: "Sun Flowers"
+  hobbies: "Glass Blowing, Cooking, Gardening"
+  favorite_things: "Travel"
+  classroom_needs: "Legos"
+  appreciation: "A smile!"
+- name: "Jennifer Thompson"
+  amazon_link: ""
+  favorite_snakcs: "Popcorn and Dark Chocolate"
+  favorite_restaurants: "Azuls"
+  favorite_beverages: "Diet Coke"
+  favorite_stores: "Target, Old Navy and Macys"
+  favorite_colors: "Red"
+  favorite_flowers: "Lily"
+  hobbies: "Gardening, Scrapbooking and Reading"
+  favorite_things: "Seattle Sports, Huskies, Family"
+  classroom_needs: "Tissue, Baby Wipes,  and Hand Sanitizer"
+  appreciation: "Thoughtful Note"
+- name: "Janet Determan"
+  amazon_link: "https://www.amazon.com/hz/wishlist/ls/UJ3SYVEAO3W7?ref_=wl_share"
+  favorite_snakcs: "Sour Patch Watermellons, salted dark chocolate with or without caramel, protein bars"
   favorite_restaurants: "Chops, Chipotle, anything localy owned in the Edmonds/Lynnwood area, and I have a week spot for Mc Donald's breakfast :)"
-  favorite_beverages: 'seasonal decaf coffee beverages-as skinny as possible, or half-sweet,  protein drinks, 0 sugar Coke'
-  favorite_stores: 'Target'
-  favorite_colors: 'Turquoise, every shade of pink, white and winter white'
-  favorite_flowers: 'sunflowers'
-  hobbies: 'hiking, camping, gardening, reading, watching movies with my family, trying to make new recipes, puzzles (300-500 pieces)'
-  favorite_things: 'Cozy things (hats, socks, blankets, substantial mugs etc.), plants/flowers, books, anything homemade, tea, coffee'
-  classroom_needs: 'book sets, board games that can be played in about 30 min., puzzles (50-100 pieces), class sets of art supplies (like a class set of oil pastels or water colors)'
-  appreciation: 'I appreciate any time someone puts time/effort into making something for me.I love anything homemade - baked goods, art, cards, accessories the kids have made for me.'
+  favorite_beverages: "seasonal decaf coffee beverages-as skinny as possible, or half-sweet,  protein drinks, 0 sugar Coke"
+  favorite_stores: "Target"
+  favorite_colors: "Turquoise, every shade of pink, white and winter white"
+  favorite_flowers: "sunflowers"
+  hobbies: "hiking, camping, gardening, reading, watching movies with my family, trying to make new recipes, puzzles (300-500 pieces)"
+  favorite_things: "Cozy things (hats, socks, blankets, substantial mugs etc.), plants/flowers, books, anything homemade, tea, coffee"
+  classroom_needs: "book sets, board games that can be played in about 30 min., puzzles (50-100 pieces), class sets of art supplies (like a class set of oil pastels or water colors)"
+  appreciation: "I appreciate any time someone puts time/effort into making something for me.I love anything homemade - baked goods, art, cards, accessories the kids have made for me."

@@ -1,60 +1,56 @@
-# Elected Officials
-- name: Hannah Blomberg
-  position: President
-  email: president@slptsa.org
-  photo: hannah-blomberg.jpg
-  bio: "Champion of connection and community. We call her our Swiss Army knife, because there's nothing she can't do!" 
+- name: "Hannah Blomberg"
+  position: "President"
+  email: "sereneptsa@gmail.com"
+  photo: "hannah-blomberg.jpg"
+  bio: "Champion of connection and community. We call her our Swiss Army knife, because there's nothing she can't do!"
   elected: true
-  election_date: "May 2024"
-  term: "2024-2025"
-
-- name: Michyle Babb
-  position: Vice President
-  email: vp@slptsa.org
-  photo: michyle-babb.jpg
+  election_date: "2025-05-01T07:00:00.000Z"
+  term: "2025-2026"
+- name: "Michyle Babb"
+  position: "Vice President"
+  email: "sereneptsa@gmail.com"
+  photo: "michyle-babb.jpg"
   bio: "Always ready with fresh ideas and a can-do attitude. Known for turning \"What if...\" into \"Let's do it!\""
   elected: true
-  election_date: "May 2024"
-  term: "2024-2025"
-
-- name: Dan Babb
-  position: Secretary
-  email: secretary@slptsa.org
-  photo: dan-babb.jpg
+  election_date: "2025-05-01T07:00:00.000Z"
+  term: "2025-2026"
+- name: "Dan Babb"
+  position: "Secretary"
+  email: "sereneptsa@gmail.com"
+  photo: "dan-babb.jpg"
   bio: "Master of meeting minutes and emoji captions. Once said, \"don't give me a problem you don't want solved!"
   elected: true
-  election_date: "May 2024"
-  term: "2024-2025"
-
-- name: Brett Robertson
-  position: Treasurer
-  email: treasurer@slptsa.org
-  photo: brett-robertson.jpg
+  election_date: "2025-05-01T07:00:00.000Z"
+  term: "2025-2026"
+- name: "Brett Robertson"
+  position: "Treasurer"
+  email: "sereneptsa@gmail.com"
+  photo: "brett-robertson.jpg"
   bio: "Budget wizard and big kid at heart. Makes every dollar count for our kids and brings the FUN while doing it!"
   elected: true
-  election_date: "May 2024"
-  term: "2024-2025"
-
-# Appointed Positions
-# Add appointed board members below with elected: false
-# Example:
-- name: Allison Bahl
-  position: Concessions Chair
-  email: communications@slptsa.org
-  photo: jane-doe.jpg
-  bio: Allison manages to keep us all well plied with nummies.
+  election_date: "2025-09-01T07:00:00.000Z"
+  term: "2025-2026"
+- name: "Allison Bahl"
+  position: "Concessions Chair"
+  email: "sereneptsa@gmail.com"
+  photo: "allison-bahl.jpg"
+  bio: ""
   elected: false
-
-- name: Jessica Steele
-  position: Social Media Co-Chair
-  email: communications@slptsa.org
-  photo: jane-doe.jpg
-  bio: Jessica helps keep our socials up to date.
+  election_date: ""
+  term: ""
+- name: "Jess Steele"
+  position: "Social Media Chair"
+  email: "sereneptsa@gmail.com"
+  photo: "jess.steele.jpg"
+  bio: ""
   elected: false
-
-- name: Mandy Robertson
-  position: Social Media Co-Chair
-  email: communications@slptsa.org
-  photo: jane-doe.jpg
-  bio: Mandy helps keep our socials up to date.
+  election_date: ""
+  term: ""
+- name: "Mandy Robertson"
+  position: "Social Media Chair"
+  email: "sereneptsa@gmail.com"
+  photo: "mandy-robertson.jpg"
+  bio: ""
   elected: false
+  election_date: ""
+  term: ""
