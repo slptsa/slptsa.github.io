@@ -1,0 +1,27 @@
+- title: Treasurer
+  description: Manage PTSA finances, maintain budget records, and provide financial reports at meetings.
+  commitment: 5-10 hours/month
+  term: 2-year term
+  contact_email: president@serenelakeptsa.org
+  active: true
+
+- title: Fundraising Chair
+  description: Coordinate fundraising activities and work with the board to plan and execute fundraising events.
+  commitment: 3-5 hours/month
+  term: 1-year term
+  contact_email: president@serenelakeptsa.org
+  active: true
+
+- title: Communications Committee
+  description: Help manage social media, newsletters, and website updates to keep our community informed.
+  commitment: 2-4 hours/month
+  term: Flexible
+  contact_email: communications@serenelakeptsa.org
+  active: true
+
+- title: Event Coordinator
+  description: Assist with planning and organizing PTSA events throughout the school year.
+  commitment: Varies by event
+  term: 1-year term
+  contact_email: events@serenelakeptsa.org
+  active: true

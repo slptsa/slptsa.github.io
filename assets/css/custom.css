@@ -232,8 +232,8 @@ body.page-home #content header {
   border-left-color: var(--color-accent);
 }
 
-/* WA-PTA Button Special Styling */
-.nav-item.btn-wapta > a {
+/* Donate Button Special Styling */
+.nav-item.btn-donate > a {
   background-color: var(--color-accent) !important;
   color: var(--color-primary) !important;
   border-radius: 8px !important;
@@ -242,7 +242,7 @@ body.page-home #content header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.nav-item.btn-wapta > a:hover {
+.nav-item.btn-donate > a:hover {
   background-color: var(--color-light-gray) !important;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -495,6 +495,67 @@ body.page-home #content header {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+/* Volunteer Preview on Homepage */
+.volunteer-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.volunteer-item {
+  border: 2px solid var(--color-light-gray);
+  border-left: 4px solid var(--color-primary);
+  border-radius: 8px;
+  padding: 1.25rem;
+  background: linear-gradient(135deg, rgba(43, 155, 158, 0.03) 0%, white 100%);
+  transition: all 0.3s ease;
+}
+
+.volunteer-item:hover {
+  box-shadow: 0 4px 12px rgba(43, 155, 158, 0.15);
+  transform: translateY(-2px);
+  border-left-color: var(--color-secondary);
+}
+
+.volunteer-item h3 {
+  color: var(--color-secondary);
+  font-size: 1.125rem;
+  margin: 0 0 0.75rem 0;
+  line-height: 1.3;
+}
+
+.volunteer-meta {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+
+.volunteer-date,
+.volunteer-time {
+  display: inline-block;
+}
+
+.btn-volunteer-signup {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: white;
+  padding: 0.625rem 1.25rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(43, 155, 158, 0.3);
+}
+
+.btn-volunteer-signup:hover {
+  background-color: var(--color-secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(13, 92, 117, 0.4);
+  color: white;
 }
 
 .event-item {
@@ -1918,7 +1979,7 @@ body.page-home #content header {
     transform: rotate(180deg);
   }
 
-  .nav-item.btn-wapta > a {
+  .nav-item.btn-donate > a {
     padding: 0.75rem 1rem !important;
     margin-top: 0.5rem;
   }
@@ -2198,13 +2259,614 @@ body.page-home #content header {
   font-style: italic;
 }
 
+/* Events Page - Card Layout */
+.month-section {
+  margin-bottom: 3rem;
+}
+
+.month-header {
+  color: var(--color-secondary);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.events-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.event-card {
+  background: white;
+  border: 2px solid #b3e5e6;
+  border-left: 5px solid var(--color-primary);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(43, 155, 158, 0.1);
+}
+
+.event-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(43, 155, 158, 0.2);
+  border-left-color: var(--color-secondary);
+}
+
+.event-card-header {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.event-card .event-date-badge {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 0.75rem;
+  min-width: 70px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.event-card .date-badge-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-card .event-date-badge .month {
+  display: block;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.event-card .event-date-badge .day {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 0.25rem;
+  color: white;
+}
+
+.event-card .event-date-badge .date-range {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: white;
+  white-space: nowrap;
+}
+
+.event-card .event-title-area {
+  flex: 1;
+}
+
+.event-card .event-title-area h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+}
+
+.event-card .event-category {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.event-card-body {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.event-card .event-meta-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #b3e5e6;
+}
+
+.event-card .event-meta-info p {
+  margin: 0;
+  color: var(--color-text);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.event-card .event-description {
+  color: var(--color-text);
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.event-card-actions {
+  padding: 1.5rem;
+  background-color: rgba(179, 229, 230, 0.1);
+  border-top: 1px solid #b3e5e6;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-event-action {
+  flex: 1;
+  min-width: 150px;
+  display: inline-block;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  color: white;
+  padding: 0.875rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(43, 155, 158, 0.2);
+}
+
+.btn-event-action:hover {
+  background: linear-gradient(135deg, var(--color-secondary) 0%, #094b5f 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(43, 155, 158, 0.3);
+  color: white;
+}
+
+.btn-event-action.btn-zoom {
+  background: linear-gradient(135deg, #2D8CFF 0%, #1a6fd8 100%);
+}
+
+.btn-event-action.btn-zoom:hover {
+  background: linear-gradient(135deg, #1a6fd8 0%, #0e5bb8 100%);
+}
+
+.no-events {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #666;
+  font-size: 1.125rem;
+  font-style: italic;
+  background: white;
+  border-radius: 12px;
+  border: 2px dashed #b3e5e6;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
-  .events-grid {
+  .events-cards-grid {
     grid-template-columns: 1fr;
   }
-  
+
+  .event-card-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .event-card .event-title-area h3 {
+    font-size: 1.25rem;
+  }
+
+  .event-card .event-date-badge {
+    width: 100%;
+  }
+
+  .event-card-actions {
+    flex-direction: column;
+  }
+
+  .btn-event-action {
+    width: 100%;
+  }
+
   .month-header {
     font-size: 1.5rem;
+  }
+}
+
+/* ============================================
+   VOLUNTEER PAGE - EVENT CARDS
+   ============================================ */
+
+.volunteer-section {
+  padding: 4rem 0 2rem;
+}
+
+.volunteer-section .section-title {
+  color: var(--color-secondary);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.volunteer-events-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.volunteer-event-card {
+  background: white;
+  border: 2px solid #b3e5e6;
+  border-left: 5px solid var(--color-primary);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(43, 155, 158, 0.1);
+}
+
+.volunteer-event-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(43, 155, 158, 0.2);
+  border-left-color: var(--color-secondary);
+}
+
+.volunteer-event-card-header {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.event-date-badge {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 0.75rem;
+  min-width: 70px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.date-badge-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-date-badge .month {
+  display: block;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.event-date-badge .day {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 0.25rem;
+  color: white;
+}
+
+.event-date-badge .date-range {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: white;
+  white-space: nowrap;
+}
+
+.event-title-area {
+  flex: 1;
+}
+
+.event-title-area h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+}
+
+.event-category {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.category-meeting {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.category-fundraiser {
+  background: rgba(255, 215, 0, 0.3);
+}
+
+.category-social {
+  background: rgba(147, 51, 234, 0.3);
+}
+
+.volunteer-event-card-body {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.event-meta-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #b3e5e6;
+}
+
+.event-meta-info p {
+  margin: 0;
+  color: var(--color-text);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.volunteer-event-card .event-description {
+  color: var(--color-text);
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.volunteer-event-card-actions {
+  padding: 1.5rem;
+  background-color: rgba(179, 229, 230, 0.1);
+  border-top: 1px solid #b3e5e6;
+}
+
+.btn-volunteer-signup {
+  display: block;
+  width: 100%;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  color: white;
+  padding: 0.875rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(43, 155, 158, 0.2);
+}
+
+.btn-volunteer-signup:hover {
+  background: linear-gradient(135deg, var(--color-secondary) 0%, #094b5f 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(43, 155, 158, 0.3);
+  color: white;
+}
+
+.no-signup-yet {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.no-opportunities {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #666;
+  font-size: 1.125rem;
+  font-style: italic;
+  background: white;
+  border-radius: 12px;
+  border: 2px dashed #b3e5e6;
+}
+
+.no-opportunities a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.no-opportunities a:hover {
+  color: var(--color-secondary);
+}
+
+/* Responsive for event cards */
+@media (max-width: 768px) {
+  .volunteer-events-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .volunteer-event-card-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .event-title-area h3 {
+    font-size: 1.25rem;
+  }
+
+  .event-date-badge {
+    width: 100%;
+  }
+}
+
+/* ============================================
+   VOLUNTEER PAGE - POSITION CARDS
+   ============================================ */
+
+.open-positions-section {
+  background-color: #f9f9fb;
+  padding: 4rem 0;
+  margin-top: 3rem;
+}
+
+.open-positions-section .section-title {
+  color: var(--color-secondary);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.open-positions-section .section-intro {
+  text-align: center;
+  font-size: 1.125rem;
+  color: var(--color-text);
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.position-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.position-card {
+  background: white;
+  border: 2px solid #e0d4f7;
+  border-left: 5px solid #7c3aed;
+  border-radius: 12px;
+  padding: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.08);
+}
+
+.position-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.15);
+  border-left-color: #6d28d9;
+}
+
+.position-card-header {
+  background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.position-card-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.position-card-body {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.position-description {
+  color: var(--color-text);
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.position-details {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid #e0d4f7;
+}
+
+.position-details p {
+  margin: 0.5rem 0;
+  color: var(--color-text);
+  font-size: 0.95rem;
+}
+
+.position-commitment,
+.position-term {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.position-card-actions {
+  padding: 1.5rem;
+  background-color: #faf9fc;
+  border-top: 1px solid #e0d4f7;
+}
+
+.btn-position-apply {
+  display: block;
+  width: 100%;
+  background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);
+  color: white;
+  padding: 0.875rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(124, 58, 237, 0.2);
+}
+
+.btn-position-apply:hover {
+  background: linear-gradient(135deg, #6d28d9 0%, #9333ea 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(124, 58, 237, 0.3);
+  color: white;
+}
+
+.no-positions {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #666;
+  font-size: 1.125rem;
+  font-style: italic;
+  background: white;
+  border-radius: 12px;
+  border: 2px dashed #e0d4f7;
+}
+
+/* Responsive for position cards */
+@media (max-width: 768px) {
+  .position-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .open-positions-section .section-title {
+    font-size: 1.75rem;
+  }
+
+  .position-card-header h3 {
+    font-size: 1.25rem;
   }
 }

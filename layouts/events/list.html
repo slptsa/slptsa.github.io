@@ -14,7 +14,22 @@
       {{ range $events }}
         {{ if .date }}
           {{ $eventDate := time .date }}
-          {{ if ge $eventDate $now }}
+          {{ $isUpcoming := false }}
+
+          {{ if and .multi_day .end_date }}
+            <!-- For multi-day events, check if end date is in the future -->
+            {{ $endDate := time .end_date }}
+            {{ if ge $endDate $now }}
+              {{ $isUpcoming = true }}
+            {{ end }}
+          {{ else }}
+            <!-- For single-day events, check if start date is in the future -->
+            {{ if ge $eventDate $now }}
+              {{ $isUpcoming = true }}
+            {{ end }}
+          {{ end }}
+
+          {{ if $isUpcoming }}
             {{ $monthKey := $eventDate.Format "2006-01" }}
             {{ $monthEvents := index $eventsByMonth $monthKey | default slice }}
             {{ $monthEvents = $monthEvents | append . }}
@@ -27,63 +42,65 @@
       {{ range $monthKey, $monthEvents := $eventsByMonth }}
         {{ $firstEvent := index $monthEvents 0 }}
         {{ $monthDate := time $firstEvent.date }}
-        
+
         <div class="month-section">
           <h2 class="month-header">{{ $monthDate.Format "January 2006" }}</h2>
-          
-          <div class="events-grid">
+
+          <div class="events-cards-grid">
             {{ range $monthEvents }}
             {{ $eventDate := time .date }}
-            
+
             <div class="event-card {{ if .multi_day }}multi-day{{ end }}">
-              <div class="event-date-badge">
-                {{ if and .multi_day .end_date }}
-                  {{ $endDate := time .end_date }}
-                  <span class="date-range">
-                    {{ $eventDate.Format "Jan 2" }} - {{ $endDate.Format "Jan 2" }}
-                  </span>
-                {{ else }}
-                  <span class="month">{{ $eventDate.Format "Jan" }}</span>
-                  <span class="day">{{ $eventDate.Format "02" }}</span>
+              <div class="event-card-header">
+                <div class="event-date-badge">
+                  {{ if and .multi_day .end_date }}
+                    {{ $endDate := time .end_date }}
+                    <span class="date-range">{{ $eventDate.Format "Jan 2" }} - {{ $endDate.Format "Jan 2" }}</span>
+                  {{ else }}
+                    <div class="date-badge-content">
+                      <span class="month">{{ $eventDate.Format "Jan" }}</span>
+                      <span class="day">{{ $eventDate.Format "02" }}</span>
+                    </div>
+                  {{ end }}
+                </div>
+                <div class="event-title-area">
+                  <h3>{{ .title }}</h3>
+                  {{ if .category }}
+                  <span class="event-category category-{{ .category }}">{{ .category }}</span>
+                  {{ end }}
+                </div>
+              </div>
+
+              <div class="event-card-body">
+                <div class="event-meta-info">
+                  <p class="event-time">
+                    <strong>⏰ Time:</strong> {{ .time }}
+                  </p>
+                  <p class="event-location">
+                    <strong>📍 Location:</strong> {{ .location }}
+                  </p>
+                </div>
+                {{ if .description }}
+                <p class="event-description">{{ .description }}</p>
                 {{ end }}
               </div>
 
-              <div class="event-details">
-                <div class="event-content">
-                  <h3>{{ .title }}</h3>
-
-                  <div class="event-meta">
-                    <p class="event-time">
-                      <strong>⏰ Time:</strong> {{ .time }}
-                    </p>
-                    <p class="event-location">
-                      <strong>📍 Location:</strong> {{ .location }}
-                    </p>
-                    {{ if .category }}
-                    <span class="event-category category-{{ .category }}">{{ .category }}</span>
-                    {{ end }}
-                  </div>
-
-                  <p class="event-description">{{ .description }}</p>
-                </div>
-
-                <div class="event-actions">
-                  {{ if .zoom_meeting }}
-                    {{ if .zoom_link }}
-                    <a href="{{ .zoom_link }}" target="_blank" class="btn-signup btn-zoom">
-                      🔗 Join Zoom Meeting
-                    </a>
-                    {{ end }}
+              <div class="event-card-actions">
+                {{ if .zoom_meeting }}
+                  {{ if .zoom_link }}
+                  <a href="{{ .zoom_link }}" target="_blank" class="btn-event-action btn-zoom">
+                    🔗 Join Zoom Meeting
+                  </a>
                   {{ end }}
+                {{ end }}
 
-                  {{ if .volunteers_needed }}
-                    {{ if .volunteer_link }}
-                    <a href="{{ .volunteer_link }}" target="_blank" class="btn-signup btn-volunteer">
-                      🙋 Volunteer Sign Up
-                    </a>
-                    {{ end }}
+                {{ if .volunteers_needed }}
+                  {{ if .volunteer_link }}
+                  <a href="{{ .volunteer_link }}" target="_blank" class="btn-event-action btn-volunteer">
+                    🙋 Volunteer Sign Up
+                  </a>
                   {{ end }}
-                </div>
+                {{ end }}
               </div>
             </div>
             {{ end }}

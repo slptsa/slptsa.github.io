@@ -1,9 +1,12 @@
 name: Sync Data from Google Sheets
 
 on:
-  # Run twice daily at 2 AM and 2 PM Pacific Time
+  # TESTING: Run every hour (change back to twice daily after testing)
   schedule:
-    - cron: '0 9,21 * * *'  # 9 AM and 9 PM UTC = 2 AM and 2 PM PT (adjust for DST)
+    - cron: '0 * * * *'  # Every hour on the hour
+  # Production schedule (uncomment after testing):
+  # schedule:
+  #   - cron: '0 9,21 * * *'  # 9 AM and 9 PM UTC = 2 AM and 2 PM PT (adjust for DST)
 
   # Allow manual trigger from Actions tab
   workflow_dispatch:
@@ -75,7 +78,7 @@ jobs:
           git commit -m "$(cat <<'EOF'
           🔄 Auto-sync: Update data from Google Sheets
 
-          - Synced board members, events, and staff favorites
+          - Synced board members, events, staff favorites, and volunteer positions
           - Downloaded images from Google Drive
           - Triggered by: ${{ github.event_name }}
 

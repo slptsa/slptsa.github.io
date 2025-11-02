@@ -14,6 +14,11 @@
       "jsonUrl": "https://script.google.com/macros/s/AKfycbxgXCSa-f1xWD6e45kTBJnQsYGMUY2GvfK4pRoV5tu94D_OmCqQz64gEKhhCLFfeDAqDg/exec",
       "outputPath": "data/staff/favorites.yaml",
       "description": "Staff favorite things"
+    },
+    "positions": {
+      "jsonUrl": "https://script.google.com/macros/s/AKfycbw-gunnoxtpAqoQCzcLyYa4iE_mn3I5pCVQjGuOg-ueoCnAnjSDs1rPGNujCOkulftf/exec",
+      "outputPath": "data/volunteer/positions.yaml",
+      "description": "Open volunteer positions and board spots"
     }
   },
   "images": {

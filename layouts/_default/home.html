@@ -73,7 +73,22 @@
         {{ range $events }}
           {{ if .date }}
             {{ $eventDate := time .date }}
-            {{ if ge $eventDate $now }}
+            {{ $isUpcoming := false }}
+
+            {{ if and .multi_day .end_date }}
+              <!-- For multi-day events, check if end date is in the future -->
+              {{ $endDate := time .end_date }}
+              {{ if ge $endDate $now }}
+                {{ $isUpcoming = true }}
+              {{ end }}
+            {{ else }}
+              <!-- For single-day events, check if start date is in the future -->
+              {{ if ge $eventDate $now }}
+                {{ $isUpcoming = true }}
+              {{ end }}
+            {{ end }}
+
+            {{ if $isUpcoming }}
               {{ $futureEvents = $futureEvents | append . }}
             {{ end }}
           {{ end }}
@@ -96,6 +111,59 @@
         <a href="/events/" class="view-all">View All Events →</a>
         {{ else }}
         <p>No upcoming events at this time. Check back soon!</p>
+        {{ end }}
+        {{ end }}
+      </div>
+
+      <!-- Volunteer Opportunities -->
+      <div class="section-card">
+        <h2>Volunteer Opportunities</h2>
+        {{ $events := .Site.Data.events.upcoming }}
+        {{ $now := now }}
+        {{ if $events }}
+        <!-- Filter to only show future events that need volunteers -->
+        {{ $volunteerEvents := slice }}
+        {{ range $events }}
+          {{ if and .date .volunteers_needed }}
+            {{ $eventDate := time .date }}
+            {{ $isUpcoming := false }}
+
+            {{ if and .multi_day .end_date }}
+              <!-- For multi-day events, check if end date is in the future -->
+              {{ $endDate := time .end_date }}
+              {{ if ge $endDate $now }}
+                {{ $isUpcoming = true }}
+              {{ end }}
+            {{ else }}
+              <!-- For single-day events, check if start date is in the future -->
+              {{ if ge $eventDate $now }}
+                {{ $isUpcoming = true }}
+              {{ end }}
+            {{ end }}
+
+            {{ if $isUpcoming }}
+              {{ $volunteerEvents = $volunteerEvents | append . }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ if $volunteerEvents }}
+        <div class="volunteer-preview">
+          {{ range first 3 $volunteerEvents }}
+          <div class="volunteer-item">
+            <h3>{{ .title }}</h3>
+            <p class="volunteer-meta">
+              <span class="volunteer-date">{{ time.Format "Jan 02" .date }}</span> •
+              <span class="volunteer-time">{{ .time }}</span>
+            </p>
+            {{ if .volunteer_link }}
+            <a href="{{ .volunteer_link }}" target="_blank" class="btn-volunteer-signup">Sign Up to Help</a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+        <a href="/volunteer/" class="view-all">See All Opportunities →</a>
+        {{ else }}
+        <p>No volunteer opportunities at this time. Check back soon!</p>
         {{ end }}
         {{ end }}
       </div>

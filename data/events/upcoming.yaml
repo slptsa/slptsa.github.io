@@ -1,12 +1,246 @@
-- title: "spooktacular"
-  date: "2025-10-24T07:00:00.000Z"
-  end_date: "2025-10-26T07:00:00.000Z"
-  time: "17:30-19:30"
-  location: "Library"
-  description: "Annual halloween event with food and fun!"
-  category: "fundraiser"
+- title: Scholastic Book Fair
+  date: 2025-10-20
+  end_date: 2025-10-24
+  time: 09:00-15:00
+  location: Library
+  description: Scholastic book fair all week (during your childs regular library time) - make some lasting memories for your kids! Nothing quite like a Scholastic book fair! Don't forget to signup for your ewallet!
+  category: fundraiser
+  multi_day: true
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: false
+  zoom_link: ""
+
+- title: Scholastic Book Fair Parents Night
+  date: 2025-10-24
+  end_date: ""
+  time: 17:30-19:30
+  location: Library
+  description: Book fair evening hours for parents. Come relive the book fair with your kids!
+  category: fundraiser
+  multi_day: false
+  volunteers_needed: true
+  volunteer_link: "https://signup.com/spooktacular"
+  zoom_meeting: false
+  zoom_link: ""
+
+- title: Spooktacular
+  date: 2025-10-24
+  end_date: ""
+  time: 17:30-19:30
+  location: Serene Lake
+  description: Annual Spooktacular event, come the food and fun and candy galore! Don't forget to check out the Raffle in the gym!
+  category: fundraiser
+  multi_day: false
+  volunteers_needed: true
+  volunteer_link: "https://signup.com/spooktacular"
+  zoom_meeting: false
+  zoom_link: ""
+
+- title: PTSA Meeting
+  date: 2025-10-30
+  end_date: ""
+  time: 18:00-20:000
+  location: Library
+  description: Monthly meeting for PTSA Board, Members and non-members.
+  category: meeting
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: true
+  zoom_link: "https://zoom.com/somethinghere"
+
+- title: Bingo Night
+  date: 2025-11-20
+  end_date: ""
+  time: 18:00-20:000
+  location: Library
+  description: PTSA Bingo night!
+  category: social
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: false
+  zoom_link: ""
+
+- title: Winter Craft Fair
+  date: 2025-12-11
+  end_date: ""
+  time: 18:00-20:000
+  location: Library
+  description: "Winter craft bazaar! Join us and browse wares from local vendors!"
+  category: social
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: false
+  zoom_link: ""
+
+- title: PTSA General Meeting
+  date: 2025-12-11
+  end_date: ""
+  time: 18:00-20:000
+  location: Zoom
+  description: Monthly meeting for PTSA Board, Members and non-members.
+  category: meeting
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: true
+  zoom_link: "https://zoom.com/somethinghere"
+
+- title: Movie Night
+  date: 2026-01-15
+  end_date: ""
+  time: 18:00-20:000
+  location: Gym
+  description: "Get together with other Serene Lake students and watch a movie in the gym!"
+  category: social
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: false
+  zoom_link: ""
+
+- title: PTSA General Meeting
+  date: 2026-01-22
+  end_date: ""
+  time: 18:00-20:000
+  location: Zoom
+  description: Monthly meeting for PTSA Board, Members and non-members.
+  category: meeting
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: true
+  zoom_link: "https://zoom.com/somethinghere"
+
+- title: STEAM night
+  date: 2026-01-29
+  end_date: ""
+  time: 18:00-20:000
+  location: Library
+  description: Get together, explore and see STEAM in action.
+  category: social
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: false
+  zoom_link: ""
+
+- title: Family Dance
+  date: 2026-02-06
+  end_date: ""
+  time: 18:00-20:000
+  location: Gym
+  description: Family dance night held in the gym.
+  category: social
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: false
+  zoom_link: ""
+
+- title: PTSA General Meeting
+  date: 2026-02-26
+  end_date: ""
+  time: 18:00-20:000
+  location: Zoom
+  description: Monthly meeting for PTSA Board, Members and non-members.
+  category: meeting
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: true
+  zoom_link: "https://zoom.com/somethinghere"
+
+- title: PTSA General Meeting
+  date: 2026-03-19
+  end_date: ""
+  time: 18:00-20:000
+  location: Zoom
+  description: Monthly meeting for PTSA Board, Members and non-members.
+  category: meeting
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: true
+  zoom_link: "https://zoom.com/somethinghere"
+
+- title: Spring Book Fair
+  date: 2026-03-23
+  end_date: 2026-03-27
+  time: 18:00-20:000
+  location: Library
+  description: Spring Book fair!
+  category: fundraiser
   multi_day: true
   volunteers_needed: true
-  volunteer_link: "https://signup.com/event"
+  volunteer_link: "https://signup.com/bookfair"
+  zoom_meeting: false
+  zoom_link: ""
+
+- title: Multicultural Night
+  date: 2026-03-26
+  end_date: ""
+  time: 18:00-20:000
+  location: Library
+  description: Get together and celebrate all of the diverse cultures that make up Serene Lake Elementary.
+  category: social
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: false
+  zoom_link: ""
+
+- title: Movie Night
+  date: 2026-04-24
+  end_date: ""
+  time: 18:00-20:000
+  location: Gym
+  description: Get together in the gym and watch a movie.
+  category: social
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: false
+  zoom_link: ""
+
+- title: PTSA General Meeting
+  date: 2026-04-30
+  end_date: ""
+  time: 18:00-20:000
+  location: Zoom
+  description: Monthly meeting for PTSA Board, Members and non-members.
+  category: meeting
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: true
+  zoom_link: "https://zoom.com/somethinghere"
+
+- title: PTSA Summer Meeting
+  date: 2026-05-28
+  end_date: ""
+  time: 18:00-20:000
+  location: Zoom
+  description: Monthly meeting for PTSA Board, Members and non-members.
+  category: meeting
+  multi_day: false
+  volunteers_needed: false
+  volunteer_link: ""
+  zoom_meeting: true
+  zoom_link: "https://zoom.com/somethinghere"
+
+- title: Ollie's Summer Fest
+  date: 2026-06-05
+  end_date: ""
+  time: 18:00-20:000
+  location: School Grounds
+  description: End of year celebration! Join us for food, games, and fun for the whole family.
+  category: social
+  multi_day: false
+  volunteers_needed: true
+  volunteer_link: "https://signup.com/summerfest"
   zoom_meeting: false
   zoom_link: ""

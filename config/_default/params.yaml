@@ -13,6 +13,12 @@ custom_css:
 ### default social share image (can also be set per lang) ###
 images: ["/img/social-share.png"]
 
+### donation link ###
+donation_url: "YOUR_DONATION_URL_HERE"
+
+### contact email ###
+email: "info@slptsa.org"
+
 github:
   repo_url: "https://github.com/klevermonicker/slptsa/blob/master"
   show_edit_link: false
