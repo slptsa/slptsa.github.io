@@ -29,8 +29,8 @@ params:
   address: "Serene Lake Elementary, Mukilteo, WA"
   # Icky Gross Socials
   social:
-    facebook: ""
-    instagram: ""
+    facebook: "https://facebook.com/slptsa"
+    instagram: "@seaottersrock"
   # Footer
   footer:
     copyright: "© 2024-2025 Serene Lake PTSA. All rights reserved."
