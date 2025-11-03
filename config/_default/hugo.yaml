@@ -9,7 +9,7 @@ timeZone: "America/Los_Angeles"
 summaryLength: 50
 baseURL: "https://klevermonicker.github.io/serenelakeptsa/"
 languageCode: "en-us"
-
+canonifyURLs: true
 params:
   # Basic info about the organization
   author: "Serene Lake PTSA"
