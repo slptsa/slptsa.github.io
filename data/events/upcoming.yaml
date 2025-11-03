@@ -13,12 +13,12 @@
 - title: "Bingo Night"
   date: "2025-11-20T08:00:00.000Z"
   end_date: ""
-  time: ""
+  time: "5:30-7:30"
   location: "School Gym"
   description: "Annual Game"
   category: "fundraiser"
   multi_day: false
-  volunteers_needed: "true"
+  volunteers_needed: true
   volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-58696319-bingo#/"
   zoom_meeting: false
   zoom_link: ""
