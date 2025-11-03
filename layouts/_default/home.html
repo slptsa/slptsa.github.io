@@ -8,8 +8,8 @@
         <h1>Welcome</h1>
         <p class="lead">{{ .Description }}</p>
         <div class="hero-cta">
-          <a href="/join/" class="btn btn-primary btn-large">Join PTSA Today</a>
-          <a href="/events/" class="btn btn-secondary btn-large">View Events</a>
+          <a href="{{ "/join/" | relURL }}" class="btn btn-primary btn-large">Join PTSA Today</a>
+          <a href="{{ "/events/" | relURL }}" class="btn btn-secondary btn-large">View Events</a>
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@
         <div class="callout-content">
           <h3>Support Our Teachers!</h3>
           <p>Check out our teachers' favorite things and wish lists. Show your appreciation by helping fulfill their classroom needs.</p>
-          <a href="/our-school/staff-favorites/" class="btn-callout">View Staff Favorites</a>
+          <a href="{{ "/our-school/staff-favorites/" | relURL }}" class="btn-callout">View Staff Favorites</a>
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@
           </div>
           {{ end }}
         </div>
-        <a href="/events/" class="view-all">View All Events →</a>
+        <a href="{{ "/events/" | relURL }}" class="view-all">View All Events →</a>
         {{ else }}
         <p>No upcoming events at this time. Check back soon!</p>
         {{ end }}
@@ -161,7 +161,7 @@
           </div>
           {{ end }}
         </div>
-        <a href="/volunteer/" class="view-all">See All Opportunities →</a>
+        <a href="{{ "/volunteer/" | relURL }}" class="view-all">See All Opportunities →</a>
         {{ else }}
         <p>No volunteer opportunities at this time. Check back soon!</p>
         {{ end }}
@@ -181,7 +181,7 @@
           </div>
           {{ end }}
         </div>
-        <a href="/board/" class="view-all">Meet Everyone →</a>
+        <a href="{{ "/board/" | relURL }}" class="view-all">Meet Everyone →</a>
         {{ end }}
       </div>
 
@@ -199,7 +199,7 @@
           </div>
           {{ end }}
         </div>
-        <a href="/news/" class="view-all">View All News →</a>
+        <a href="{{ "/news/" | relURL }}" class="view-all">View All News →</a>
         {{ end }}
       </div>
 
@@ -212,7 +212,7 @@
       <div class="cta-content">
         <h2>Get Involved Today!</h2>
         <p>Your membership makes a difference in our school community.</p>
-        <a href="/join/" class="btn btn-large cta-join-btn">Become a Member</a>
+        <a href="{{ "/join/" | relURL }}" class="btn btn-large cta-join-btn">Become a Member</a>
       </div>
     </div>
   </section>

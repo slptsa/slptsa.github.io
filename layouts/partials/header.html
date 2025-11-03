@@ -1,12 +1,12 @@
 <header class="site-header">
   <div class="header-banner">
     {{ if .Site.Params.headerBanner }}
-      <a href="/" class="banner-link">
+      <a href="{{ "/" | relURL }}" class="banner-link">
         <img src="{{ .Site.Params.headerBanner }}" alt="{{ .Site.Title }}" class="banner-image">
       </a>
     {{ else }}
       <div class="site-title-text">
-        <a href="/">{{ .Site.Title }}</a>
+        <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
       </div>
     {{ end }}
   </div>
@@ -21,7 +21,7 @@
 
       <ul class="nav-menu">
         <li class="nav-item">
-          <a href="/">Home</a>
+          <a href="{{ "/" | relURL }}">Home</a>
         </li>
 
         <li class="nav-item has-dropdown">
@@ -30,21 +30,21 @@
             <span class="dropdown-arrow">▾</span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="/about/">About Us</a></li>
-            <li><a href="/board/">Board Members</a></li>
+            <li><a href="{{ "/about/" | relURL }}">About Us</a></li>
+            <li><a href="{{ "/board/" | relURL }}">Board Members</a></li>
           </ul>
         </li>
 
         <li class="nav-item">
-          <a href="/events/">Events</a>
+          <a href="{{ "/events/" | relURL }}">Events</a>
         </li>
 
         <li class="nav-item">
-          <a href="/news/">News</a>
+          <a href="{{ "/news/" | relURL }}">News</a>
         </li>
 
         <li class="nav-item">
-          <a href="/sponsors/">Sponsors</a>
+          <a href="{{ "/sponsors/" | relURL }}">Sponsors</a>
         </li>
 
         <li class="nav-item has-dropdown">
@@ -53,10 +53,10 @@
             <span class="dropdown-arrow">▾</span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="/join/">Join PTSA</a></li>
-            <li><a href="/volunteer/">Volunteer Opportunities</a></li>
-            <li><a href="/our-school/staff-favorites/">Staff Favorites & Wish Lists</a></li>
-            <li><a href="/school-info/">School Information</a></li>
+            <li><a href="{{ "/join/" | relURL }}">Join PTSA</a></li>
+            <li><a href="{{ "/volunteer/" | relURL }}">Volunteer Opportunities</a></li>
+            <li><a href="{{ "/our-school/staff-favorites/" | relURL }}">Staff Favorites & Wish Lists</a></li>
+            <li><a href="{{ "/school-info/" | relURL }}">School Information</a></li>
           </ul>
         </li>
 
