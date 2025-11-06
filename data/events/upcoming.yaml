@@ -15,10 +15,22 @@
   end_date: ""
   time: "5:30-7:30"
   location: "School Gym"
-  description: "Annual Game"
+  description: "BINGO - Food- Raffle! Come join the fun"
   category: "fundraiser"
   multi_day: false
   volunteers_needed: true
   volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-58696319-bingo#/"
   zoom_meeting: false
+  zoom_link: ""
+- title: "Winter Craft Fair"
+  date: "2025-12-11T08:00:00.000Z"
+  end_date: ""
+  time: ""
+  location: ""
+  description: ""
+  category: ""
+  multi_day: ""
+  volunteers_needed: ""
+  volunteer_link: ""
+  zoom_meeting: ""
   zoom_link: ""
