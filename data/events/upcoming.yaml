@@ -1,9 +1,21 @@
 - title: "spooktacular"
-  date: "2025-10-24T07:00:00.000Z"
-  end_date: "2025-10-26T07:00:00.000Z"
+  date: "2025-10-23T07:00:00.000Z"
+  end_date: ""
   time: "17:30-19:30"
+  location: "gym/basketball court/libary"
+  description: "Annual halloween event with food and fun! Book Fair open to parents"
+  category: "fundraiser"
+  multi_day: false
+  volunteers_needed: true
+  volunteer_link: "https://signup.com/event"
+  zoom_meeting: false
+  zoom_link: ""
+- title: "Fall book fair"
+  date: "2025-10-20T07:00:00.000Z"
+  end_date: "2025-10-24T07:00:00.000Z"
+  time: ""
   location: "Library"
-  description: "Annual halloween event with food and fun!"
+  description: "Children can shop during their library hour"
   category: "fundraiser"
   multi_day: true
   volunteers_needed: true
@@ -22,15 +34,99 @@
   volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-58696319-bingo#/"
   zoom_meeting: false
   zoom_link: ""
-- title: "Winter Craft Fair"
-  date: "2025-12-11T08:00:00.000Z"
+- title: "Holiday Bazaar"
+  date: "2025-12-06T08:00:00.000Z"
   end_date: ""
-  time: ""
-  location: ""
-  description: ""
-  category: ""
-  multi_day: ""
+  time: "10:00-2:00"
+  location: "School Gym"
+  description: "Dozens of Local Merchants! Come shop!"
+  category: "community"
+  multi_day: false
   volunteers_needed: ""
   volunteer_link: ""
-  zoom_meeting: ""
+  zoom_meeting: false
+  zoom_link: ""
+- title: "Winter Craft Night"
+  date: "2025-12-11T08:00:00.000Z"
+  end_date: ""
+  time: "5:30-7:00"
+  location: "School Gym"
+  description: "Crafts, Cookies and Cocoa! Then stay for the PTSA meeting"
+  category: "community"
+  multi_day: false
+  volunteers_needed: true
+  volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-58696616-ptsa#/"
+  zoom_meeting: true
+  zoom_link: ""
+- title: "Movie Night"
+  date: "2026-01-15T08:00:00.000Z"
+  end_date: ""
+  time: "5:30-7:30"
+  location: "School Gym"
+  description: "Check our Social Media to vote on what we're watching"
+  category: "community"
+  multi_day: false
+  volunteers_needed: true
+  volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-58696447-january#/"
+  zoom_meeting: false
+  zoom_link: ""
+- title: "Family Dance"
+  date: "2026-02-06T08:00:00.000Z"
+  end_date: ""
+  time: "5:30-7:30"
+  location: "School Gym"
+  description: "Music, Food, Friends"
+  category: "community"
+  multi_day: false
+  volunteers_needed: true
+  volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-58696672-ptsa#/"
+  zoom_meeting: false
+  zoom_link: ""
+- title: "Multicultural Night"
+  date: "2026-03-26T07:00:00.000Z"
+  end_date: ""
+  time: "5:30-7:30"
+  location: "School Gym"
+  description: "Come learn about the fabric that makes up our school family! Book fair also open."
+  category: "community"
+  multi_day: false
+  volunteers_needed: true
+  volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-58696376-multicultural#/"
+  zoom_meeting: false
+  zoom_link: ""
+- title: "Spring Book Fair"
+  date: "2026-03-23T07:00:00.000Z"
+  end_date: "03/272026"
+  time: ""
+  location: "Library"
+  description: "Children can shop during their library hour"
+  category: "fundraiser"
+  multi_day: true
+  volunteers_needed: true
+  volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-59468388-book#/"
+  zoom_meeting: false
+  zoom_link: ""
+- title: "Movie Night"
+  date: "2026-04-24T07:00:00.000Z"
+  end_date: ""
+  time: "5:30-7:30"
+  location: "School Gym"
+  description: "Check our Social Media to vote on what we're watching"
+  category: "community"
+  multi_day: false
+  volunteers_needed: true
+  volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-58696554-april#/"
+  zoom_meeting: false
+  zoom_link: ""
+- title: "Ollie's Summer Fest"
+  date: "2026-06-05T07:00:00.000Z"
+  end_date: ""
+  time: "5:30-7:30"
+  location: "TBD"
+  description: "End of year celebration"
+  category: "community"
+  multi_day: false
+  volunteers_needed: true
+  volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-58696430-ollies#/"
+  zoom_meeting: false
   zoom_link: ""
