@@ -1,0 +1,209 @@
+{{ define "main" }}
+<div class="news-page">
+
+  <section class="news-section">
+    <div class="container">
+
+      {{ $posts := .Site.Data.news.posts }}
+      {{ $now := now }}
+
+      {{ if $posts }}
+
+      <!-- Filter posts by date (only show if date <= now AND expiry_date >= now or empty) -->
+      {{ $visiblePosts := slice }}
+      {{ range $posts }}
+        {{ if .date }}
+          {{ $postDate := time .date }}
+          {{ $isVisible := false }}
+
+          <!-- Check if post is published (date is today or in the past) -->
+          {{ if le $postDate $now }}
+            <!-- Check if post hasn't expired -->
+            {{ if .expiry_date }}
+              {{ $expiryDate := time .expiry_date }}
+              {{ if ge $expiryDate $now }}
+                {{ $isVisible = true }}
+              {{ end }}
+            {{ else }}
+              <!-- No expiry date means it never expires -->
+              {{ $isVisible = true }}
+            {{ end }}
+          {{ end }}
+
+          {{ if $isVisible }}
+            {{ $visiblePosts = $visiblePosts | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{ if $visiblePosts }}
+      <div class="news-articles">
+        {{ range $visiblePosts }}
+        {{ $postDate := time .date }}
+
+        <article class="news-article {{ if .featured }}featured{{ end }}">
+          <div class="article-header">
+            <h2 class="article-title">{{ .title }}</h2>
+            <div class="article-meta">
+              <span class="article-date">📅 {{ $postDate.Format "January 2, 2006" }}</span>
+              {{ if .author }}
+              <span class="article-author">✍️ {{ .author }}</span>
+              {{ end }}
+            </div>
+          </div>
+
+          <div class="article-body">
+            {{ if .summary }}
+            <p class="article-summary"><strong>{{ .summary }}</strong></p>
+            {{ end }}
+
+            {{ if .content }}
+            <div class="article-content">
+              {{ .content | markdownify }}
+            </div>
+            {{ end }}
+          </div>
+
+          {{ if .expiry_date }}
+          {{ $expiryDate := time .expiry_date }}
+          <!-- Optional: Show expiry notice if within 7 days -->
+          {{ $daysUntilExpiry := div (sub $expiryDate.Unix $now.Unix) 86400 }}
+          {{ if and (gt $daysUntilExpiry 0) (le $daysUntilExpiry 7) }}
+          <div class="article-footer">
+            <p class="expiry-notice">⏰ This announcement expires {{ $expiryDate.Format "January 2, 2006" }}</p>
+          </div>
+          {{ end }}
+          {{ end }}
+        </article>
+        {{ end }}
+      </div>
+      {{ else }}
+      <p class="no-news">No current news at this time. Check back soon!</p>
+      {{ end }}
+
+      {{ else }}
+      <p class="no-news">No current news at this time. Check back soon!</p>
+      {{ end }}
+
+    </div>
+  </section>
+
+</div>
+
+<style>
+.news-page {
+  padding: 2rem 0;
+}
+
+.news-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.news-article {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.news-article:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.news-article.featured {
+  border-left: 4px solid #2B9B9E;
+  background: linear-gradient(to right, rgba(43, 155, 158, 0.05), white);
+}
+
+.article-header {
+  margin-bottom: 1rem;
+}
+
+.article-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #2D2D2D;
+  margin: 0 0 0.5rem 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.article-meta {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+  color: #666;
+  flex-wrap: wrap;
+}
+
+.article-date,
+.article-author {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.article-summary {
+  font-size: 1.1rem;
+  color: #2D2D2D;
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.article-content {
+  color: #2D2D2D;
+  line-height: 1.8;
+}
+
+.article-content p {
+  margin: 1rem 0;
+}
+
+.article-content ul,
+.article-content ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.article-content li {
+  margin: 0.5rem 0;
+}
+
+.article-footer {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #E8E8E8;
+}
+
+.expiry-notice {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+  margin: 0;
+}
+
+.no-news {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+  padding: 3rem 0;
+}
+
+@media (max-width: 768px) {
+  .news-article {
+    padding: 1.5rem;
+  }
+
+  .article-title {
+    font-size: 1.5rem;
+  }
+
+  .article-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+</style>
+{{ end }}
