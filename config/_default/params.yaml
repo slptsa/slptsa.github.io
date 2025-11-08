@@ -14,7 +14,7 @@ custom_css:
 images: ["/img/social-share.png"]
 
 ### donation link ###
-donation_url: "YOUR_DONATION_URL_HERE"
+donation_url: "https://www.givebacks.com/donate/slptsa"
 
 ### contact email ###
 email: "info@slptsa.org"
@@ -25,7 +25,7 @@ github:
 
 social_links:
   devstats: ""
-  discord: ""
+  discord: "discord.gg/SH6sV6bqve"
   facebook: "facebook.com/slptsa"
   flickr: ""
   github: ""
