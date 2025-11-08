@@ -194,7 +194,7 @@
           {{ range first 2 $news }}
           <div class="news-item">
             <h3>{{ .title }}</h3>
-            <p class="meta">{{ .date }} • {{ .author }}</p>
+            <p class="meta">{{ time.Format "2006-01-02 15:04" .date }} • {{ .author }}</p>
             <p>{{ .summary }}</p>
           </div>
           {{ end }}
