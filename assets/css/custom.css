@@ -175,7 +175,7 @@ body.page-home #content header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0.5rem;
   transition: all 0.3s ease;
   border-radius: 4px;
   white-space: nowrap;
@@ -188,7 +188,12 @@ body.page-home #content header {
 .dropdown-arrow {
   font-size: 0.75rem;
   transition: transform 0.3s ease;
-  margin-left: 0.25rem;
+  margin-left: 0.5rem;
+}
+
+.dropdown-arrow::after {
+  content: none !important;
+  display: none !important;
 }
 
 .nav-item.has-dropdown:hover .dropdown-arrow {
