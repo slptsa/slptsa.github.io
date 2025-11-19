@@ -85,6 +85,12 @@ The site uses Hugo's config directory structure instead of a single config file:
 - Categories: meeting, fundraiser, social
 - Used to generate event calendar displays
 
+**News posts** (`data/news/posts.yaml`):
+- Fields: title, date, expiry_date, author, summary, content, featured (true/false)
+- Date filtering: Posts display only if `date <= today AND (expiry_date >= today OR expiry_date is empty)`
+- Featured posts get special highlighted styling
+- Rendered using custom `layouts/news/list.html` template
+
 ## Important Development Notes
 
 ### Hugo Server Flags
@@ -152,6 +158,19 @@ Automatically syncs data from Google Sheets to YAML files:
 ### Adding Staff Favorites
 **Option 1** (Recommended): Update the Google Sheet directly - changes sync automatically.
 **Option 2**: Edit `data/staff/favorites.yaml` manually.
+
+### Adding News Posts
+**Option 1** (Recommended): Update the Google Sheet directly - changes sync automatically twice daily or via webhook.
+**Option 2**: Add entries to `data/news/posts.yaml` manually following the established schema.
+
+**Fields:**
+- `title` - Headline of the news post
+- `date` - Publish date (YYYY-MM-DD) - post won't display until this date
+- `expiry_date` - Optional expiration date (YYYY-MM-DD) - post stops displaying after this date (leave empty for permanent posts)
+- `author` - Who wrote the post (e.g., "PTSA Board")
+- `summary` - Short summary displayed in bold
+- `content` - Full article content (supports markdown)
+- `featured` - Set to `true` to highlight the post with special styling
 
 **Note**: When using Google Sheets, the automated sync will overwrite any manual edits to YAML files. Choose one approach and stick with it.
 

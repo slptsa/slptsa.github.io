@@ -71,6 +71,17 @@ Each Google Sheet should have:
 |------|-------------|-----------------|---------------------|-------------------|----------------|----------------|-----------------|---------|----------------|----------------|--------------|
 | Jane Smith | https://... | Chocolate | Chipotle | Coffee | Target | Blue | Roses | Reading | Books | Pencils | Notes |
 
+#### News Posts Sheet Structure
+
+| title | date | expiry_date | author | summary | content | featured |
+|-------|------|-------------|--------|---------|---------|----------|
+| Bingo Night! | 2025-11-15 | 2025-11-16 | PTSA Board | Join us for bingo! | Full article text here... | true |
+
+**Date Filtering Rules:**
+- **date**: Publish date - post won't display until this date arrives
+- **expiry_date**: Optional - post stops displaying after this date (leave empty for permanent posts)
+- **featured**: Set to "true" to highlight the post with special styling
+
 ### Step 3: Get Sheet IDs and Folder IDs
 
 #### Getting Google Sheet IDs
@@ -184,6 +195,7 @@ npm run sync:data
 node scripts/sync-data.js board
 node scripts/sync-data.js events
 node scripts/sync-data.js staff
+node scripts/sync-data.js news
 
 # Download all images
 npm run sync:images

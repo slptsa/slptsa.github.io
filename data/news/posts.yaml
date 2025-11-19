@@ -1,13 +1,14 @@
-- title: Welcome Back!
-  date: 2025-09-01
-  author: PTSA Board
-  summary: Welcome to the new school year!
-  content: Full content here...
+- title: "Bingo Night"
+  date: "2025-11-07T08:00:00.000Z"
+  expiry_date: "2025-11-16T08:00:00.000Z"
+  author: "PTSA Board"
+  summary: "Bingo Night!"
+  content: "Bingo Night is coming up! Come join the PTSA and your fellow Serene Lake Families for a fun night of bingo! Pizza, Nacho's and Drinks will be provided! All Proceeds go directly to the PTSA to cover the costs of running the night! We have volunteer opportunities available!"
   featured: true
-
-- title: Membership Drive
-  date: 2025-09-15
-  author: Jane Smith
-  summary: Join PTSA today!
-  content: Full content here...
+- title: "New Website Launch!"
+  date: "2025-11-10T08:00:00.000Z"
+  expiry_date: "2025-12-10T08:00:00.000Z"
+  author: "PTSA Board"
+  summary: "Welcome to the new PTSA Website!"
+  content: "In an effort to make our mission clearer and easier to navigate we've updated everything on the website! The fresh new look, mobile interface and what we hope will be the easier navigation will help everyone see what's going on and get involved! We welcome all feedback! Let us know what you think!"
   featured: true
