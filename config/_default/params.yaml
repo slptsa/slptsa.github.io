@@ -20,7 +20,7 @@ donation_url: "https://www.givebacks.com/donate/slptsa"
 email: "info@slptsa.org"
 
 github:
-  repo_url: "https://github.com/klevermonicker/slptsa/blob/master"
+  repo_url: "https://github.com/slptsa/slptsa/blob/master"
   show_edit_link: false
 
 social_links:
