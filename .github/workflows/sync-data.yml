@@ -1,12 +1,8 @@
 name: Sync Data from Google Sheets
 
 on:
-  # TESTING: Run every hour (change back to twice daily after testing)
   schedule:
-    - cron: '0 * * * *'  # Every hour on the hour
-  # Production schedule (uncomment after testing):
-  # schedule:
-  #   - cron: '0 9,21 * * *'  # 9 AM and 9 PM UTC = 2 AM and 2 PM PT (adjust for DST)
+     - cron: '0 9,21 * * *'  # 9 AM and 9 PM UTC = 2 AM and 2 PM PT (adjust for DST)
 
   # Allow manual trigger from Actions tab
   workflow_dispatch:
@@ -32,7 +28,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.WORKFLOW_PAT }}
           fetch-depth: 0
 
       - name: Setup Node.js
