@@ -1,5 +1,17 @@
-- title: "spooktacular"
-  date: "2025-10-23T07:00:00.000Z"
+- title: "Ollies Birthday Party"
+  date: "2026-09-17T07:00:00.000Z"
+  end_date: ""
+  time: "17:30-19:30"
+  location: "School Gym"
+  description: "Ollies Birthday Bash and Welcome back to school"
+  category: "fundraiser"
+  multi_day: false
+  volunteers_needed: true
+  volunteer_link: "https://www.signupgenius.com/go/10C054AA8AC2FA1F5C07-65277662-ollies#/"
+  zoom_meeting: false
+  zoom_link: ""
+- title: "Spooktacular"
+  date: "2026-10-22T07:00:00.000Z"
   end_date: ""
   time: "17:30-19:30"
   location: "gym/basketball court/libary"
@@ -7,23 +19,23 @@
   category: "fundraiser"
   multi_day: false
   volunteers_needed: true
-  volunteer_link: "https://signup.com/event"
+  volunteer_link: "https://www.signupgenius.com/go/10C054AA8AC2FA1F5C07-65277682-serene#/"
   zoom_meeting: false
   zoom_link: ""
 - title: "Fall book fair"
-  date: "2025-10-20T07:00:00.000Z"
-  end_date: "2025-10-24T07:00:00.000Z"
+  date: "2026-10-19T07:00:00.000Z"
+  end_date: "2026-10-23T07:00:00.000Z"
   time: ""
   location: "Library"
   description: "Children can shop during their library hour"
   category: "fundraiser"
   multi_day: true
   volunteers_needed: true
-  volunteer_link: "https://signup.com/event"
+  volunteer_link: "https://www.signupgenius.com/go/10C054AA8AC2FA1F5C07-65277712-bookfair"
   zoom_meeting: false
   zoom_link: ""
 - title: "Bingo Night"
-  date: "2025-11-20T08:00:00.000Z"
+  date: "2026-11-19T08:00:00.000Z"
   end_date: ""
   time: "5:30-7:30"
   location: "School Gym"
@@ -35,19 +47,19 @@
   zoom_meeting: false
   zoom_link: ""
 - title: "Holiday Bazaar"
-  date: "2025-12-06T08:00:00.000Z"
+  date: "2026-12-05T08:00:00.000Z"
   end_date: ""
   time: "10:00-2:00"
   location: "School Gym"
   description: "Dozens of Local Merchants! Come shop!"
   category: "community"
   multi_day: false
-  volunteers_needed: ""
-  volunteer_link: ""
+  volunteers_needed: true
+  volunteer_link: "https://www.signupgenius.com/go/10C054AA8AC2FA1F5C07-60806624-craft#/"
   zoom_meeting: false
   zoom_link: ""
-- title: "Winter Craft Night"
-  date: "2025-12-11T08:00:00.000Z"
+- title: "Winter Craft/Movie Night"
+  date: "2027-01-21T08:00:00.000Z"
   end_date: ""
   time: "5:30-7:00"
   location: "School Gym"
@@ -55,23 +67,11 @@
   category: "community"
   multi_day: false
   volunteers_needed: true
-  volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-58696616-ptsa#/"
+  volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-58696447-january#/"
   zoom_meeting: true
   zoom_link: ""
-- title: "Movie Night"
-  date: "2026-01-22T08:00:00.000Z"
-  end_date: ""
-  time: "5:30-7:30"
-  location: "School Gym"
-  description: "We will be watching K-POP Demon Hunters - Sing Along edition!"
-  category: "community"
-  multi_day: false
-  volunteers_needed: true
-  volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-58696447-january#/"
-  zoom_meeting: false
-  zoom_link: ""
 - title: "Family Dance"
-  date: "2026-02-06T08:00:00.000Z"
+  date: "2027-02-25T08:00:00.000Z"
   end_date: ""
   time: "5:30-7:30"
   location: "School Gym"
@@ -83,7 +83,7 @@
   zoom_meeting: false
   zoom_link: ""
 - title: "Multicultural Night"
-  date: "2026-03-26T07:00:00.000Z"
+  date: "2027-03-25T07:00:00.000Z"
   end_date: ""
   time: "5:30-7:30"
   location: "School Gym"
@@ -95,8 +95,8 @@
   zoom_meeting: false
   zoom_link: ""
 - title: "Spring Book Fair"
-  date: "2026-03-23T07:00:00.000Z"
-  end_date: "2026-03-27T07:00:00.000Z"
+  date: "2027-03-22T07:00:00.000Z"
+  end_date: "2027-03-26T07:00:00.000Z"
   time: ""
   location: "Library"
   description: "Children can shop during their library hour"
@@ -107,7 +107,7 @@
   zoom_meeting: false
   zoom_link: ""
 - title: "Movie Night"
-  date: "2026-04-24T07:00:00.000Z"
+  date: "2027-04-22T07:00:00.000Z"
   end_date: ""
   time: "5:30-7:30"
   location: "School Gym"
@@ -119,7 +119,7 @@
   zoom_meeting: false
   zoom_link: ""
 - title: "Ollie's Summer Fest"
-  date: "2026-06-05T07:00:00.000Z"
+  date: "2027-06-03T07:00:00.000Z"
   end_date: ""
   time: "5:30-7:30"
   location: "TBD"
