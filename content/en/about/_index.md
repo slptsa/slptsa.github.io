@@ -1,6 +1,6 @@
 ---
 title: "About Serene Lake PTSA"
-date: 2025-10-18
+date: 2026-08-27
 draft: false
 description: "Learn about the Serene Lake Elementary PTSA and our mission to support students, teachers, and families."
 ---
