@@ -25,7 +25,7 @@
 - name: "Sam Mottley"
   position: "Secretary"
   email: "sereneptsa@gmail.com"
-  photo: ""
+  photo: "sam-mottley.png"
   bio: ""
   elected: true
   election_date: "2026-06-01T07:00:00.000Z"
@@ -33,7 +33,7 @@
 - name: "Allison Bahl"
   position: "Treasurer"
   email: "sereneptsa@gmail.com"
-  photo: "allison-bahl.jpg"
+  photo: "allison-bahl.png"
   bio: ""
   elected: true
   election_date: "2026-06-01T07:00:00.000Z"
