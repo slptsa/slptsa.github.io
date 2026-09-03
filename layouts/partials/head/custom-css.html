@@ -4,3 +4,10 @@
   {{ $customStyle := $custom | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $customStyle.RelPermalink }}" integrity="{{ $customStyle.Data.Integrity }}" crossorigin="anonymous">
 {{ end }}
+{{- /* Dari (prs) and Pashto (ps) RTL support */ -}}
+{{ if or (eq .Language.Lang "prs") (eq .Language.Lang "ps") }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.setAttribute('dir','rtl');</script>
+{{ end }}

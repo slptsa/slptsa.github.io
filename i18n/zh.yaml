@@ -1,0 +1,112 @@
+# Navigation
+nav_home: 首页
+nav_about_ptsa: 关于PTSA
+nav_about_us: 关于我们
+nav_board_members: 董事会成员
+nav_events: 活动
+nav_news: 新闻
+nav_sponsors: 赞助商
+nav_resources: 资源
+nav_join_ptsa: 加入PTSA
+nav_volunteer: 志愿服务机会
+nav_staff_favorites: "教职员工最爱及心愿单"
+nav_school_info: 学校信息
+nav_donate: 捐款
+toggle_nav: 切换导航菜单
+
+# Home page
+welcome: 欢迎
+join_ptsa_today: 立即加入PTSA
+view_events: 查看活动
+active_members: 活跃会员
+events_this_year: 今年的活动
+raised_for_students: 为学生筹集的资金
+support_teachers_title: 支持我们的老师！
+support_teachers_desc: "查看我们老师的最爱物品和心愿单。通过帮助满足他们的课堂需求来表达您的感谢。"
+view_staff_favorites: 查看教职员工最爱
+upcoming_events: 即将举行的活动
+view_all_events: "查看所有活动 →"
+no_upcoming_events: 目前没有即将举行的活动。请稍后再查看！
+volunteer_opportunities: 志愿服务机会
+sign_up_to_help: 报名参与
+see_all_opportunities: "查看所有机会 →"
+no_volunteer_opportunities: 目前没有志愿服务机会。请稍后再查看！
+meet_the_board: 认识董事会
+meet_everyone: "认识所有人 →"
+latest_news: 最新消息
+view_all_news: "查看所有新闻 →"
+get_involved_today: 立即参与！
+membership_difference: 您的会员资格对我们的学校社区有所影响。
+become_a_member: 成为会员
+
+# Board page
+board_default_title: PTSA董事会成员
+elected_officials: 民选官员
+elected_officials_desc: 我们的民选董事会成员任期一年，每年由PTSA成员投票选出。
+elected_label: "当选："
+term_label: "任期："
+appointed_positions: 任命职位
+appointed_positions_desc: 我们的任命董事会成员与民选官员并肩工作，支持PTSA的运营和项目。
+no_board_data: 董事会成员信息目前不可用。
+join_board_title: 有兴趣加入董事会吗？
+join_board_desc: 我们欢迎希望做出改变的家长和监护人！董事会选举每年春季举行。
+learn_more_ptsa: 了解更多关于PTSA的信息
+
+# Staff favorites
+search_teacher_label: 搜索老师
+search_teacher_placeholder: 按老师姓名搜索...
+clear_search_label: 清除搜索
+no_teachers_found: 没有找到符合您搜索的老师。
+view_amazon_wishlist: "🎁 查看亚马逊心愿单"
+no_wishlist: 未提供心愿单
+fav_snacks: "🍿 最爱零食"
+fav_restaurants: "🍽️ 最爱餐厅"
+fav_beverages: "☕ 最爱饮料"
+fav_stores: "🏪 最爱商店"
+fav_colors: "🎨 最爱颜色"
+fav_flowers: "🌸 最爱花卉"
+hobbies: "🎯 爱好"
+fav_things: "❤️ 最爱事物"
+classroom_needs: "📚 课堂需求"
+how_to_appreciate: "🙏 如何表达感谢"
+no_staff_data: 教职员工最爱信息目前不可用。
+
+# Events
+time_label: "⏰ 时间："
+location_label: "📍 地点："
+join_zoom: "🔗 加入Zoom会议"
+volunteer_sign_up: "🙋 志愿者报名"
+no_events: 目前没有即将举行的活动。请稍后再查看！
+
+# News
+no_news: 目前没有最新消息。请稍后再查看！
+expires_notice: 此公告到期时间
+
+# Volunteer page
+ptsa_event_volunteers: PTSA活动志愿者
+sign_up_to_volunteer: "🙋 报名参加志愿服务"
+signup_coming_soon: 报名链接即将推出！
+no_volunteer_opps: 目前没有志愿服务机会。请稍后再查看！
+join_ptsa_link: 加入PTSA
+view_all_events_link: 查看所有即将举行的活动
+no_events_data: 没有活动数据。
+open_spots_title: PTSA的开放职位
+open_spots_intro: "加入我们的团队！我们在PTSA董事会和委员会中有职位空缺。帮助为我们的学生做出改变。"
+time_commitment: "⏱️ 时间投入："
+term: "📅 任期："
+express_interest: "✉️ 表达兴趣"
+no_positions: 目前没有开放职位。请稍后再查看，或联系我们了解未来的机会！
+no_positions_data: 没有职位数据。
+
+# Footer
+footer_about_desc: 支持Mukilteo学区Serene Lake小学的学生、老师和家庭。
+footer_quick_links: 快速链接
+footer_join_ptsa: 加入PTSA
+footer_volunteer: 志愿服务
+footer_teacher_wishlists: 老师心愿单
+footer_resources: 资源
+footer_get_involved: 参与进来！
+footer_get_involved_desc: 加入我们，为我们的学校社区做出改变。
+footer_join_today: 立即加入PTSA
+footer_connect: 联系我们
+footer_tagline: 每个孩子。一个声音。

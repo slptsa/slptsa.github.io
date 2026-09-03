@@ -1,0 +1,112 @@
+# Navigation
+nav_home: Tahanan
+nav_about_ptsa: Tungkol sa PTSA
+nav_about_us: Tungkol sa Amin
+nav_board_members: Mga Miyembro ng Lupon
+nav_events: Mga Kaganapan
+nav_news: Balita
+nav_sponsors: Mga Tagasuporta
+nav_resources: Mga Mapagkukunan
+nav_join_ptsa: Sumali sa PTSA
+nav_volunteer: Mga Pagkakataon sa Pagboluntaryo
+nav_staff_favorites: "Mga Paboritong Bagay ng Staff at Wish Lists"
+nav_school_info: Impormasyon ng Paaralan
+nav_donate: Mag-donate
+toggle_nav: I-toggle ang navigation menu
+
+# Home page
+welcome: Maligayang Pagdating
+join_ptsa_today: Sumali sa PTSA Ngayon
+view_events: Tingnan ang mga Kaganapan
+active_members: Mga Aktibong Miyembro
+events_this_year: Mga Kaganapan sa Taong Ito
+raised_for_students: Nakolekta para sa mga Estudyante
+support_teachers_title: Suportahan ang Aming mga Guro!
+support_teachers_desc: "Tingnan ang mga paboritong bagay at wish lists ng aming mga guro. Ipakita ang iyong pagpapahalaga sa pamamagitan ng pagtulong na matugunan ang kanilang mga pangangailangan sa silid-aralan."
+view_staff_favorites: Tingnan ang mga Paborito ng Staff
+upcoming_events: Mga Paparating na Kaganapan
+view_all_events: "Tingnan ang Lahat ng Kaganapan →"
+no_upcoming_events: Walang paparating na kaganapan sa ngayon. Bumalik muli sa lalong madaling panahon!
+volunteer_opportunities: Mga Pagkakataon sa Pagboluntaryo
+sign_up_to_help: Mag-sign Up para Tumulong
+see_all_opportunities: "Tingnan ang Lahat ng Pagkakataon →"
+no_volunteer_opportunities: Walang pagkakataon sa pagboluntaryo sa ngayon. Bumalik muli sa lalong madaling panahon!
+meet_the_board: Makilala ang Lupon
+meet_everyone: "Makilala ang Lahat →"
+latest_news: Pinakabagong Balita
+view_all_news: "Tingnan ang Lahat ng Balita →"
+get_involved_today: Makiisa Ngayon!
+membership_difference: Ang iyong membership ay gumagawa ng pagbabago sa aming komunidad ng paaralan.
+become_a_member: Maging Miyembro
+
+# Board page
+board_default_title: Mga Miyembro ng Lupon ng PTSA
+elected_officials: Mga Inihalal na Opisyal
+elected_officials_desc: Ang aming mga inihalal na miyembro ng lupon ay naglilingkod ng isang taong termino at inihahalal taon-taon ng mga miyembro ng PTSA.
+elected_label: "Inihalal:"
+term_label: "Termino:"
+appointed_positions: Mga Itinalagang Posisyon
+appointed_positions_desc: Ang aming mga itinalagang miyembro ng lupon ay nagtatrabaho kasama ang mga inihalal na opisyal upang suportahan ang mga operasyon at programa ng PTSA.
+no_board_data: Ang impormasyon ng mga miyembro ng lupon ay hindi available sa ngayon.
+join_board_title: Interesado sa Pagsali sa Lupon?
+join_board_desc: Tinatanggap namin ang mga magulang at tagapag-alaga na nais gumawa ng pagbabago! Ang mga halalan ng lupon ay ginaganap tuwing tagsibol.
+learn_more_ptsa: Alamin ang Higit pa Tungkol sa PTSA
+
+# Staff favorites
+search_teacher_label: Maghanap ng guro
+search_teacher_placeholder: Maghanap ayon sa pangalan ng guro...
+clear_search_label: I-clear ang paghahanap
+no_teachers_found: Walang nahanap na guro na tumutugma sa iyong paghahanap.
+view_amazon_wishlist: "🎁 Tingnan ang Amazon Wish List"
+no_wishlist: Walang ibinigay na wish list
+fav_snacks: "🍿 Mga Paboritong Meryenda"
+fav_restaurants: "🍽️ Mga Paboritong Restaurant"
+fav_beverages: "☕ Mga Paboritong Inumin"
+fav_stores: "🏪 Mga Paboritong Tindahan"
+fav_colors: "🎨 Mga Paboritong Kulay"
+fav_flowers: "🌸 Mga Paboritong Bulaklak"
+hobbies: "🎯 Mga Libangan"
+fav_things: "❤️ Mga Paboritong Bagay"
+classroom_needs: "📚 Mga Pangangailangan sa Silid-aralan"
+how_to_appreciate: "🙏 Paano Magpakita ng Pagpapahalaga"
+no_staff_data: Ang impormasyon ng mga paborito ng staff ay hindi available sa ngayon.
+
+# Events
+time_label: "⏰ Oras:"
+location_label: "📍 Lugar:"
+join_zoom: "🔗 Sumali sa Zoom Meeting"
+volunteer_sign_up: "🙋 Mag-sign Up bilang Boluntaryo"
+no_events: Walang paparating na kaganapan sa ngayon. Bumalik muli sa lalong madaling panahon!
+
+# News
+no_news: Walang kasalukuyang balita sa ngayon. Bumalik muli sa lalong madaling panahon!
+expires_notice: Ang anunsyong ito ay mag-e-expire sa
+
+# Volunteer page
+ptsa_event_volunteers: Mga Boluntaryo ng Kaganapan ng PTSA
+sign_up_to_volunteer: "🙋 Mag-sign Up bilang Boluntaryo"
+signup_coming_soon: Ang link sa pag-sign up ay malapit nang dumating!
+no_volunteer_opps: Walang magagamit na pagkakataon sa pagboluntaryo sa ngayon. Bumalik muli sa lalong madaling panahon!
+join_ptsa_link: sumali sa PTSA
+view_all_events_link: tingnan ang lahat ng paparating na kaganapan
+no_events_data: Walang available na data ng kaganapan.
+open_spots_title: Mga Bakanteng Posisyon sa PTSA
+open_spots_intro: "Sumali sa aming koponan! Mayroon kaming mga bakante sa aming lupon at mga komite ng PTSA. Tulungan ang pagbabago para sa aming mga estudyante."
+time_commitment: "⏱️ Oras na Kailangan:"
+term: "📅 Termino:"
+express_interest: "✉️ Ipahayag ang Interes"
+no_positions: Walang bukas na posisyon sa ngayon. Bumalik muli sa lalong madaling panahon o makipag-ugnayan sa amin upang malaman ang tungkol sa mga pagkakataon sa hinaharap!
+no_positions_data: Walang available na data ng posisyon.
+
+# Footer
+footer_about_desc: Sinusuportahan ang mga estudyante, guro, at pamilya sa Serene Lake Elementary School sa Mukilteo School District.
+footer_quick_links: Mga Mabilis na Link
+footer_join_ptsa: Sumali sa PTSA
+footer_volunteer: Pagboluntaryo
+footer_teacher_wishlists: Mga Wish List ng Guro
+footer_resources: Mga Mapagkukunan
+footer_get_involved: Makiisa!
+footer_get_involved_desc: Samahan kami sa paggawa ng pagbabago sa aming komunidad ng paaralan.
+footer_join_today: Sumali sa PTSA Ngayon
+footer_connect: Makipag-ugnayan sa Amin
+footer_tagline: Bawat bata. Isang boses.

@@ -1,0 +1,112 @@
+# Navigation
+nav_home: Главная
+nav_about_ptsa: О PTSA
+nav_about_us: О нас
+nav_board_members: Члены правления
+nav_events: Мероприятия
+nav_news: Новости
+nav_sponsors: Спонсоры
+nav_resources: Ресурсы
+nav_join_ptsa: Вступить в PTSA
+nav_volunteer: Возможности для волонтёров
+nav_staff_favorites: "Любимые вещи персонала и списки желаний"
+nav_school_info: Информация о школе
+nav_donate: Пожертвовать
+toggle_nav: Переключить меню навигации
+
+# Home page
+welcome: Добро пожаловать
+join_ptsa_today: Вступите в PTSA сегодня
+view_events: Посмотреть мероприятия
+active_members: Активных членов
+events_this_year: Мероприятий в этом году
+raised_for_students: Собрано для учеников
+support_teachers_title: Поддержите наших учителей!
+support_teachers_desc: "Посмотрите любимые вещи и списки желаний наших учителей. Выразите свою признательность, помогая удовлетворить потребности их классов."
+view_staff_favorites: Просмотреть любимое персонала
+upcoming_events: Предстоящие мероприятия
+view_all_events: "Просмотреть все мероприятия →"
+no_upcoming_events: Предстоящих мероприятий пока нет. Загляните позже!
+volunteer_opportunities: Возможности для волонтёров
+sign_up_to_help: Записаться на помощь
+see_all_opportunities: "Посмотреть все возможности →"
+no_volunteer_opportunities: Возможностей для волонтёров пока нет. Загляните позже!
+meet_the_board: Познакомьтесь с правлением
+meet_everyone: "Познакомьтесь со всеми →"
+latest_news: Последние новости
+view_all_news: "Просмотреть все новости →"
+get_involved_today: Участвуйте сегодня!
+membership_difference: Ваше членство имеет значение для нашего школьного сообщества.
+become_a_member: Стать членом
+
+# Board page
+board_default_title: Члены правления PTSA
+elected_officials: Избранные должностные лица
+elected_officials_desc: Наши избранные члены правления занимают должности на один год и ежегодно избираются членами PTSA.
+elected_label: "Избран:"
+term_label: "Срок:"
+appointed_positions: Назначенные должности
+appointed_positions_desc: Наши назначенные члены правления работают вместе с избранными должностными лицами для поддержки деятельности и программ PTSA.
+no_board_data: Информация о членах правления в настоящее время недоступна.
+join_board_title: Хотите вступить в правление?
+join_board_desc: Мы приветствуем родителей и опекунов, которые хотят изменить ситуацию к лучшему! Выборы в правление проводятся каждую весну.
+learn_more_ptsa: Узнать больше о PTSA
+
+# Staff favorites
+search_teacher_label: Найти учителя
+search_teacher_placeholder: Поиск по имени учителя...
+clear_search_label: Очистить поиск
+no_teachers_found: Учителей по вашему запросу не найдено.
+view_amazon_wishlist: "🎁 Просмотреть список желаний на Amazon"
+no_wishlist: Список желаний не предоставлен
+fav_snacks: "🍿 Любимые закуски"
+fav_restaurants: "🍽️ Любимые рестораны"
+fav_beverages: "☕ Любимые напитки"
+fav_stores: "🏪 Любимые магазины"
+fav_colors: "🎨 Любимые цвета"
+fav_flowers: "🌸 Любимые цветы"
+hobbies: "🎯 Хобби"
+fav_things: "❤️ Любимые вещи"
+classroom_needs: "📚 Потребности класса"
+how_to_appreciate: "🙏 Как выразить признательность"
+no_staff_data: Информация о любимых вещах персонала в настоящее время недоступна.
+
+# Events
+time_label: "⏰ Время:"
+location_label: "📍 Место:"
+join_zoom: "🔗 Присоединиться к встрече Zoom"
+volunteer_sign_up: "🙋 Записаться волонтёром"
+no_events: Предстоящих мероприятий пока нет. Загляните позже!
+
+# News
+no_news: Актуальных новостей пока нет. Загляните позже!
+expires_notice: Это объявление истекает
+
+# Volunteer page
+ptsa_event_volunteers: Волонтёры мероприятий PTSA
+sign_up_to_volunteer: "🙋 Записаться волонтёром"
+signup_coming_soon: Ссылка для регистрации появится скоро!
+no_volunteer_opps: Возможностей для волонтёров пока нет. Загляните позже!
+join_ptsa_link: вступить в PTSA
+view_all_events_link: посмотреть все предстоящие мероприятия
+no_events_data: Данные о мероприятиях недоступны.
+open_spots_title: Свободные места в PTSA
+open_spots_intro: "Присоединяйтесь к нашей команде! У нас есть вакансии в правлении и комитетах PTSA. Помогите изменить ситуацию к лучшему для наших учеников."
+time_commitment: "⏱️ Затраты времени:"
+term: "📅 Срок:"
+express_interest: "✉️ Выразить заинтересованность"
+no_positions: Свободных должностей пока нет. Загляните позже или свяжитесь с нами, чтобы узнать о будущих возможностях!
+no_positions_data: Данные о должностях недоступны.
+
+# Footer
+footer_about_desc: Поддержка учеников, учителей и семей начальной школы Serene Lake в школьном округе Mukilteo.
+footer_quick_links: Быстрые ссылки
+footer_join_ptsa: Вступить в PTSA
+footer_volunteer: Волонтёрство
+footer_teacher_wishlists: Списки желаний учителей
+footer_resources: Ресурсы
+footer_get_involved: Участвуйте!
+footer_get_involved_desc: Присоединяйтесь к нам, чтобы изменить ситуацию в нашем школьном сообществе.
+footer_join_today: Вступите в PTSA сегодня
+footer_connect: Свяжитесь с нами
+footer_tagline: Каждый ребёнок. Один голос.

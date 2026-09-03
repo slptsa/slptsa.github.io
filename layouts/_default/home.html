@@ -1,55 +1,51 @@
 {{ define "main" }}
 <div class="home-page">
-  
-  <!-- Hero Section - Simple, No Banner -->
+
   <section class="hero-simple">
     <div class="container">
       <div class="hero-content">
-        <h1>Welcome</h1>
+        <h1>{{ i18n "welcome" }}</h1>
         <p class="lead">{{ .Description }}</p>
         <div class="hero-cta">
-          <a href="{{ "/join/" | relURL }}" class="btn btn-primary btn-large">Join PTSA Today</a>
-          <a href="{{ "/events/" | relURL }}" class="btn btn-secondary btn-large">View Events</a>
+          <a href="{{ "/join/" | relLangURL }}" class="btn btn-primary btn-large">{{ i18n "join_ptsa_today" }}</a>
+          <a href="{{ "/events/" | relLangURL }}" class="btn btn-secondary btn-large">{{ i18n "view_events" }}</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Stats Section -->
   <section class="stats">
     <div class="container">
       <div class="stats-grid">
         <div class="stat">
           <div class="stat-number">30+</div>
-          <div class="stat-label">Active Members</div>
+          <div class="stat-label">{{ i18n "active_members" }}</div>
         </div>
         <div class="stat">
           <div class="stat-number">24</div>
-          <div class="stat-label">Events This Year</div>
+          <div class="stat-label">{{ i18n "events_this_year" }}</div>
         </div>
         <div class="stat">
           <div class="stat-number">$13K+</div>
-          <div class="stat-label">Raised for Students</div>
+          <div class="stat-label">{{ i18n "raised_for_students" }}</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Staff Favorites Callout -->
   <section class="callout-section">
     <div class="container">
       <div class="callout-box">
         <div class="callout-icon">🎁</div>
         <div class="callout-content">
-          <h3>Support Our Teachers!</h3>
-          <p>Check out our teachers' favorite things and wish lists. Show your appreciation by helping fulfill their classroom needs.</p>
-          <a href="{{ "/our-school/staff-favorites/" | relURL }}" class="btn-callout">View Staff Favorites</a>
+          <h3>{{ i18n "support_teachers_title" }}</h3>
+          <p>{{ i18n "support_teachers_desc" }}</p>
+          <a href="{{ "/our-school/staff-favorites/" | relLangURL }}" class="btn-callout">{{ i18n "view_staff_favorites" }}</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Main Content -->
   <section class="content-section">
     <div class="container">
       <div class="content">
@@ -58,36 +54,25 @@
     </div>
   </section>
 
-  <!-- Featured Sections -->
   <section class="featured-sections">
     <div class="container">
-      
-      <!-- Upcoming Events Preview -->
+
       <div class="section-card">
-        <h2>Upcoming Events</h2>
+        <h2>{{ i18n "upcoming_events" }}</h2>
         {{ $events := .Site.Data.events.upcoming }}
         {{ $now := now }}
         {{ if $events }}
-        <!-- Filter to only show future events -->
         {{ $futureEvents := slice }}
         {{ range $events }}
           {{ if .date }}
             {{ $eventDate := time .date }}
             {{ $isUpcoming := false }}
-
             {{ if and .multi_day .end_date }}
-              <!-- For multi-day events, check if end date is in the future -->
               {{ $endDate := time .end_date }}
-              {{ if ge $endDate $now }}
-                {{ $isUpcoming = true }}
-              {{ end }}
+              {{ if ge $endDate $now }}{{ $isUpcoming = true }}{{ end }}
             {{ else }}
-              <!-- For single-day events, check if start date is in the future -->
-              {{ if ge $eventDate $now }}
-                {{ $isUpcoming = true }}
-              {{ end }}
+              {{ if ge $eventDate $now }}{{ $isUpcoming = true }}{{ end }}
             {{ end }}
-
             {{ if $isUpcoming }}
               {{ $futureEvents = $futureEvents | append . }}
             {{ end }}
@@ -108,39 +93,29 @@
           </div>
           {{ end }}
         </div>
-        <a href="{{ "/events/" | relURL }}" class="view-all">View All Events →</a>
+        <a href="{{ "/events/" | relLangURL }}" class="view-all">{{ i18n "view_all_events" }}</a>
         {{ else }}
-        <p>No upcoming events at this time. Check back soon!</p>
+        <p>{{ i18n "no_upcoming_events" }}</p>
         {{ end }}
         {{ end }}
       </div>
 
-      <!-- Volunteer Opportunities -->
       <div class="section-card">
-        <h2>Volunteer Opportunities</h2>
+        <h2>{{ i18n "volunteer_opportunities" }}</h2>
         {{ $events := .Site.Data.events.upcoming }}
         {{ $now := now }}
         {{ if $events }}
-        <!-- Filter to only show future events that need volunteers -->
         {{ $volunteerEvents := slice }}
         {{ range $events }}
           {{ if and .date .volunteers_needed }}
             {{ $eventDate := time .date }}
             {{ $isUpcoming := false }}
-
             {{ if and .multi_day .end_date }}
-              <!-- For multi-day events, check if end date is in the future -->
               {{ $endDate := time .end_date }}
-              {{ if ge $endDate $now }}
-                {{ $isUpcoming = true }}
-              {{ end }}
+              {{ if ge $endDate $now }}{{ $isUpcoming = true }}{{ end }}
             {{ else }}
-              <!-- For single-day events, check if start date is in the future -->
-              {{ if ge $eventDate $now }}
-                {{ $isUpcoming = true }}
-              {{ end }}
+              {{ if ge $eventDate $now }}{{ $isUpcoming = true }}{{ end }}
             {{ end }}
-
             {{ if $isUpcoming }}
               {{ $volunteerEvents = $volunteerEvents | append . }}
             {{ end }}
@@ -156,21 +131,20 @@
               <span class="volunteer-time">{{ .time }}</span>
             </p>
             {{ if .volunteer_link }}
-            <a href="{{ .volunteer_link }}" target="_blank" class="btn-volunteer-signup">Sign Up to Help</a>
+            <a href="{{ .volunteer_link }}" target="_blank" class="btn-volunteer-signup">{{ i18n "sign_up_to_help" }}</a>
             {{ end }}
           </div>
           {{ end }}
         </div>
-        <a href="{{ "/volunteer/" | relURL }}" class="view-all">See All Opportunities →</a>
+        <a href="{{ "/volunteer/" | relLangURL }}" class="view-all">{{ i18n "see_all_opportunities" }}</a>
         {{ else }}
-        <p>No volunteer opportunities at this time. Check back soon!</p>
+        <p>{{ i18n "no_volunteer_opportunities" }}</p>
         {{ end }}
         {{ end }}
       </div>
 
-      <!-- Board Members Preview -->
       <div class="section-card">
-        <h2>Meet the Board</h2>
+        <h2>{{ i18n "meet_the_board" }}</h2>
         {{ $members := .Site.Data.board.members }}
         {{ if $members }}
         <div class="board-preview">
@@ -181,13 +155,12 @@
           </div>
           {{ end }}
         </div>
-        <a href="{{ "/board/" | relURL }}" class="view-all">Meet Everyone →</a>
+        <a href="{{ "/board/" | relLangURL }}" class="view-all">{{ i18n "meet_everyone" }}</a>
         {{ end }}
       </div>
 
-      <!-- Latest News -->
       <div class="section-card">
-        <h2>Latest News</h2>
+        <h2>{{ i18n "latest_news" }}</h2>
         {{ $news := .Site.Data.news.posts }}
         {{ if $news }}
         <div class="news-preview">
@@ -199,20 +172,19 @@
           </div>
           {{ end }}
         </div>
-        <a href="{{ "/news/" | relURL }}" class="view-all">View All News →</a>
+        <a href="{{ "/news/" | relLangURL }}" class="view-all">{{ i18n "view_all_news" }}</a>
         {{ end }}
       </div>
 
     </div>
   </section>
 
-  <!-- Call to Action -->
   <section class="cta-section">
     <div class="container">
       <div class="cta-content">
-        <h2>Get Involved Today!</h2>
-        <p>Your membership makes a difference in our school community.</p>
-        <a href="{{ "/join/" | relURL }}" class="btn btn-large cta-join-btn">Become a Member</a>
+        <h2>{{ i18n "get_involved_today" }}</h2>
+        <p>{{ i18n "membership_difference" }}</p>
+        <a href="{{ "/join/" | relLangURL }}" class="btn btn-large cta-join-btn">{{ i18n "become_a_member" }}</a>
       </div>
     </div>
   </section>

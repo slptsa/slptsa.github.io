@@ -1,25 +1,22 @@
 {{ define "main" }}
 <div class="board-page">
 
-  <!-- Page Intro -->
   <section class="page-intro">
     <div class="container">
-      <h1>{{ .Site.Data.board.title | default "PTSA Board Members" }}</h1>
+      <h1>{{ .Site.Data.board.title | default (i18n "board_default_title") }}</h1>
       <p class="intro-text">{{ .Content }}</p>
     </div>
   </section>
 
-  <!-- Board Members Section -->
   <section class="board-section">
     <div class="container">
 
       {{ $members := .Site.Data.board.members }}
       {{ if $members }}
 
-      <!-- Elected Officials -->
       <div class="board-category">
-        <h2 class="category-title">Elected Officials</h2>
-        <p class="category-description">Our elected board members serve one-year terms and are voted on annually by PTSA members.</p>
+        <h2 class="category-title">{{ i18n "elected_officials" }}</h2>
+        <p class="category-description">{{ i18n "elected_officials_desc" }}</p>
 
         <div class="board-grid">
           {{ range $members }}
@@ -29,37 +26,28 @@
               {{ if .photo }}
               <img src="/img/board/{{ .photo }}" alt="{{ .name }}" class="photo">
               {{ else }}
-              <div class="photo-placeholder">
-                {{ substr .name 0 1 }}
-              </div>
+              <div class="photo-placeholder">{{ substr .name 0 1 }}</div>
               {{ end }}
             </div>
-
             <div class="member-info">
               <h3 class="member-name">{{ .name }}</h3>
               <p class="member-position">{{ .position }}</p>
-
               {{ if .election_date }}
               <p class="election-info">
-                <span class="election-label">Elected:</span> {{ .election_date }}
+                <span class="election-label">{{ i18n "elected_label" }}</span> {{ .election_date }}
               </p>
               {{ end }}
-
               {{ if .term }}
               <p class="term-info">
-                <span class="term-label">Term:</span> {{ .term }}
+                <span class="term-label">{{ i18n "term_label" }}</span> {{ .term }}
               </p>
               {{ end }}
-
               {{ if .bio }}
               <p class="member-bio">{{ .bio }}</p>
               {{ end }}
-
               {{ if .email }}
               <p class="member-contact">
-                <a href="mailto:{{ .email }}" class="email-link">
-                  📧 {{ .email }}
-                </a>
+                <a href="mailto:{{ .email }}" class="email-link">📧 {{ .email }}</a>
               </p>
               {{ end }}
             </div>
@@ -69,18 +57,15 @@
         </div>
       </div>
 
-      <!-- Appointed Positions -->
       {{ $hasAppointed := false }}
       {{ range $members }}
-        {{ if not .elected }}
-          {{ $hasAppointed = true }}
-        {{ end }}
+        {{ if not .elected }}{{ $hasAppointed = true }}{{ end }}
       {{ end }}
 
       {{ if $hasAppointed }}
       <div class="board-category appointed">
-        <h2 class="category-title">Appointed Positions</h2>
-        <p class="category-description">Our appointed board members work alongside elected officials to support PTSA operations and programs.</p>
+        <h2 class="category-title">{{ i18n "appointed_positions" }}</h2>
+        <p class="category-description">{{ i18n "appointed_positions_desc" }}</p>
 
         <div class="board-grid">
           {{ range $members }}
@@ -90,25 +75,18 @@
               {{ if .photo }}
               <img src="/img/board/{{ .photo }}" alt="{{ .name }}" class="photo">
               {{ else }}
-              <div class="photo-placeholder">
-                {{ substr .name 0 1 }}
-              </div>
+              <div class="photo-placeholder">{{ substr .name 0 1 }}</div>
               {{ end }}
             </div>
-
             <div class="member-info">
               <h3 class="member-name">{{ .name }}</h3>
               <p class="member-position">{{ .position }}</p>
-
               {{ if .bio }}
               <p class="member-bio">{{ .bio }}</p>
               {{ end }}
-
               {{ if .email }}
               <p class="member-contact">
-                <a href="mailto:{{ .email }}" class="email-link">
-                  📧 {{ .email }}
-                </a>
+                <a href="mailto:{{ .email }}" class="email-link">📧 {{ .email }}</a>
               </p>
               {{ end }}
             </div>
@@ -120,18 +98,17 @@
       {{ end }}
 
       {{ else }}
-      <p class="no-data">Board member information is not available at this time.</p>
+      <p class="no-data">{{ i18n "no_board_data" }}</p>
       {{ end }}
 
     </div>
   </section>
 
-  <!-- Join Us CTA -->
   <section class="board-cta">
     <div class="container">
-      <h2>Interested in Joining the Board?</h2>
-      <p>We welcome parents and guardians who want to make a difference! Board elections are held each spring.</p>
-      <a href="{{ "/join/" | relURL }}" class="btn-primary">Learn More About PTSA</a>
+      <h2>{{ i18n "join_board_title" }}</h2>
+      <p>{{ i18n "join_board_desc" }}</p>
+      <a href="{{ "/join/" | relLangURL }}" class="btn-primary">{{ i18n "learn_more_ptsa" }}</a>
     </div>
   </section>
 

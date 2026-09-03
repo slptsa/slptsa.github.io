@@ -1,0 +1,112 @@
+# Navigation
+nav_home: መነሻ ገጽ
+nav_about_ptsa: ስለ PTSA
+nav_about_us: ስለ እኛ
+nav_board_members: የቦርድ አባላት
+nav_events: ዝግጅቶች
+nav_news: ዜናዎች
+nav_sponsors: ስፖንሰሮች
+nav_resources: ሀብቶች
+nav_join_ptsa: PTSAን ይቀላቀሉ
+nav_volunteer: የበጎ ፈቃደኝነት እድሎች
+nav_staff_favorites: "የሠራተኞች ምርጦች እና ምኞት ዝርዝሮች"
+nav_school_info: የትምህርት ቤት መረጃ
+nav_donate: ለጋስ
+toggle_nav: የናቪጌሽን ምናሌን ቀያይር
+
+# Home page
+welcome: እንኳን ደህና መጡ
+join_ptsa_today: ዛሬ PTSAን ይቀላቀሉ
+view_events: ዝግጅቶችን ይመልከቱ
+active_members: ንቁ አባላት
+events_this_year: በዚህ ዓመት ዝግጅቶች
+raised_for_students: ለተማሪዎች የተሰበሰበ
+support_teachers_title: መምህሮቻችንን ይደግፉ!
+support_teachers_desc: "የመምህሮቻችንን ምርጥ ነገሮች እና ምኞት ዝርዝሮች ይመልከቱ። የክፍል ፍላጎቶቻቸውን በማሟላት ምስጋናዎን ያሳዩ።"
+view_staff_favorites: የሠራተኞች ምርጦችን ይመልከቱ
+upcoming_events: መጪ ዝግጅቶች
+view_all_events: "ሁሉም ዝግጅቶችን ይመልከቱ →"
+no_upcoming_events: በዚህ ጊዜ መጪ ዝግጅቶች የሉም። ብዙም ሳይቆይ ይመለሱ!
+volunteer_opportunities: የበጎ ፈቃደኝነት እድሎች
+sign_up_to_help: ለመርዳት ይመዝገቡ
+see_all_opportunities: "ሁሉም እድሎችን ይመልከቱ →"
+no_volunteer_opportunities: በዚህ ጊዜ የበጎ ፈቃደኝነት እድሎች የሉም። ብዙም ሳይቆይ ይመለሱ!
+meet_the_board: ቦርዱን ይጎብኙ
+meet_everyone: "ሁሉንም ይጎብኙ →"
+latest_news: የቅርብ ጊዜ ዜናዎች
+view_all_news: "ሁሉም ዜናዎችን ይመልከቱ →"
+get_involved_today: ዛሬ ይሳተፉ!
+membership_difference: አባልነትዎ በትምህርት ቤት ማህበረሰባችን ላይ ለውጥ ያመጣል።
+become_a_member: አባል ይሁኑ
+
+# Board page
+board_default_title: የPTSA ቦርድ አባላት
+elected_officials: ተመረጡ ባለሥልጣናት
+elected_officials_desc: ተመርጠው የቦርድ አባላቶቻችን አንድ ዓመት ያገለግላሉ እና በPTSA አባላት በየዓመቱ ይመረጣሉ።
+elected_label: "ተመረጠ:"
+term_label: "ዘመን:"
+appointed_positions: የተሾሙ ቦታዎች
+appointed_positions_desc: ተሾምተው የቦርድ አባላቶቻችን የPTSA ሥራዎችን እና ፕሮግራሞችን ለመደገፍ ከተመረጡ ባለሥልጣናት ጋር አብረው ይሠራሉ።
+no_board_data: የቦርድ አባላት መረጃ በዚህ ጊዜ አይገኝም።
+join_board_title: ቦርዱን ለመቀላቀል ፍላጎት አለዎት?
+join_board_desc: ለውጥ ማምጣት የሚፈልጉ ወላጆችን እና አሳዳጊዎችን እንቀበላለን! የቦርድ ምርጫዎች በየፀደይ ወቅት ይካሄዳሉ።
+learn_more_ptsa: ስለ PTSA ተጨማሪ ይወቁ
+
+# Staff favorites
+search_teacher_label: መምህር ይፈልጉ
+search_teacher_placeholder: በመምህር ስም ይፈልጉ...
+clear_search_label: ፍለጋ ያጽዱ
+no_teachers_found: ለፍለጋዎ የሚጣጣም ምንም መምህር አልተገኘም።
+view_amazon_wishlist: "🎁 የAmazon ምኞት ዝርዝር ይመልከቱ"
+no_wishlist: ምኞት ዝርዝር አልቀረበም
+fav_snacks: "🍿 ምርጥ ቀለል ምግቦች"
+fav_restaurants: "🍽️ ምርጥ ምግብ ቤቶች"
+fav_beverages: "☕ ምርጥ መጠጦች"
+fav_stores: "🏪 ምርጥ መደብሮች"
+fav_colors: "🎨 ምርጥ ቀለሞች"
+fav_flowers: "🌸 ምርጥ አበቦች"
+hobbies: "🎯 የትርፍ ጊዜ ማሳለፊያዎች"
+fav_things: "❤️ ምርጥ ነገሮች"
+classroom_needs: "📚 የክፍል ፍላጎቶች"
+how_to_appreciate: "🙏 እንዴት ምስጋና ማሳየት ይቻላል"
+no_staff_data: የሠራተኞች ምርጦች መረጃ በዚህ ጊዜ አይገኝም።
+
+# Events
+time_label: "⏰ ጊዜ:"
+location_label: "📍 ቦታ:"
+join_zoom: "🔗 የZoom ስብሰባ ይቀላቀሉ"
+volunteer_sign_up: "🙋 እንደ በጎ ፈቃደኛ ይመዝገቡ"
+no_events: በዚህ ጊዜ መጪ ዝግጅቶች የሉም። ብዙም ሳይቆይ ይመለሱ!
+
+# News
+no_news: በዚህ ጊዜ አሁናዊ ዜናዎች የሉም። ብዙም ሳይቆይ ይመለሱ!
+expires_notice: ይህ ማስታወቂያ ያበቃበት ቀን
+
+# Volunteer page
+ptsa_event_volunteers: የPTSA ዝግጅት በጎ ፈቃደኞች
+sign_up_to_volunteer: "🙋 እንደ በጎ ፈቃደኛ ይመዝገቡ"
+signup_coming_soon: የምዝገባ አገናኝ ቅርቡ ይመጣል!
+no_volunteer_opps: በዚህ ጊዜ ምንም የበጎ ፈቃደኝነት እድሎች የሉም። ብዙም ሳይቆይ ይመለሱ!
+join_ptsa_link: PTSAን ይቀላቀሉ
+view_all_events_link: ሁሉም መጪ ዝግጅቶችን ይመልከቱ
+no_events_data: ምንም የዝግጅት ዳታ የለም።
+open_spots_title: በPTSA ውስጥ ክፍት ቦታዎች
+open_spots_intro: "ቡድናችንን ይቀላቀሉ! በPTSA ቦርድ እና ኮሚቴዎቻችን ውስጥ ክፍቶች አሉን። ለተማሪዎቻችን ለውጥ ለማምጣት ይርዱን።"
+time_commitment: "⏱️ የጊዜ ቁርጠኝነት:"
+term: "📅 ዘመን:"
+express_interest: "✉️ ፍላጎት ይግለጹ"
+no_positions: በዚህ ጊዜ ክፍት ቦታዎች የሉም። ብዙም ሳይቆይ ይመለሱ ወይም ስለ ወደፊት እድሎች ለማወቅ ያነጋግሩን!
+no_positions_data: ምንም የቦታ ዳታ የለም።
+
+# Footer
+footer_about_desc: በMukilteo ትምህርት ዲስትሪክት ውስጥ ባለው Serene Lake አንደኛ ደረጃ ትምህርት ቤት ተማሪዎችን፣ መምህሮችን እና ቤተሰቦችን ይደግፋሉ።
+footer_quick_links: ፈጣን አገናኞች
+footer_join_ptsa: PTSAን ይቀላቀሉ
+footer_volunteer: በጎ ፈቃደኝነት
+footer_teacher_wishlists: የመምህራን ምኞት ዝርዝሮች
+footer_resources: ሀብቶች
+footer_get_involved: ይሳተፉ!
+footer_get_involved_desc: በትምህርት ቤት ማህበረሰባችን ለውጥ ለማምጣት አብረን ይቀላቀሉን።
+footer_join_today: ዛሬ PTSAን ይቀላቀሉ
+footer_connect: ከእኛ ጋር ይገናኙ
+footer_tagline: እያንዳንዱ ልጅ። አንድ ድምጽ።

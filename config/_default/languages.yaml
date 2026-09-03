@@ -1,8 +1,9 @@
 en:
   languageName: English
+  contentDir: content/en
   weight: 1
   ### copyright (markdown can be used) ###
-  copyright: "Copyright &copy; {{< current_year >}} Serene Lake PTSA. All Rights Reserved." 
+  copyright: "Copyright &copy; {{< current_year >}} Serene Lake PTSA. All Rights Reserved."
   title: "Serene Lake PTSA"
   params:
     description: "Serene Lake Elementary PTSA - Mukilteo School District"
@@ -18,3 +19,518 @@ en:
     footer_cta:
       text: "Join us"
       link: "https://slptsa.givebacks.com/shop"
+
+prs:
+  languageName: دری
+  languageDirection: rtl
+  contentDir: content/prs
+  weight: 2
+  copyright: "Copyright &copy; {{< current_year >}} Serene Lake PTSA. All Rights Reserved."
+  title: "سرین لیک PTSA"
+  params:
+    description: "انجمن والدین، معلمان و شاگردان مکتب ابتدایی سرین لیک - ناحیه مکتبی موکیلتئو"
+    accessibility:
+      skip_text: "رفتن به محتوا"
+      help_text: "بیانیه دسترسی"
+      help_url: "/prs/"
+    main_cta:
+      text: "عضو شوید!"
+      link: "https://slptsa.givebacks.com/shop"
+    footer_cta:
+      text: "عضو شوید"
+      link: "https://slptsa.givebacks.com/shop"
+  menus:
+    main:
+      - identifier: home
+        name: خانه
+        url: /prs/
+        weight: 1
+      - identifier: about
+        name: درباره ما
+        url: /prs/about/
+        weight: 10
+      - identifier: board
+        name: هیئت مدیره
+        url: /prs/board/
+        parent: about
+        weight: 11
+      - identifier: events
+        name: رویدادها
+        url: /prs/events/
+        weight: 30
+      - identifier: news
+        name: اخبار
+        url: /prs/news/
+        weight: 40
+      - identifier: our-school
+        name: مکتب ما
+        url: /prs/our-school/
+        weight: 50
+      - identifier: staff-favorites
+        name: علایق کارمندان
+        url: /prs/our-school/staff-favorites/
+        parent: our-school
+        weight: 51
+      - identifier: wapta
+        name: WA-PTA
+        url: https://www.wastatepta.org
+        weight: 60
+        params:
+          class: btn-wapta
+
+uk:
+  languageName: Українська
+  contentDir: content/uk
+  weight: 3
+  copyright: "Copyright &copy; {{< current_year >}} Serene Lake PTSA. All Rights Reserved."
+  title: "Serene Lake PTSA"
+  params:
+    description: "Асоціація батьків, учителів та учнів початкової школи Serene Lake - Шкільний округ Mukilteo"
+    accessibility:
+      skip_text: "Перейти до вмісту"
+      help_text: "Заява про доступність"
+      help_url: "/uk/"
+    main_cta:
+      text: "Приєднайтесь!"
+      link: "https://slptsa.givebacks.com/shop"
+    footer_cta:
+      text: "Приєднайтесь"
+      link: "https://slptsa.givebacks.com/shop"
+  menus:
+    main:
+      - identifier: home
+        name: Головна
+        url: /uk/
+        weight: 1
+      - identifier: about
+        name: Про PTSA
+        url: /uk/about/
+        weight: 10
+      - identifier: board
+        name: Правління
+        url: /uk/board/
+        parent: about
+        weight: 11
+      - identifier: events
+        name: Події
+        url: /uk/events/
+        weight: 30
+      - identifier: news
+        name: Новини
+        url: /uk/news/
+        weight: 40
+      - identifier: our-school
+        name: Наша школа
+        url: /uk/our-school/
+        weight: 50
+      - identifier: staff-favorites
+        name: "Улюблені речі персоналу"
+        url: /uk/our-school/staff-favorites/
+        parent: our-school
+        weight: 51
+      - identifier: wapta
+        name: WA-PTA
+        url: https://www.wastatepta.org
+        weight: 60
+        params:
+          class: btn-wapta
+
+ru:
+  languageName: Русский
+  contentDir: content/ru
+  weight: 4
+  copyright: "Copyright &copy; {{< current_year >}} Serene Lake PTSA. All Rights Reserved."
+  title: "Serene Lake PTSA"
+  params:
+    description: "Ассоциация родителей, учителей и учащихся начальной школы Serene Lake - Школьный округ Mukilteo"
+    accessibility:
+      skip_text: "Перейти к содержимому"
+      help_text: "Заявление о доступности"
+      help_url: "/ru/"
+    main_cta:
+      text: "Присоединяйтесь!"
+      link: "https://slptsa.givebacks.com/shop"
+    footer_cta:
+      text: "Присоединяйтесь"
+      link: "https://slptsa.givebacks.com/shop"
+  menus:
+    main:
+      - identifier: home
+        name: Главная
+        url: /ru/
+        weight: 1
+      - identifier: about
+        name: О PTSA
+        url: /ru/about/
+        weight: 10
+      - identifier: board
+        name: Правление
+        url: /ru/board/
+        parent: about
+        weight: 11
+      - identifier: events
+        name: Мероприятия
+        url: /ru/events/
+        weight: 30
+      - identifier: news
+        name: Новости
+        url: /ru/news/
+        weight: 40
+      - identifier: our-school
+        name: Наша школа
+        url: /ru/our-school/
+        weight: 50
+      - identifier: staff-favorites
+        name: "Любимое сотрудников"
+        url: /ru/our-school/staff-favorites/
+        parent: our-school
+        weight: 51
+      - identifier: wapta
+        name: WA-PTA
+        url: https://www.wastatepta.org
+        weight: 60
+        params:
+          class: btn-wapta
+
+es:
+  languageName: Español
+  contentDir: content/es
+  weight: 5
+  copyright: "Copyright &copy; {{< current_year >}} Serene Lake PTSA. All Rights Reserved."
+  title: "Serene Lake PTSA"
+  params:
+    description: "Asociación de Padres, Maestros y Estudiantes de la Escuela Primaria Serene Lake - Distrito Escolar de Mukilteo"
+    accessibility:
+      skip_text: "Saltar al contenido"
+      help_text: "Declaración de accesibilidad"
+      help_url: "/es/"
+    main_cta:
+      text: "¡Únase!"
+      link: "https://slptsa.givebacks.com/shop"
+    footer_cta:
+      text: "Únase"
+      link: "https://slptsa.givebacks.com/shop"
+  menus:
+    main:
+      - identifier: home
+        name: Inicio
+        url: /es/
+        weight: 1
+      - identifier: about
+        name: Sobre la PTSA
+        url: /es/about/
+        weight: 10
+      - identifier: board
+        name: Junta directiva
+        url: /es/board/
+        parent: about
+        weight: 11
+      - identifier: events
+        name: Eventos
+        url: /es/events/
+        weight: 30
+      - identifier: news
+        name: Noticias
+        url: /es/news/
+        weight: 40
+      - identifier: our-school
+        name: Nuestra escuela
+        url: /es/our-school/
+        weight: 50
+      - identifier: staff-favorites
+        name: "Favoritos del personal"
+        url: /es/our-school/staff-favorites/
+        parent: our-school
+        weight: 51
+      - identifier: wapta
+        name: WA-PTA
+        url: https://www.wastatepta.org
+        weight: 60
+        params:
+          class: btn-wapta
+
+ps:
+  languageName: پښتو
+  languageDirection: rtl
+  contentDir: content/ps
+  weight: 6
+  copyright: "Copyright &copy; {{< current_year >}} Serene Lake PTSA. All Rights Reserved."
+  title: "Serene Lake PTSA"
+  params:
+    description: "د سرین لیک ابتداییه ښوونځي د والدینو، معلمانو او زده‌کوونکو ټولنه - د موکیلتئو ښوونځي ولایت"
+    accessibility:
+      skip_text: "محتوا ته لاړ شئ"
+      help_text: "د لاسرسي بیاینه"
+      help_url: "/ps/"
+    main_cta:
+      text: "غړي شئ!"
+      link: "https://slptsa.givebacks.com/shop"
+    footer_cta:
+      text: "غړي شئ"
+      link: "https://slptsa.givebacks.com/shop"
+  menus:
+    main:
+      - identifier: home
+        name: کور
+        url: /ps/
+        weight: 1
+      - identifier: about
+        name: د PTSA په اړه
+        url: /ps/about/
+        weight: 10
+      - identifier: board
+        name: د هیئت غړي
+        url: /ps/board/
+        parent: about
+        weight: 11
+      - identifier: events
+        name: پیښې
+        url: /ps/events/
+        weight: 30
+      - identifier: news
+        name: خبرونه
+        url: /ps/news/
+        weight: 40
+      - identifier: our-school
+        name: زموږ ښوونځی
+        url: /ps/our-school/
+        weight: 50
+      - identifier: staff-favorites
+        name: "د کارکوونکو خوښې"
+        url: /ps/our-school/staff-favorites/
+        parent: our-school
+        weight: 51
+      - identifier: wapta
+        name: WA-PTA
+        url: https://www.wastatepta.org
+        weight: 60
+        params:
+          class: btn-wapta
+
+vi:
+  languageName: Tiếng Việt
+  contentDir: content/vi
+  weight: 7
+  copyright: "Copyright &copy; {{< current_year >}} Serene Lake PTSA. All Rights Reserved."
+  title: "Serene Lake PTSA"
+  params:
+    description: "Hội Phụ huynh, Giáo viên và Học sinh Trường Tiểu học Serene Lake - Học khu Mukilteo"
+    accessibility:
+      skip_text: "Chuyển đến nội dung"
+      help_text: "Tuyên bố về khả năng tiếp cận"
+      help_url: "/vi/"
+    main_cta:
+      text: "Tham gia!"
+      link: "https://slptsa.givebacks.com/shop"
+    footer_cta:
+      text: "Tham gia"
+      link: "https://slptsa.givebacks.com/shop"
+  menus:
+    main:
+      - identifier: home
+        name: Trang chủ
+        url: /vi/
+        weight: 1
+      - identifier: about
+        name: Về PTSA
+        url: /vi/about/
+        weight: 10
+      - identifier: board
+        name: Ban quản trị
+        url: /vi/board/
+        parent: about
+        weight: 11
+      - identifier: events
+        name: "Sự kiện"
+        url: /vi/events/
+        weight: 30
+      - identifier: news
+        name: "Tin tức"
+        url: /vi/news/
+        weight: 40
+      - identifier: our-school
+        name: "Trường của chúng ta"
+        url: /vi/our-school/
+        weight: 50
+      - identifier: staff-favorites
+        name: "Yêu thích của nhân viên"
+        url: /vi/our-school/staff-favorites/
+        parent: our-school
+        weight: 51
+      - identifier: wapta
+        name: WA-PTA
+        url: https://www.wastatepta.org
+        weight: 60
+        params:
+          class: btn-wapta
+
+zh:
+  languageName: 中文（简体）
+  contentDir: content/zh
+  weight: 8
+  copyright: "Copyright &copy; {{< current_year >}} Serene Lake PTSA. All Rights Reserved."
+  title: "Serene Lake PTSA"
+  params:
+    description: "Serene Lake小学家长教师学生协会 - Mukilteo学区"
+    accessibility:
+      skip_text: "跳转到内容"
+      help_text: "无障碍声明"
+      help_url: "/zh/"
+    main_cta:
+      text: "加入我们！"
+      link: "https://slptsa.givebacks.com/shop"
+    footer_cta:
+      text: "加入我们"
+      link: "https://slptsa.givebacks.com/shop"
+  menus:
+    main:
+      - identifier: home
+        name: 首页
+        url: /zh/
+        weight: 1
+      - identifier: about
+        name: 关于PTSA
+        url: /zh/about/
+        weight: 10
+      - identifier: board
+        name: 董事会
+        url: /zh/board/
+        parent: about
+        weight: 11
+      - identifier: events
+        name: 活动
+        url: /zh/events/
+        weight: 30
+      - identifier: news
+        name: 新闻
+        url: /zh/news/
+        weight: 40
+      - identifier: our-school
+        name: 我们的学校
+        url: /zh/our-school/
+        weight: 50
+      - identifier: staff-favorites
+        name: "教职员工最爱"
+        url: /zh/our-school/staff-favorites/
+        parent: our-school
+        weight: 51
+      - identifier: wapta
+        name: WA-PTA
+        url: https://www.wastatepta.org
+        weight: 60
+        params:
+          class: btn-wapta
+
+am:
+  languageName: አማርኛ
+  contentDir: content/am
+  weight: 9
+  copyright: "Copyright &copy; {{< current_year >}} Serene Lake PTSA. All Rights Reserved."
+  title: "Serene Lake PTSA"
+  params:
+    description: "የሴሬን ሌክ አንደኛ ደረጃ ትምህርት ቤት የወላጆች፣ አስተማሪዎች እና ተማሪዎች ማህበር - የሙኪልቴኦ ትምህርት ቤት ወረዳ"
+    accessibility:
+      skip_text: "ወደ ይዘት ዝለል"
+      help_text: "የተደራሽነት መግለጫ"
+      help_url: "/am/"
+    main_cta:
+      text: "ይቀላቀሉ!"
+      link: "https://slptsa.givebacks.com/shop"
+    footer_cta:
+      text: "ይቀላቀሉ"
+      link: "https://slptsa.givebacks.com/shop"
+  menus:
+    main:
+      - identifier: home
+        name: መነሻ ገጽ
+        url: /am/
+        weight: 1
+      - identifier: about
+        name: ስለ PTSA
+        url: /am/about/
+        weight: 10
+      - identifier: board
+        name: ቦርድ
+        url: /am/board/
+        parent: about
+        weight: 11
+      - identifier: events
+        name: ዝግጅቶች
+        url: /am/events/
+        weight: 30
+      - identifier: news
+        name: ዜናዎች
+        url: /am/news/
+        weight: 40
+      - identifier: our-school
+        name: የእኛ ትምህርት ቤት
+        url: /am/our-school/
+        weight: 50
+      - identifier: staff-favorites
+        name: "የሠራተኞች ምርጦች"
+        url: /am/our-school/staff-favorites/
+        parent: our-school
+        weight: 51
+      - identifier: wapta
+        name: WA-PTA
+        url: https://www.wastatepta.org
+        weight: 60
+        params:
+          class: btn-wapta
+
+fil:
+  languageName: Filipino
+  contentDir: content/fil
+  weight: 10
+  copyright: "Copyright &copy; {{< current_year >}} Serene Lake PTSA. All Rights Reserved."
+  title: "Serene Lake PTSA"
+  params:
+    description: "Samahan ng mga Magulang, Guro at Estudyante ng Serene Lake Elementary School - Mukilteo School District"
+    accessibility:
+      skip_text: "Pumunta sa nilalaman"
+      help_text: "Pahayag ng Accessibility"
+      help_url: "/fil/"
+    main_cta:
+      text: "Sumali!"
+      link: "https://slptsa.givebacks.com/shop"
+    footer_cta:
+      text: "Sumali"
+      link: "https://slptsa.givebacks.com/shop"
+  menus:
+    main:
+      - identifier: home
+        name: Tahanan
+        url: /fil/
+        weight: 1
+      - identifier: about
+        name: Tungkol sa PTSA
+        url: /fil/about/
+        weight: 10
+      - identifier: board
+        name: Lupon
+        url: /fil/board/
+        parent: about
+        weight: 11
+      - identifier: events
+        name: Mga Kaganapan
+        url: /fil/events/
+        weight: 30
+      - identifier: news
+        name: Balita
+        url: /fil/news/
+        weight: 40
+      - identifier: our-school
+        name: Ang aming paaralan
+        url: /fil/our-school/
+        weight: 50
+      - identifier: staff-favorites
+        name: "Mga Paboritong Bagay ng Staff"
+        url: /fil/our-school/staff-favorites/
+        parent: our-school
+        weight: 51
+      - identifier: wapta
+        name: WA-PTA
+        url: https://www.wastatepta.org
+        weight: 60
+        params:
+          class: btn-wapta

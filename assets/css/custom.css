@@ -2723,6 +2723,105 @@ body.page-home #content header {
 }
 
 /* ============================================
+   DARI / RTL SUPPORT
+   ============================================ */
+[dir="rtl"] body {
+  font-family: "Noto Naskh Arabic", "Tahoma", "Arial", sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .dropdown-menu a {
+  border-left: none;
+  border-right: 3px solid transparent;
+}
+
+[dir="rtl"] .dropdown-menu a:hover {
+  border-left-color: transparent;
+  border-right-color: var(--color-accent);
+}
+
+[dir="rtl"] .dropdown-arrow {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+
+[dir="rtl"] .event-card,
+[dir="rtl"] .volunteer-event-card {
+  border-left: none;
+  border-right: 5px solid var(--color-primary);
+}
+
+[dir="rtl"] .event-card:hover,
+[dir="rtl"] .volunteer-event-card:hover {
+  border-right-color: var(--color-secondary);
+}
+
+[dir="rtl"] .favorite-item {
+  border-left: none;
+  border-right: 3px solid var(--color-light-gray);
+  padding-left: 0;
+  padding-right: 0.25rem;
+}
+
+[dir="rtl"] .favorite-item:hover {
+  border-right-color: var(--color-primary);
+}
+
+[dir="rtl"] .favorite-item.classroom-needs,
+[dir="rtl"] .favorite-item.appreciation {
+  border-left: none;
+  border-right: 4px solid;
+  padding-left: 1rem;
+  padding-right: 1.25rem;
+}
+
+[dir="rtl"] .email-link:hover {
+  transform: translateX(-3px);
+}
+
+[dir="rtl"] .footer-links a:hover {
+  transform: translateX(-5px);
+}
+
+[dir="rtl"] .mobile-menu-toggle {
+  right: auto;
+  left: 1rem;
+}
+
+[dir="rtl"] .search-icon {
+  left: auto;
+  right: 1.25rem;
+}
+
+[dir="rtl"] .clear-search {
+  right: auto;
+  left: 1rem;
+}
+
+[dir="rtl"] .staff-search-input {
+  padding: 1rem 3.5rem 1rem 3.5rem;
+}
+
+[dir="rtl"] .board-category.appointed {
+  border-top: 2px solid var(--color-light-gray);
+}
+
+[dir="rtl"] .position-card {
+  border-left: none;
+  border-right: 5px solid #7c3aed;
+}
+
+[dir="rtl"] .position-card:hover {
+  border-right-color: #6d28d9;
+}
+
+/* ============================================
    VOLUNTEER PAGE - POSITION CARDS
    ============================================ */
 

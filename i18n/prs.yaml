@@ -1,0 +1,112 @@
+# ناوبری
+nav_home: خانه
+nav_about_ptsa: درباره PTSA
+nav_about_us: درباره ما
+nav_board_members: اعضای هیئت مدیره
+nav_events: رویدادها
+nav_news: اخبار
+nav_sponsors: حامیان
+nav_resources: منابع
+nav_join_ptsa: عضویت در PTSA
+nav_volunteer: فرصت‌های داوطلبی
+nav_staff_favorites: علایق و لیست آرزوی کارمندان
+nav_school_info: اطلاعات مکتب
+nav_donate: کمک مالی
+toggle_nav: باز/بستن منوی ناوبری
+
+# صفحه اصلی
+welcome: خوش آمدید
+join_ptsa_today: همین امروز به PTSA بپیوندید
+view_events: مشاهده رویدادها
+active_members: اعضای فعال
+events_this_year: رویدادهای امسال
+raised_for_students: جمع‌آوری شده برای شاگردان
+support_teachers_title: از معلمان ما حمایت کنید!
+support_teachers_desc: علایق معلمان و لیست آرزوهای آنها را ببینید. قدردانی خود را با کمک به تأمین نیازهای کلاسی آنها نشان دهید.
+view_staff_favorites: مشاهده علایق کارمندان
+upcoming_events: رویدادهای آینده
+view_all_events: مشاهده همه رویدادها →
+no_upcoming_events: در حال حاضر رویداد آینده‌ای وجود ندارد. بعداً بیایید!
+volunteer_opportunities: فرصت‌های داوطلبی
+sign_up_to_help: ثبت‌نام برای کمک
+see_all_opportunities: مشاهده همه فرصت‌ها →
+no_volunteer_opportunities: در حال حاضر فرصت داوطلبی وجود ندارد. بعداً بیایید!
+meet_the_board: با هیئت مدیره آشنا شوید
+meet_everyone: همه را بشناسید →
+latest_news: آخرین اخبار
+view_all_news: مشاهده همه اخبار →
+get_involved_today: همین امروز مشارکت کنید!
+membership_difference: عضویت شما در جامعه مکتبی ما تفاوت ایجاد می‌کند.
+become_a_member: عضو شوید
+
+# صفحه هیئت مدیره
+board_default_title: اعضای هیئت مدیره PTSA
+elected_officials: مقامات منتخب
+elected_officials_desc: اعضای منتخب هیئت مدیره ما برای دوره‌های یک‌ساله خدمت می‌کنند و سالانه توسط اعضای PTSA انتخاب می‌شوند.
+elected_label: "انتخاب شده:"
+term_label: "دوره:"
+appointed_positions: مناصب منصوب
+appointed_positions_desc: اعضای منصوب هیئت مدیره ما در کنار مقامات منتخب برای حمایت از عملیات و برنامه‌های PTSA کار می‌کنند.
+no_board_data: اطلاعات اعضای هیئت مدیره در حال حاضر در دسترس نیست.
+join_board_title: علاقه‌مند به پیوستن به هیئت مدیره هستید؟
+join_board_desc: از والدین و سرپرستانی که می‌خواهند تفاوت ایجاد کنند استقبال می‌کنیم! انتخابات هیئت مدیره هر بهار برگزار می‌شود.
+learn_more_ptsa: بیشتر درباره PTSA بدانید
+
+# علایق کارمندان
+search_teacher_label: جستجوی معلم
+search_teacher_placeholder: جستجو بر اساس نام معلم...
+clear_search_label: پاک کردن جستجو
+no_teachers_found: هیچ معلمی با جستجوی شما پیدا نشد.
+view_amazon_wishlist: "🎁 مشاهده لیست آرزوی آمازون"
+no_wishlist: لیست آرزو ارائه نشده
+fav_snacks: "🍿 خوراکی‌های مورد علاقه"
+fav_restaurants: "🍽️ رستوران‌های مورد علاقه"
+fav_beverages: "☕ نوشیدنی‌های مورد علاقه"
+fav_stores: "🏪 فروشگاه‌های مورد علاقه"
+fav_colors: "🎨 رنگ‌های مورد علاقه"
+fav_flowers: "🌸 گل‌های مورد علاقه"
+hobbies: "🎯 سرگرمی‌ها"
+fav_things: "❤️ چیزهای مورد علاقه"
+classroom_needs: "📚 نیازهای کلاسی"
+how_to_appreciate: "🙏 چگونه قدردانی کنیم"
+no_staff_data: اطلاعات علایق کارمندان در حال حاضر در دسترس نیست.
+
+# رویدادها
+time_label: "⏰ زمان:"
+location_label: "📍 محل:"
+join_zoom: "🔗 پیوستن به جلسه زوم"
+volunteer_sign_up: "🙋 ثبت‌نام داوطلب"
+no_events: در حال حاضر رویداد آینده‌ای وجود ندارد. بعداً بیایید!
+
+# اخبار
+no_news: در حال حاضر خبری وجود ندارد. بعداً بیایید!
+expires_notice: این اعلان منقضی می‌شود
+
+# صفحه داوطلبان
+ptsa_event_volunteers: داوطلبان رویداد PTSA
+sign_up_to_volunteer: "🙋 ثبت‌نام برای داوطلبی"
+signup_coming_soon: لینک ثبت‌نام به زودی!
+no_volunteer_opps: در حال حاضر فرصت داوطلبی وجود ندارد. بعداً بیایید!
+join_ptsa_link: به PTSA بپیوندید
+view_all_events_link: مشاهده همه رویدادها
+no_events_data: داده‌های رویداد در دسترس نیست.
+open_spots_title: جایگاه‌های باز در PTSA
+open_spots_intro: به تیم ما بپیوندید! ما در هیئت مدیره و کمیته‌های PTSA جای خالی داریم. در ایجاد تفاوت برای شاگردان کمک کنید.
+time_commitment: "⏱️ تعهد زمانی:"
+term: "📅 دوره:"
+express_interest: "✉️ اعلام علاقه"
+no_positions: در حال حاضر موضعی باز وجود ندارد. بعداً بیایید یا با ما تماس بگیرید!
+no_positions_data: داده‌های موضع در دسترس نیست.
+
+# فوتر
+footer_about_desc: حمایت از شاگردان، معلمان و خانواده‌ها در مکتب ابتدایی سرین لیک در ناحیه مکتبی موکیلتئو.
+footer_quick_links: لینک‌های سریع
+footer_join_ptsa: عضویت در PTSA
+footer_volunteer: داوطلب شوید
+footer_teacher_wishlists: لیست آرزوی معلمان
+footer_resources: منابع
+footer_get_involved: مشارکت کنید!
+footer_get_involved_desc: در ایجاد تفاوت در جامعه مکتبی ما به ما بپیوندید.
+footer_join_today: همین امروز به PTSA بپیوندید
+footer_connect: با ما در ارتباط باشید
+footer_tagline: هر کودک. یک صدا.

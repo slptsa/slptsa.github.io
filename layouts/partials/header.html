@@ -1,19 +1,19 @@
 <header class="site-header">
   <div class="header-banner">
     {{ if .Site.Params.headerBanner }}
-      <a href="{{ "/" | relURL }}" class="banner-link">
+      <a href="{{ "/" | relLangURL }}" class="banner-link">
         <img src="{{ .Site.Params.headerBanner }}" alt="{{ .Site.Title }}" class="banner-image">
       </a>
     {{ else }}
       <div class="site-title-text">
-        <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+        <a href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
       </div>
     {{ end }}
   </div>
 
   <nav class="main-nav">
     <div class="container">
-      <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <button class="mobile-menu-toggle" aria-label="{{ i18n "toggle_nav" }}" aria-expanded="false">
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
@@ -21,47 +21,47 @@
 
       <ul class="nav-menu">
         <li class="nav-item">
-          <a href="{{ "/" | relURL }}">Home</a>
+          <a href="{{ "/" | relLangURL }}">{{ i18n "nav_home" }}</a>
         </li>
 
         <li class="nav-item has-dropdown">
           <a class="dropdown-toggle">
-            About PTSA
+            {{ i18n "nav_about_ptsa" }}
             <span class="dropdown-arrow">▼</span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="{{ "/about/" | relURL }}">About Us</a></li>
-            <li><a href="{{ "/board/" | relURL }}">Board Members</a></li>
+            <li><a href="{{ "/about/" | relLangURL }}">{{ i18n "nav_about_us" }}</a></li>
+            <li><a href="{{ "/board/" | relLangURL }}">{{ i18n "nav_board_members" }}</a></li>
           </ul>
         </li>
 
         <li class="nav-item">
-          <a href="{{ "/events/" | relURL }}">Events</a>
+          <a href="{{ "/events/" | relLangURL }}">{{ i18n "nav_events" }}</a>
         </li>
 
         <li class="nav-item">
-          <a href="{{ "/news/" | relURL }}">News</a>
+          <a href="{{ "/news/" | relLangURL }}">{{ i18n "nav_news" }}</a>
         </li>
 
         <li class="nav-item">
-          <a href="{{ "/sponsors/" | relURL }}">Sponsors</a>
+          <a href="{{ "/sponsors/" | relLangURL }}">{{ i18n "nav_sponsors" }}</a>
         </li>
 
         <li class="nav-item has-dropdown">
           <a class="dropdown-toggle">
-            Resources
+            {{ i18n "nav_resources" }}
             <span class="dropdown-arrow">▼</span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="{{ "/join/" | relURL }}">Join PTSA</a></li>
-            <li><a href="{{ "/volunteer/" | relURL }}">Volunteer Opportunities</a></li>
-            <li><a href="{{ "/our-school/staff-favorites/" | relURL }}">Staff Favorites & Wish Lists</a></li>
-            <li><a href="{{ "/school-info/" | relURL }}">School Information</a></li>
+            <li><a href="{{ "/join/" | relLangURL }}">{{ i18n "nav_join_ptsa" }}</a></li>
+            <li><a href="{{ "/volunteer/" | relLangURL }}">{{ i18n "nav_volunteer" }}</a></li>
+            <li><a href="{{ "/our-school/staff-favorites/" | relLangURL }}">{{ i18n "nav_staff_favorites" }}</a></li>
+            <li><a href="{{ "/school-info/" | relLangURL }}">{{ i18n "nav_school_info" }}</a></li>
           </ul>
         </li>
 
         <li class="nav-item btn-donate">
-          <a href="{{ .Site.Params.donation_url }}">Donate</a>
+          <a href="{{ .Site.Params.donation_url }}">{{ i18n "nav_donate" }}</a>
         </li>
       </ul>
     </div>
@@ -74,7 +74,6 @@
     const navMenu = document.querySelector('.nav-menu');
     const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
 
-    // Mobile menu toggle
     if (mobileToggle) {
       mobileToggle.addEventListener('click', function() {
         const isExpanded = this.getAttribute('aria-expanded') === 'true';
@@ -84,10 +83,8 @@
       });
     }
 
-    // Dropdown toggles for mobile
     dropdownToggles.forEach(toggle => {
       toggle.addEventListener('click', function(e) {
-        // Only toggle on mobile
         if (window.innerWidth <= 768) {
           e.preventDefault();
           const parent = this.closest('.nav-item');
@@ -96,7 +93,6 @@
       });
     });
 
-    // Close menu when clicking outside
     document.addEventListener('click', function(e) {
       if (!e.target.closest('.main-nav') && navMenu.classList.contains('active')) {
         navMenu.classList.remove('active');
@@ -105,7 +101,6 @@
       }
     });
 
-    // Close menu on window resize to desktop
     window.addEventListener('resize', function() {
       if (window.innerWidth > 768 && navMenu.classList.contains('active')) {
         navMenu.classList.remove('active');
