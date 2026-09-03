@@ -60,6 +60,8 @@
           </ul>
         </li>
 
+        {{ partial "language-switcher.html" . }}
+
         <li class="nav-item btn-donate">
           <a href="{{ .Site.Params.donation_url }}">{{ i18n "nav_donate" }}</a>
         </li>
