@@ -1,0 +1,112 @@
+# Navigation
+nav_home: Home
+nav_about_ptsa: About PTSA
+nav_about_us: About Us
+nav_board_members: Board Members
+nav_events: Events
+nav_news: News
+nav_sponsors: Sponsors
+nav_resources: Resources
+nav_join_ptsa: Join PTSA
+nav_volunteer: Volunteer Opportunities
+nav_staff_favorites: "Staff Favorites & Wish Lists"
+nav_school_info: School Information
+nav_donate: Donate
+toggle_nav: Toggle navigation menu
+
+# Home page
+welcome: Welcome
+join_ptsa_today: Join PTSA Today
+view_events: View Events
+active_members: Active Members
+events_this_year: Events This Year
+raised_for_students: Raised for Students
+support_teachers_title: Support Our Teachers!
+support_teachers_desc: "Check out our teachers' favorite things and wish lists. Show your appreciation by helping fulfill their classroom needs."
+view_staff_favorites: View Staff Favorites
+upcoming_events: Upcoming Events
+view_all_events: View All Events →
+no_upcoming_events: No upcoming events at this time. Check back soon!
+volunteer_opportunities: Volunteer Opportunities
+sign_up_to_help: Sign Up to Help
+see_all_opportunities: See All Opportunities →
+no_volunteer_opportunities: No volunteer opportunities at this time. Check back soon!
+meet_the_board: Meet the Board
+meet_everyone: Meet Everyone →
+latest_news: Latest News
+view_all_news: View All News →
+get_involved_today: Get Involved Today!
+membership_difference: Your membership makes a difference in our school community.
+become_a_member: Become a Member
+
+# Board page
+board_default_title: PTSA Board Members
+elected_officials: Elected Officials
+elected_officials_desc: Our elected board members serve one-year terms and are voted on annually by PTSA members.
+elected_label: "Elected:"
+term_label: "Term:"
+appointed_positions: Appointed Positions
+appointed_positions_desc: Our appointed board members work alongside elected officials to support PTSA operations and programs.
+no_board_data: Board member information is not available at this time.
+join_board_title: Interested in Joining the Board?
+join_board_desc: We welcome parents and guardians who want to make a difference! Board elections are held each spring.
+learn_more_ptsa: Learn More About PTSA
+
+# Staff favorites
+search_teacher_label: Search for a teacher
+search_teacher_placeholder: Search by teacher name...
+clear_search_label: Clear search
+no_teachers_found: No teachers found matching your search.
+view_amazon_wishlist: "🎁 View Amazon Wish List"
+no_wishlist: No wishlist provided
+fav_snacks: "🍿 Favorite Snacks"
+fav_restaurants: "🍽️ Favorite Restaurants"
+fav_beverages: "☕ Favorite Beverages"
+fav_stores: "🏪 Favorite Stores"
+fav_colors: "🎨 Favorite Colors"
+fav_flowers: "🌸 Favorite Flowers"
+hobbies: "🎯 Hobbies"
+fav_things: "❤️ Favorite Things"
+classroom_needs: "📚 Classroom Needs"
+how_to_appreciate: "🙏 How to Appreciate"
+no_staff_data: Staff favorites information is not available at this time.
+
+# Events
+time_label: "⏰ Time:"
+location_label: "📍 Location:"
+join_zoom: "🔗 Join Zoom Meeting"
+volunteer_sign_up: "🙋 Volunteer Sign Up"
+no_events: No upcoming events at this time. Check back soon!
+
+# News
+no_news: No current news at this time. Check back soon!
+expires_notice: This announcement expires
+
+# Volunteer page
+ptsa_event_volunteers: PTSA Event Volunteers
+sign_up_to_volunteer: "🙋 Sign Up to Volunteer"
+signup_coming_soon: Sign-up link coming soon!
+no_volunteer_opps: No volunteer opportunities available at this time. Check back soon!
+join_ptsa_link: join the PTSA
+view_all_events_link: view all upcoming events
+no_events_data: No events data available.
+open_spots_title: Open Spots on the PTSA
+open_spots_intro: "Join our team! We have openings on our PTSA board and committees. Help make a difference for our students."
+time_commitment: "⏱️ Time Commitment:"
+term: "📅 Term:"
+express_interest: "✉️ Express Interest"
+no_positions: No open positions at this time. Check back soon or contact us to learn about future opportunities!
+no_positions_data: No positions data available.
+
+# Footer
+footer_about_desc: Supporting students, teachers, and families at Serene Lake Elementary School in Mukilteo School District.
+footer_quick_links: Quick Links
+footer_join_ptsa: Join PTSA
+footer_volunteer: Volunteer
+footer_teacher_wishlists: Teacher Wish Lists
+footer_resources: Resources
+footer_get_involved: Get Involved!
+footer_get_involved_desc: Join us in making a difference in our school community.
+footer_join_today: Join PTSA Today
+footer_connect: Connect With Us
+footer_tagline: Every child. One voice.

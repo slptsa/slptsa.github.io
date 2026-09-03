@@ -39,8 +39,6 @@ params:
 ######################## i18n ####################
 # Auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 hasCJKLanguage: false
-# Set default content directory for multilingual
-contentDir: content/en/
 # Set fallback if international version is not available
 defaultContentLanguage: en
 # Set the default language as the root rather than in folder i.e. don't use /en/

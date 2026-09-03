@@ -1,0 +1,112 @@
+# Navigation
+nav_home: کور
+nav_about_ptsa: د PTSA په اړه
+nav_about_us: زموږ په اړه
+nav_board_members: د هیئت غړي
+nav_events: پیښې
+nav_news: خبرونه
+nav_sponsors: ملاتړونکي
+nav_resources: سرچینې
+nav_join_ptsa: د PTSA غړیتوب
+nav_volunteer: د رضاکارۍ فرصتونه
+nav_staff_favorites: "د کارکوونکو خوښې او د هیلو لیستونه"
+nav_school_info: د ښوونځي معلومات
+nav_donate: مرسته
+toggle_nav: د لارښوونې مینو بدل کړئ
+
+# Home page
+welcome: ښه راغلاست
+join_ptsa_today: نن د PTSA غړي شئ
+view_events: پیښې وګورئ
+active_members: فعال غړي
+events_this_year: د دې کال پیښې
+raised_for_students: د زده‌کوونکو لپاره راټول شوي
+support_teachers_title: زموږ ښوونکي ملاتړ وکړئ!
+support_teachers_desc: "د زموږ ښوونکو خوښې او د هیلو لیستونه وګورئ. د ښوونکو د ټولګي اړتیاوو د پوره کولو سره خپله مننه وښیئ."
+view_staff_favorites: د کارکوونکو خوښې وګورئ
+upcoming_events: راتلونکې پیښې
+view_all_events: "ټولې پیښې وګورئ →"
+no_upcoming_events: اوس مهال هیڅ راتلونکې پیښه نشته. وروسته بیا وګورئ!
+volunteer_opportunities: د رضاکارۍ فرصتونه
+sign_up_to_help: د مرستې لپاره ثبت‌نام وکړئ
+see_all_opportunities: "ټول فرصتونه وګورئ →"
+no_volunteer_opportunities: اوس مهال هیڅ د رضاکارۍ فرصت نشته. وروسته بیا وګورئ!
+meet_the_board: له هیئت سره وپیژنئ
+meet_everyone: "ټول وپیژنئ →"
+latest_news: وروستي خبرونه
+view_all_news: "ټول خبرونه وګورئ →"
+get_involved_today: نن ورګډ شئ!
+membership_difference: ستاسو غړیتوب زموږ د ښوونځي ټولنې لپاره مهم دی.
+become_a_member: غړی شئ
+
+# Board page
+board_default_title: د PTSA هیئت غړي
+elected_officials: ټاکل شوي چارواکي
+elected_officials_desc: زموږ ټاکل شوي د هیئت غړي یو کلنه دندې ترسره کوي او هر کال د PTSA غړو لخوا ټاکل کیږي.
+elected_label: "ټاکل شوی:"
+term_label: "دوره:"
+appointed_positions: ټاکل شوي دندې
+appointed_positions_desc: زموږ ټاکل شوي د هیئت غړي د PTSA عملیاتو او پروګرامونو د ملاتړ لپاره د ټاکل شویو چارواکو سره یوځای کار کوي.
+no_board_data: د هیئت د غړو معلومات اوس مهال شتون نلري.
+join_board_title: ایا غواړئ هیئت ته ورګډ شئ؟
+join_board_desc: موږ هغه والدین او سرپرستان ته ښه راغلاست وایو چې غواړي توپیر راولي! د هیئت ټاکنې هر پسرلي کیږي.
+learn_more_ptsa: د PTSA په اړه نور معلومات
+
+# Staff favorites
+search_teacher_label: ښوونکی وپلټئ
+search_teacher_placeholder: د ښوونکي د نوم سره پلټنه...
+clear_search_label: پلټنه پاکه کړئ
+no_teachers_found: ستاسو د پلټنې سره سم هیڅ ښوونکی ونه موندل شو.
+view_amazon_wishlist: "🎁 د Amazon د هیلو لیست وګورئ"
+no_wishlist: هیڅ د هیلو لیست چمتو نه دی
+fav_snacks: "🍿 خوښ ناسته‌جات"
+fav_restaurants: "🍽️ خوښ رستورانونه"
+fav_beverages: "☕ خوښ مشروبات"
+fav_stores: "🏪 خوښ دوکانونه"
+fav_colors: "🎨 خوښ رنګونه"
+fav_flowers: "🌸 خوښ ګلونه"
+hobbies: "🎯 مشغلې"
+fav_things: "❤️ خوښې شیان"
+classroom_needs: "📚 د ټولګي اړتیاوې"
+how_to_appreciate: "🙏 د مننې ښودلو لاره"
+no_staff_data: د کارکوونکو د خوښو معلومات اوس مهال شتون نلري.
+
+# Events
+time_label: "⏰ وخت:"
+location_label: "📍 ځای:"
+join_zoom: "🔗 د Zoom غونډې سره یوځای شئ"
+volunteer_sign_up: "🙋 د رضاکار ثبت‌نام"
+no_events: اوس مهال هیڅ راتلونکې پیښه نشته. وروسته بیا وګورئ!
+
+# News
+no_news: اوس مهال هیڅ اوسنی خبر نشته. وروسته بیا وګورئ!
+expires_notice: دا اعلان پای ته رسیږي
+
+# Volunteer page
+ptsa_event_volunteers: د PTSA د پیښو رضاکاران
+sign_up_to_volunteer: "🙋 د رضاکار ثبت‌نام"
+signup_coming_soon: د ثبت‌نام لینک ډیر ژر راځي!
+no_volunteer_opps: اوس مهال هیڅ د رضاکارۍ فرصت شتون نلري. وروسته بیا وګورئ!
+join_ptsa_link: د PTSA غړي شئ
+view_all_events_link: ټولې راتلونکې پیښې وګورئ
+no_events_data: د پیښو ډاټا شتون نلري.
+open_spots_title: د PTSA کې خلاص ځایونه
+open_spots_intro: "زموږ ټیم ته ورګډ شئ! موږ زموږ د PTSA هیئت او کمیټو کې پوستونه لرو. زموږ د زده‌کوونکو لپاره توپیر راوړئ."
+time_commitment: "⏱️ د وخت ژمنه:"
+term: "📅 دوره:"
+express_interest: "✉️ علاقه وښیئ"
+no_positions: اوس مهال هیڅ خلاص پوسته نشته. وروسته بیا وګورئ یا د راتلونکو فرصتونو د زده‌کړې لپاره موږ سره اړیکه ونیسئ!
+no_positions_data: د پوستونو ډاټا شتون نلري.
+
+# Footer
+footer_about_desc: د Mukilteo د ښوونیز ولسوالۍ د Serene Lake ابتدایي ښوونځي کې د زده‌کوونکو، ښوونکو او کورنیو ملاتړ.
+footer_quick_links: ګړندي لینکونه
+footer_join_ptsa: د PTSA غړي شئ
+footer_volunteer: رضاکاري
+footer_teacher_wishlists: د ښوونکو د هیلو لیستونه
+footer_resources: سرچینې
+footer_get_involved: ورګډ شئ!
+footer_get_involved_desc: زموږ د ښوونځي ټولنې کې د توپیر راوړلو لپاره موږ سره یوځای شئ.
+footer_join_today: نن د PTSA غړي شئ
+footer_connect: موږ سره اړیکه ونیسئ
+footer_tagline: هر ماشوم. یوه غږ.

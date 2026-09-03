@@ -1,0 +1,112 @@
+# Navigation
+nav_home: Trang chủ
+nav_about_ptsa: Về PTSA
+nav_about_us: Về chúng tôi
+nav_board_members: Thành viên ban quản trị
+nav_events: Sự kiện
+nav_news: Tin tức
+nav_sponsors: Nhà tài trợ
+nav_resources: Tài nguyên
+nav_join_ptsa: Tham gia PTSA
+nav_volunteer: Cơ hội tình nguyện
+nav_staff_favorites: "Yêu thích của nhân viên và danh sách mong muốn"
+nav_school_info: Thông tin trường
+nav_donate: Quyên góp
+toggle_nav: Chuyển đổi menu điều hướng
+
+# Home page
+welcome: Chào mừng
+join_ptsa_today: Tham gia PTSA ngay hôm nay
+view_events: Xem sự kiện
+active_members: Thành viên tích cực
+events_this_year: Sự kiện trong năm nay
+raised_for_students: Đã quyên góp cho học sinh
+support_teachers_title: Hỗ trợ giáo viên của chúng ta!
+support_teachers_desc: "Xem những điều yêu thích và danh sách mong muốn của giáo viên. Bày tỏ sự trân trọng bằng cách giúp đáp ứng nhu cầu lớp học của họ."
+view_staff_favorites: Xem yêu thích của nhân viên
+upcoming_events: Sự kiện sắp tới
+view_all_events: "Xem tất cả sự kiện →"
+no_upcoming_events: Hiện tại không có sự kiện sắp tới. Hãy quay lại sau!
+volunteer_opportunities: Cơ hội tình nguyện
+sign_up_to_help: Đăng ký để giúp đỡ
+see_all_opportunities: "Xem tất cả cơ hội →"
+no_volunteer_opportunities: Hiện tại không có cơ hội tình nguyện. Hãy quay lại sau!
+meet_the_board: Gặp gỡ ban quản trị
+meet_everyone: "Gặp gỡ mọi người →"
+latest_news: Tin tức mới nhất
+view_all_news: "Xem tất cả tin tức →"
+get_involved_today: Tham gia ngay hôm nay!
+membership_difference: Tư cách thành viên của bạn tạo ra sự khác biệt trong cộng đồng trường học của chúng ta.
+become_a_member: Trở thành thành viên
+
+# Board page
+board_default_title: Thành viên Ban Quản trị PTSA
+elected_officials: Quan chức được bầu
+elected_officials_desc: Các thành viên ban được bầu phục vụ nhiệm kỳ một năm và được bầu hàng năm bởi các thành viên PTSA.
+elected_label: "Được bầu:"
+term_label: "Nhiệm kỳ:"
+appointed_positions: Vị trí được chỉ định
+appointed_positions_desc: Các thành viên ban được chỉ định làm việc cùng với các quan chức được bầu để hỗ trợ hoạt động và chương trình của PTSA.
+no_board_data: Thông tin về thành viên ban quản trị hiện không có sẵn.
+join_board_title: Quan tâm đến việc tham gia ban quản trị?
+join_board_desc: Chúng tôi chào đón các phụ huynh và người giám hộ muốn tạo ra sự khác biệt! Bầu cử ban quản trị được tổ chức vào mỗi mùa xuân.
+learn_more_ptsa: Tìm hiểu thêm về PTSA
+
+# Staff favorites
+search_teacher_label: Tìm kiếm giáo viên
+search_teacher_placeholder: Tìm theo tên giáo viên...
+clear_search_label: Xóa tìm kiếm
+no_teachers_found: Không tìm thấy giáo viên phù hợp với tìm kiếm của bạn.
+view_amazon_wishlist: "🎁 Xem danh sách mong muốn trên Amazon"
+no_wishlist: Không có danh sách mong muốn
+fav_snacks: "🍿 Đồ ăn vặt yêu thích"
+fav_restaurants: "🍽️ Nhà hàng yêu thích"
+fav_beverages: "☕ Đồ uống yêu thích"
+fav_stores: "🏪 Cửa hàng yêu thích"
+fav_colors: "🎨 Màu sắc yêu thích"
+fav_flowers: "🌸 Hoa yêu thích"
+hobbies: "🎯 Sở thích"
+fav_things: "❤️ Những điều yêu thích"
+classroom_needs: "📚 Nhu cầu lớp học"
+how_to_appreciate: "🙏 Cách bày tỏ sự trân trọng"
+no_staff_data: Thông tin về yêu thích của nhân viên hiện không có sẵn.
+
+# Events
+time_label: "⏰ Thời gian:"
+location_label: "📍 Địa điểm:"
+join_zoom: "🔗 Tham gia cuộc họp Zoom"
+volunteer_sign_up: "🙋 Đăng ký tình nguyện"
+no_events: Hiện tại không có sự kiện sắp tới. Hãy quay lại sau!
+
+# News
+no_news: Hiện tại không có tin tức mới. Hãy quay lại sau!
+expires_notice: Thông báo này hết hạn vào
+
+# Volunteer page
+ptsa_event_volunteers: Tình nguyện viên sự kiện PTSA
+sign_up_to_volunteer: "🙋 Đăng ký tình nguyện"
+signup_coming_soon: Liên kết đăng ký sắp có!
+no_volunteer_opps: Hiện tại không có cơ hội tình nguyện. Hãy quay lại sau!
+join_ptsa_link: tham gia PTSA
+view_all_events_link: xem tất cả sự kiện sắp tới
+no_events_data: Không có dữ liệu sự kiện.
+open_spots_title: Vị trí trống trong PTSA
+open_spots_intro: "Hãy tham gia nhóm của chúng tôi! Chúng tôi có các vị trí trống trong ban quản trị và ủy ban PTSA. Hãy tạo ra sự khác biệt cho học sinh của chúng ta."
+time_commitment: "⏱️ Cam kết thời gian:"
+term: "📅 Nhiệm kỳ:"
+express_interest: "✉️ Bày tỏ sự quan tâm"
+no_positions: Hiện tại không có vị trí trống. Hãy quay lại sau hoặc liên hệ với chúng tôi để tìm hiểu về các cơ hội trong tương lai!
+no_positions_data: Không có dữ liệu vị trí.
+
+# Footer
+footer_about_desc: Hỗ trợ học sinh, giáo viên và gia đình tại Trường Tiểu học Serene Lake trong Học khu Mukilteo.
+footer_quick_links: Liên kết nhanh
+footer_join_ptsa: Tham gia PTSA
+footer_volunteer: Tình nguyện
+footer_teacher_wishlists: Danh sách mong muốn của giáo viên
+footer_resources: Tài nguyên
+footer_get_involved: Tham gia!
+footer_get_involved_desc: Hãy cùng chúng tôi tạo ra sự khác biệt trong cộng đồng trường học của chúng ta.
+footer_join_today: Tham gia PTSA ngay hôm nay
+footer_connect: Kết nối với chúng tôi
+footer_tagline: Mỗi đứa trẻ. Một tiếng nói.

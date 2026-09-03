@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serene Lake PTSA</title>
+  <meta name="robots" content="noindex, nofollow">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f0f8f8;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 2rem 1rem 3rem;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 480px;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+    }
+
+    .header img {
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+      border-radius: 50%;
+      background: #fff;
+      padding: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+
+    .header h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #0D5C75;
+      text-align: center;
+    }
+
+    .header p {
+      font-size: 0.85rem;
+      color: #555;
+    }
+
+    .section {
+      margin-bottom: 1.5rem;
+    }
+
+    .section-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 0.5rem;
+      padding-left: 4px;
+    }
+
+    .link-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      width: 100%;
+      padding: 0.85rem 1.1rem;
+      margin-bottom: 0.5rem;
+      background: #fff;
+      border: 1.5px solid #d0eaeb;
+      border-radius: 12px;
+      color: #0D5C75;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      transition: background 0.15s, border-color 0.15s, transform 0.1s;
+      cursor: pointer;
+    }
+
+    .link-btn:hover, .link-btn:focus {
+      background: #e6f6f6;
+      border-color: #2B9B9E;
+      transform: translateY(-1px);
+      outline: none;
+    }
+
+    .link-btn:active {
+      transform: translateY(0);
+    }
+
+    .link-btn .icon {
+      font-size: 1.2rem;
+      flex-shrink: 0;
+      width: 1.5rem;
+      text-align: center;
+    }
+
+    .link-btn .text {
+      flex: 1;
+    }
+
+    .link-btn .sub {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: #888;
+      display: block;
+    }
+
+    .link-btn.primary {
+      background: #2B9B9E;
+      border-color: #2B9B9E;
+      color: #fff;
+    }
+
+    .link-btn.primary .sub { color: rgba(255,255,255,0.75); }
+
+    .link-btn.primary:hover, .link-btn.primary:focus {
+      background: #238c8f;
+      border-color: #238c8f;
+    }
+
+    .footer-note {
+      text-align: center;
+      font-size: 0.75rem;
+      color: #aaa;
+      margin-top: 1.5rem;
+    }
+
+    .footer-note a { color: #2B9B9E; text-decoration: none; }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <img src="/img/ptsa_logo.png" alt="Serene Lake PTSA logo">
+    <h1>Serene Lake PTSA</h1>
+    <p>Serene Lake Elementary &middot; Mukilteo, WA</p>
+  </div>
+
+  <!-- Support -->
+  <div class="section">
+    <div class="section-label">Support Us</div>
+    <a class="link-btn primary" href="https://www.givebacks.com/donate/slptsa" target="_blank" rel="noopener">
+      <span class="icon">💛</span>
+      <span class="text">Donate to PTSA</span>
+    </a>
+    <a class="link-btn" href="/join/" target="_blank" rel="noopener">
+      <span class="icon">📋</span>
+      <span class="text">Join the PTSA</span>
+    </a>
+  </div>
+
+  <!-- Find us -->
+  <div class="section">
+    <div class="section-label">Find Us Online</div>
+    <a class="link-btn" href="https://www.facebook.com/slptsa" target="_blank" rel="noopener">
+      <span class="icon">📘</span>
+      <span class="text">Facebook
+        <span class="sub">facebook.com/slptsa</span>
+      </span>
+    </a>
+    <a class="link-btn" href="https://www.instagram.com/seaottersrock" target="_blank" rel="noopener">
+      <span class="icon">📸</span>
+      <span class="text">Instagram
+        <span class="sub">@seaottersrock</span>
+      </span>
+    </a>
+    <a class="link-btn" href="https://discord.gg/SH6sV6bqve" target="_blank" rel="noopener">
+      <span class="icon">💬</span>
+      <span class="text">Discord Community</span>
+    </a>
+  </div>
+
+  <!-- Upcoming events -->
+  {{ $events := .Site.Data.events.upcoming }}
+  {{ $now := now }}
+  {{ $upcoming := slice }}
+  {{ range $events }}
+    {{ if .date }}
+      {{ $eventDate := time .date }}
+      {{ $show := false }}
+      {{ if and .multi_day .end_date }}
+        {{ if ge (time .end_date) $now }}{{ $show = true }}{{ end }}
+      {{ else }}
+        {{ if ge $eventDate $now }}{{ $show = true }}{{ end }}
+      {{ end }}
+      {{ if $show }}
+        {{ $upcoming = $upcoming | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $upcoming = sort $upcoming "date" }}
+
+  {{ if $upcoming }}
+  <div class="section">
+    <div class="section-label">Upcoming Events &amp; Sign-Ups</div>
+    {{ range $upcoming }}
+      {{ $eventDate := time .date }}
+      {{ if or .volunteer_link .zoom_link }}
+      <a class="link-btn" href="{{ if .volunteer_link }}{{ .volunteer_link }}{{ else }}{{ .zoom_link }}{{ end }}" target="_blank" rel="noopener">
+        <span class="icon">{{ if eq .category "fundraiser" }}🎉{{ else if eq .category "meeting" }}📅{{ else }}⭐{{ end }}</span>
+        <span class="text">{{ .title }}
+          <span class="sub">{{ $eventDate.Format "Jan 2" }}{{ if .time }} &middot; {{ .time }}{{ end }}{{ if .location }} &middot; {{ .location }}{{ end }}</span>
+        </span>
+      </a>
+      {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <!-- Website -->
+  <div class="section">
+    <div class="section-label">Website</div>
+    <a class="link-btn" href="/" target="_blank" rel="noopener">
+      <span class="icon">🌐</span>
+      <span class="text">slptsa.org</span>
+    </a>
+    <a class="link-btn" href="mailto:info@slptsa.org">
+      <span class="icon">✉️</span>
+      <span class="text">info@slptsa.org</span>
+    </a>
+  </div>
+
+  <p class="footer-note">Serene Lake PTSA &middot; <a href="https://slptsa.org">slptsa.org</a></p>
+</div>
+</body>
+</html>

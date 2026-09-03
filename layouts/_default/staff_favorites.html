@@ -1,42 +1,36 @@
 {{ define "main" }}
 <div class="staff-favorites-page">
 
-  <!-- Page Intro -->
   <section class="page-intro">
     <div class="container">
       <h1>{{ .Title }}</h1>
-      <div class="intro-content">
-        {{ .Content }}
-      </div>
+      <div class="intro-content">{{ .Content }}</div>
     </div>
   </section>
 
-  <!-- Staff Favorites Section -->
   <section class="staff-section">
     <div class="container">
 
       {{ $staff := .Site.Data.staff.favorites }}
       {{ if $staff }}
 
-      <!-- Search Bar -->
       <div class="staff-search-container">
-        <label for="staff-search" class="visually-hidden">Search for a teacher</label>
+        <label for="staff-search" class="visually-hidden">{{ i18n "search_teacher_label" }}</label>
         <div class="search-input-wrapper">
           <span class="search-icon">🔍</span>
           <input
             type="text"
             id="staff-search"
             class="staff-search-input"
-            placeholder="Search by teacher name..."
-            aria-label="Search for a teacher by name"
+            placeholder="{{ i18n "search_teacher_placeholder" }}"
+            aria-label="{{ i18n "search_teacher_label" }}"
           >
-          <button type="button" id="clear-search" class="clear-search" aria-label="Clear search" style="display: none;">✕</button>
+          <button type="button" id="clear-search" class="clear-search" aria-label="{{ i18n "clear_search_label" }}" style="display: none;">✕</button>
         </div>
       </div>
 
-      <!-- No Results Message -->
       <div id="no-results" class="no-results" style="display: none;">
-        <p>No teachers found matching your search.</p>
+        <p>{{ i18n "no_teachers_found" }}</p>
       </div>
 
       <div class="staff-grid" id="staff-grid">
@@ -53,110 +47,95 @@
 
         <div class="staff-card" data-teacher-name="{{ $teacher.name | lower }}">
 
-          <!-- Teacher Name & Photo -->
           <div class="staff-header">
             <div class="staff-photo">
-              <div class="photo-placeholder">
-                {{ substr $teacher.name 0 1 }}
-              </div>
+              <div class="photo-placeholder">{{ substr $teacher.name 0 1 }}</div>
             </div>
             <h3>{{ $teacher.name }}</h3>
           </div>
 
-          <!-- Favorites List -->
           <div class="favorites-list">
 
-            <!-- Amazon Wish List -->
             <div class="wishlist-section">
               {{ if and $teacher.amazon_link (ne $teacher.amazon_link "") }}
                 {{ if or (hasPrefix $teacher.amazon_link "http://") (hasPrefix $teacher.amazon_link "https://") }}
                   <a href="{{ $teacher.amazon_link }}" target="_blank" rel="noopener noreferrer" class="btn-wishlist">
-                    🎁 View Amazon Wish List
+                    {{ i18n "view_amazon_wishlist" }}
                   </a>
                 {{ else }}
-                  <span class="no-wishlist">No wishlist provided</span>
+                  <span class="no-wishlist">{{ i18n "no_wishlist" }}</span>
                 {{ end }}
               {{ else }}
-                <span class="no-wishlist">No wishlist provided</span>
+                <span class="no-wishlist">{{ i18n "no_wishlist" }}</span>
               {{ end }}
             </div>
 
-            <!-- Favorite Snacks -->
             {{ if and $teacher.favorite_snacks (ne $teacher.favorite_snacks "") }}
             <div class="favorite-item">
-              <div class="favorite-label">🍿 Favorite Snacks</div>
+              <div class="favorite-label">{{ i18n "fav_snacks" }}</div>
               <div class="favorite-value">{{ $teacher.favorite_snacks }}</div>
             </div>
             {{ end }}
 
-            <!-- Favorite Restaurants -->
             {{ if and $teacher.favorite_restaurants (ne $teacher.favorite_restaurants "") }}
             <div class="favorite-item">
-              <div class="favorite-label">🍽️ Favorite Restaurants</div>
+              <div class="favorite-label">{{ i18n "fav_restaurants" }}</div>
               <div class="favorite-value">{{ $teacher.favorite_restaurants }}</div>
             </div>
             {{ end }}
 
-            <!-- Favorite Beverages -->
             {{ if and $teacher.favorite_beverages (ne $teacher.favorite_beverages "") }}
             <div class="favorite-item">
-              <div class="favorite-label">☕ Favorite Beverages</div>
+              <div class="favorite-label">{{ i18n "fav_beverages" }}</div>
               <div class="favorite-value">{{ $teacher.favorite_beverages }}</div>
             </div>
             {{ end }}
 
-            <!-- Favorite Stores -->
             {{ if and $teacher.favorite_stores (ne $teacher.favorite_stores "") }}
             <div class="favorite-item">
-              <div class="favorite-label">🏪 Favorite Stores</div>
+              <div class="favorite-label">{{ i18n "fav_stores" }}</div>
               <div class="favorite-value">{{ $teacher.favorite_stores }}</div>
             </div>
             {{ end }}
 
-            <!-- Favorite Colors -->
             {{ if and $teacher.favorite_colors (ne $teacher.favorite_colors "") }}
             <div class="favorite-item">
-              <div class="favorite-label">🎨 Favorite Colors</div>
+              <div class="favorite-label">{{ i18n "fav_colors" }}</div>
               <div class="favorite-value">{{ $teacher.favorite_colors }}</div>
             </div>
             {{ end }}
 
-            <!-- Favorite Flowers -->
             {{ if and $teacher.favorite_flowers (ne $teacher.favorite_flowers "") }}
             <div class="favorite-item">
-              <div class="favorite-label">🌸 Favorite Flowers</div>
+              <div class="favorite-label">{{ i18n "fav_flowers" }}</div>
               <div class="favorite-value">{{ $teacher.favorite_flowers }}</div>
             </div>
             {{ end }}
 
-            <!-- Favorite Hobbies -->
             {{ if and $teacher.hobbies (ne $teacher.hobbies "") }}
             <div class="favorite-item">
-              <div class="favorite-label">🎯 Hobbies</div>
+              <div class="favorite-label">{{ i18n "hobbies" }}</div>
               <div class="favorite-value">{{ $teacher.hobbies }}</div>
             </div>
             {{ end }}
 
-            <!-- Favorite Things -->
             {{ if and $teacher.favorite_things (ne $teacher.favorite_things "") }}
             <div class="favorite-item">
-              <div class="favorite-label">❤️ Favorite Things</div>
+              <div class="favorite-label">{{ i18n "fav_things" }}</div>
               <div class="favorite-value">{{ $teacher.favorite_things }}</div>
             </div>
             {{ end }}
 
-            <!-- Classroom Needs -->
             {{ if and $teacher.classroom_needs (ne $teacher.classroom_needs "") }}
             <div class="favorite-item classroom-needs">
-              <div class="favorite-label">📚 Classroom Needs</div>
+              <div class="favorite-label">{{ i18n "classroom_needs" }}</div>
               <div class="favorite-value">{{ $teacher.classroom_needs }}</div>
             </div>
             {{ end }}
 
-            <!-- How to Appreciate -->
             {{ if and $teacher.appreciation (ne $teacher.appreciation "") }}
             <div class="favorite-item appreciation">
-              <div class="favorite-label">🙏 How to Appreciate</div>
+              <div class="favorite-label">{{ i18n "how_to_appreciate" }}</div>
               <div class="favorite-value">{{ $teacher.appreciation }}</div>
             </div>
             {{ end }}
@@ -168,7 +147,7 @@
       </div>
 
       {{ else }}
-      <p class="no-data">Staff favorites information is not available at this time.</p>
+      <p class="no-data">{{ i18n "no_staff_data" }}</p>
       {{ end }}
 
     </div>
@@ -176,11 +155,9 @@
 
 </div>
 
-<!-- Staff Search JavaScript -->
 <script>
 (function() {
   'use strict';
-
   const searchInput = document.getElementById('staff-search');
   const clearButton = document.getElementById('clear-search');
   const staffGrid = document.getElementById('staff-grid');
@@ -192,13 +169,9 @@
   function performSearch() {
     const searchTerm = searchInput.value.toLowerCase().trim();
     let visibleCount = 0;
-
-    // Show/hide clear button
     clearButton.style.display = searchTerm ? 'flex' : 'none';
-
     staffCards.forEach(card => {
       const teacherName = card.getAttribute('data-teacher-name') || '';
-
       if (teacherName.includes(searchTerm)) {
         card.style.display = '';
         visibleCount++;
@@ -206,8 +179,6 @@
         card.style.display = 'none';
       }
     });
-
-    // Show/hide no results message
     if (visibleCount === 0 && searchTerm) {
       noResults.style.display = 'block';
       staffGrid.style.display = 'none';
@@ -224,17 +195,11 @@
     searchInput.focus();
   }
 
-  // Event listeners
   searchInput.addEventListener('input', performSearch);
   searchInput.addEventListener('keyup', function(e) {
-    if (e.key === 'Escape') {
-      clearSearch();
-    }
+    if (e.key === 'Escape') clearSearch();
   });
-
   clearButton.addEventListener('click', clearSearch);
-
-  // Initial state
   performSearch();
 })();
 </script>
