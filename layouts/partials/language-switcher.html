@@ -1,0 +1,18 @@
+{{ $translations := .AllTranslations }}
+{{ if gt (len $translations) 1 }}
+<li class="nav-item has-dropdown lang-switcher">
+  <a class="dropdown-toggle" role="button" tabindex="0">
+    🌐 <span class="lang-current-name">{{ .Language.LanguageName }}</span>
+    <span class="dropdown-arrow">▼</span>
+  </a>
+  <ul class="dropdown-menu lang-menu">
+    {{ range $translations }}
+    <li{{ if eq .Language.Lang $.Language.Lang }} class="lang-active"{{ end }}>
+      <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}">
+        {{ if eq .Language.Lang $.Language.Lang }}✓ {{ end }}{{ .Language.LanguageName }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</li>
+{{ end }}

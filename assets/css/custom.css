@@ -2723,6 +2723,32 @@ body.page-home #content header {
 }
 
 /* ============================================
+   LANGUAGE SWITCHER
+   ============================================ */
+.lang-switcher .lang-menu {
+  right: 0;
+  left: auto;
+  min-width: 180px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.lang-switcher .lang-menu li.lang-active a {
+  font-weight: 700;
+  color: var(--color-accent);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.lang-switcher .lang-menu a {
+  white-space: nowrap;
+}
+
+[dir="rtl"] .lang-switcher .lang-menu {
+  right: auto;
+  left: 0;
+}
+
+/* ============================================
    DARI / RTL SUPPORT
    ============================================ */
 [dir="rtl"] body {
