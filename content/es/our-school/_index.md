@@ -1,29 +1,29 @@
 ---
 title: ""
-description: "Conozca sobre la Escuela Primaria Serene Lake y nuestra maravillosa comunidad"
+description: "Conozca a la Escuela Primaria Serene Lake y a nuestra querida comunidad"
 ---
 
 ## Escuela Primaria Serene Lake
 
-La Escuela Primaria Serene Lake es parte del Distrito Escolar de Mukilteo y ha estado sirviendo a los estudiantes y familias de nuestra comunidad desde 1975.
+La Escuela Primaria Serene Lake forma parte del Distrito Escolar de Mukilteo y, desde 1975, ha acompañado con cariño a las familias y estudiantes de nuestra comunidad.
 
-### Información Escolar
+### Información de la escuela
 
 **Dirección:** 4709 Picnic Point Road, Edmonds, WA 98026  
 **Teléfono:** (425) 366-3500  
-**Sitio web:** [sl.mukilteoschools.org](https://sl.mukilteoschools.org/)
+**Sitio de la escuela:** [sl.mukilteoschools.org](https://sl.mukilteoschools.org/)
 
-### Enlaces Útiles
+### Enlaces útiles
 
-- [Favoritos del Personal](/es/our-school/staff-favorites/) - ¡Conozca a nuestros maestros!
-- [Sitio Web de la Escuela Primaria Serene Lake](https://www.mukilteoschools.org/domain/50)
+- [Preferencias del personal](/es/our-school/staff-favorites/) — Conozca a nuestros queridos maestros
+- [Sitio web de la Escuela Primaria Serene Lake](https://www.mukilteoschools.org/domain/50)
 - [Distrito Escolar de Mukilteo](https://www.mukilteoschools.org)
 
-### Horario Escolar
+### Horario escolar
 
-**Día Regular:** 9:00 AM - 3:30 PM  
-**Salida Temprana:** 9:00 AM - 1:30 PM
+**Día regular:** 9:00 a. m. – 3:30 p. m.  
+**Salida temprana:** 9:00 a. m. – 1:30 p. m.
 
-### Sobre Nuestra Comunidad
+### Sobre nuestra comunidad
 
-La Escuela Primaria Serene Lake sirve a una diversa comunidad de familias comprometidas a proporcionar la mejor experiencia educativa para nuestros estudiantes.
+En Serene Lake acompañamos a familias muy diversas que comparten un mismo deseo: ofrecer a nuestros niños la mejor experiencia educativa posible.

@@ -1,8 +1,8 @@
 ---
-title: "Oportunidades de Voluntariado"
+title: "Oportunidades de voluntariado"
 date: 2025-10-18
 draft: false
-description: "Ayude en eventos o únase a la junta: cada contribución hace una diferencia en la Escuela Primaria Serene Lake."
+description: "Ayude en los eventos o únase a nuestra Junta Directiva. Cada aporte hace una gran diferencia en la Escuela Primaria Serene Lake."
 ---
 
-¡Haga una diferencia en la Escuela Primaria Serene Lake! Ya sea que pueda dedicar unas horas a un evento o quiera un papel de liderazgo en nuestra junta, hay un lugar para usted. Cada contribución ayuda a crear experiencias increíbles para nuestros estudiantes y fortalece nuestra comunidad escolar.
+¡En la Escuela Primaria Serene Lake, cada persona puede marcar la diferencia! Ya sea que pueda regalar unas horas para un próximo evento o desee asumir un papel de liderazgo en nuestra Junta Directiva, con mucho gusto le hacemos un lugar. Cada aporte enriquece la experiencia de nuestros estudiantes y fortalece los lazos de nuestra comunidad escolar.

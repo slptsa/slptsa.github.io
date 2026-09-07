@@ -2,26 +2,26 @@
 title: "Serene Lake PTSAን ይቀላቀሉ"
 date: 2025-10-18
 draft: false
-description: "የSerene Lake PTSA አባል ይሁኑ እና ተማሪዎቻችንን እና መምህሮቻችንን ይደግፉ።"
+description: "የSerene Lake PTSA አባል በመሆን ተማሪዎቻችንንና መምህራንንን አብረውን ይደግፉ።"
 ---
 
 ## Serene Lake PTSAን ይቀላቀሉ
 
-በSerene Lake አንደኛ ደረጃ ትምህርት ቤት ያለ እያንዳንዱ ቤተሰብ በራስ-ሰር የPTSA ማህበረሰባችን አካል ነው! አባልነት ቀላል ሲሆን ተማሪዎቻችንን እና መምህሮቻችንን ለመደገፍ ትክክለኛ ተጽዕኖ ያሳርፋል። እያንዳንዱ አባልነት በPTSA ስብሰባዎች ላይ አንድ ድምጽ ይሰጥዎታል።
+በSerene Lake አንደኛ ደረጃ ትምህርት ቤት ውስጥ ያሉ ቤተሰቦች ሁሉ በተፈጥሮ የPTSA ቤተሰብ አካል ናቸው! አባል መሆን ቀላል ቢሆንም ለተማሪዎችና ለመምህራን የሚያመጣው ድጋፍ ግን ትልቅ ነው። እያንዳንዱ አባልነት በPTSA ስብሰባዎች ላይ አንድ የድምጽ መስጫ መብት ያጎናጽፍዎታል።
 
-ሁሉም አባልነቶች በGiveBacksᵀᴹ በኩል ብቻ ይተዳደራሉ። ከዚህ በታች ያለ አባልነት ዓይነት ላይ ጠቅ ማድረግ ወደ ግዢ ገጽ ይወስድዎታል።
+ሁሉም አባልነቶች የሚስተናገዱት በGiveBacksᵀᴹ ብቻ ነው። ከዚህ በታች ያለውን የአባልነት ዓይነት ሲጫኑ ወደ ግዢ ገጹ ይዋወዳሉ።
 
 ### የአባልነት ዓይነቶች
 
 <div class="membership-grid">
 
 <a href="https://slptsa.givebacks.com/shop/items/1013736" target="_blank" rel="noopener noreferrer" class="membership-card">
-  <h3>ወላጅ/አሳዳጊ</h3>
+  <h3>ወላጅ / አሳዳጊ</h3>
   <p class="membership-price">$15</p>
 </a>
 
 <a href="https://slptsa.givebacks.com/shop/items/1013739" target="_blank" rel="noopener noreferrer" class="membership-card">
-  <h3>ሠራተኛ/አስተማሪ</h3>
+  <h3>መምህር / ሠራተኛ</h3>
   <p class="membership-price">$15</p>
 </a>
 
@@ -36,7 +36,7 @@ description: "የSerene Lake PTSA አባል ይሁኑ እና ተማሪዎቻች�
 </a>
 
 <a href="https://slptsa.givebacks.com/shop/items/1013740" target="_blank" rel="noopener noreferrer" class="membership-card">
-  <h3>ማህበረሰብ</h3>
+  <h3>የማህበረሰብ አባል</h3>
   <p class="membership-price">$15</p>
 </a>
 

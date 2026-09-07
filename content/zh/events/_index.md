@@ -1,5 +1,5 @@
 ---
-title: "PTSA活动！"
-description: "查看我们即将举行的PTSA活动"
+title: "PTSA活动预告!"
+description: "了解PTSA即将开展的活动,与我们相约"
 layout: list
 ---

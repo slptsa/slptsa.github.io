@@ -1,8 +1,8 @@
 ---
-title: "Mga Pagkakataon sa Pagboluntaryo"
+title: "Mga Volunteer Opportunity"
 date: 2025-10-18
 draft: false
-description: "Tumulong sa mga kaganapan o sumali sa lupon - ang bawat kontribusyon ay gumagawa ng pagbabago sa Serene Lake Elementary School."
+description: "Tumulong sa mga event o sumali sa aming board — bawat kontribusyon ay may malaking maidudulot sa Serene Lake Elementary."
 ---
 
-Gumawa ng pagbabago sa Serene Lake Elementary School! Kahit mayroon kang ilang oras para sa isang kaganapan o nais ng papel sa pamumuno sa aming lupon, may lugar para sa iyo. Ang bawat kontribusyon ay tumutulong sa paglikha ng kahanga-hangang karanasan para sa aming mga estudyante at nagpapalakas ng aming komunidad ng paaralan.
+Kaya po ninyong magdulot ng pagbabago sa Serene Lake Elementary! Maging ilang oras man lang po ang kaya ninyong ibigay para sa isang paparating na event, o handa po kayong tumanggap ng mas mahabang tungkulin sa aming board, may lugar po para sa inyo dito. Bawat handog na oras at pagsisikap ay nagpapaganda sa karanasan ng ating mga bata at nagpapatibay sa ating school community.

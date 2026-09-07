@@ -167,7 +167,8 @@ body.page-home #content header {
   position: relative;
 }
 
-.nav-item > a {
+.nav-item > a,
+.nav-item > .dropdown-toggle {
   color: var(--color-accent);
   text-decoration: none;
   font-weight: 600;
@@ -181,7 +182,22 @@ body.page-home #content header {
   white-space: nowrap;
 }
 
-.nav-item > a:hover {
+.nav-item > .dropdown-toggle {
+  background: none;
+  border: none;
+  font: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.nav-item > a:hover,
+.nav-item > .dropdown-toggle:hover,
+.nav-item > .dropdown-toggle:focus-visible {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -2731,6 +2747,15 @@ body.page-home #content header {
   min-width: 180px;
   max-height: 320px;
   overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .lang-switcher .lang-menu {
+    right: auto;
+    left: auto;
+    max-height: none;
+    overflow-y: visible;
+  }
 }
 
 .lang-switcher .lang-menu li.lang-active a {

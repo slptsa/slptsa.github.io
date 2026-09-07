@@ -1,5 +1,5 @@
 ---
 title: "Mga Kaganapan ng PTSA!"
-description: "Tingnan ang aming mga paparating na kaganapan at aktibidad ng PTSA"
+description: "Tingnan po ninyo ang mga paparating na PTSA event at aktibidad"
 layout: list
 ---

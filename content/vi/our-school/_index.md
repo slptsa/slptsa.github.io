@@ -1,29 +1,29 @@
 ---
 title: ""
-description: "Tìm hiểu về Trường Tiểu học Serene Lake và cộng đồng tuyệt vời của chúng tôi"
+description: "Tìm hiểu về Trường Tiểu học Serene Lake và cộng đồng ấm áp của chúng ta"
 ---
 
 ## Trường Tiểu học Serene Lake
 
-Trường Tiểu học Serene Lake là một phần của Học khu Mukilteo và đã phục vụ học sinh và các gia đình trong cộng đồng của chúng tôi từ năm 1975.
+Trường Tiểu học Serene Lake thuộc Học khu Mukilteo, đã đồng hành cùng các em học sinh và gia đình trong cộng đồng chúng ta từ năm 1975.
 
-### Thông Tin Trường
+### Thông tin nhà trường
 
 **Địa chỉ:** 4709 Picnic Point Road, Edmonds, WA 98026  
 **Điện thoại:** (425) 366-3500  
-**Website:** [sl.mukilteoschools.org](https://sl.mukilteoschools.org/)
+**Trang thông tin nhà trường:** [sl.mukilteoschools.org](https://sl.mukilteoschools.org/)
 
-### Các Liên Kết Hữu Ích
+### Liên kết thường dùng
 
-- [Yêu thích của Nhân viên](/vi/our-school/staff-favorites/) - Tìm hiểu về các giáo viên của chúng tôi!
-- [Website Trường Tiểu học Serene Lake](https://www.mukilteoschools.org/domain/50)
+- [Sở thích và điều mong muốn của thầy cô](/vi/our-school/staff-favorites/) — Cùng gặp gỡ các thầy cô đáng mến của chúng ta
+- [Trang web Trường Tiểu học Serene Lake](https://www.mukilteoschools.org/domain/50)
 - [Học khu Mukilteo](https://www.mukilteoschools.org)
 
-### Giờ Học
+### Giờ học
 
-**Ngày Thường:** 9:00 SA - 3:30 CH  
-**Về Sớm:** 9:00 SA - 1:30 CH
+**Ngày học thường:** 9:00 sáng — 3:30 chiều  
+**Ngày tan sớm:** 9:00 sáng — 1:30 chiều
 
-### Về Cộng Đồng Của Chúng Tôi
+### Về cộng đồng của chúng ta
 
-Trường Tiểu học Serene Lake phục vụ một cộng đồng đa dạng các gia đình cam kết cung cấp trải nghiệm giáo dục tốt nhất cho học sinh của chúng tôi.
+Trường Tiểu học Serene Lake phục vụ một cộng đồng đa dạng và giàu tình thương, nơi các gia đình cùng chung tay để mang đến cho các em một môi trường học tập tốt đẹp nhất.

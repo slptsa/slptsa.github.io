@@ -1,5 +1,5 @@
 ---
 title: "የPTSA ዝግጅቶች!"
-description: "ሚዲያ መጪ ዝግጅቶቻችን እና እንቅስቃሴዎቻችንን ይመልከቱ"
+description: "የሚመጡ የPTSA ዝግጅቶችንና ተግባራትን ይመልከቱ — አብረውን እናከብር"
 layout: list
 ---

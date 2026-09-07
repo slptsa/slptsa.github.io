@@ -2,36 +2,36 @@
 title: "Về Serene Lake PTSA"
 date: 2026-08-27
 draft: false
-description: "Tìm hiểu về Serene Lake PTSA và sứ mệnh của chúng tôi trong việc hỗ trợ học sinh, giáo viên và gia đình."
+description: "Tìm hiểu về Serene Lake PTSA cùng sứ mệnh đồng hành với các em học sinh, thầy cô và gia đình."
 ---
 
-Hội Phụ huynh, Giáo viên và Học sinh Serene Lake (PTSA) là một cộng đồng năng động gồm phụ huynh, giáo viên và nhân viên cùng nhau nỗ lực nâng cao trải nghiệm giáo dục cho tất cả học sinh tại Trường Tiểu học Serene Lake.
+Serene Lake PTSA là một cộng đồng ấm áp gồm các phụ huynh, thầy cô và nhân viên nhà trường. Chúng ta cùng nhau chung tay, để mỗi em học sinh tại Trường Tiểu học Serene Lake đều có được những trải nghiệm học tập thật trọn vẹn.
 
-### Sứ Mệnh Của Chúng Tôi
+### Sứ mệnh của chúng ta
 
-Chúng tôi cam kết:
+Chúng ta luôn tâm huyết với những điều sau:
 
-- **Hỗ trợ sự xuất sắc trong giáo dục** - Cung cấp tài nguyên và chương trình làm phong phú thêm việc học của học sinh
-- **Xây dựng cộng đồng** - Thúc đẩy các kết nối giữa các gia đình, giáo viên và nhân viên
-- **Vận động cho trẻ em** - Đại diện cho lợi ích của tất cả học sinh và gia đình
-- **Nâng cao các chương trình học đường** - Tài trợ cho các chuyến dã ngoại, hội họp, tài liệu lớp học và các dự án đặc biệt
+- **Nâng cao chất lượng giáo dục** — Mang đến các nguồn lực và chương trình giúp việc học của các em thêm phong phú
+- **Gắn kết cộng đồng** — Bắc những nhịp cầu ấm áp giữa các gia đình, thầy cô và nhân viên nhà trường
+- **Lên tiếng vì các em** — Trân trọng và bảo vệ tiếng nói của mọi học sinh và gia đình
+- **Làm phong phú đời sống học đường** — Tài trợ các chuyến tham quan thực tế, buổi hội tụ, học cụ và những dự án đặc biệt
 
-### Chúng Tôi Làm Gì
+### Những việc chúng ta cùng làm
 
-PTSA tổ chức và hỗ trợ nhiều hoạt động và sự kiện trong suốt năm học:
+Suốt cả năm học, PTSA đồng hành cùng quý phụ huynh trong rất nhiều hoạt động ý nghĩa:
 
-- **Làm giàu giáo dục** - Hội họp khoa học, chương trình nghệ thuật và diễn giả khách mời
-- **Các sự kiện xã hội** - Các buổi tối gia đình vui vẻ, lễ kỷ niệm theo mùa và các buổi họp mặt trường
-- **Hỗ trợ giáo viên** - Đồ dùng lớp học, phát triển chuyên môn và các sự kiện tri ân
-- **Gây quỹ** - Các chiến dịch hàng năm để hỗ trợ các chương trình và hoạt động của chúng tôi
-- **Điều phối tình nguyện viên** - Kết nối phụ huynh với các cơ hội tham gia
+- **Chương trình học tập mở rộng** — Các buổi giao lưu khoa học, chương trình nghệ thuật và diễn giả khách mời
+- **Sự kiện cộng đồng** — Đêm gia đình vui vẻ, lễ hội theo mùa và các buổi họp mặt của trường
+- **Chăm lo cho thầy cô** — Học cụ, phát triển chuyên môn và các dịp tri ân
+- **Gây quỹ** — Các chiến dịch hằng năm để duy trì mọi chương trình và hoạt động
+- **Kết nối tình nguyện** — Giúp phụ huynh tìm được cách tham gia phù hợp nhất
 
-### Hãy Tham Gia
+### Cùng tham gia với chúng tôi
 
-Mỗi gia đình đều là một phần của PTSA! Dù bạn có thời gian để tình nguyện thường xuyên hay chỉ có thể tham dự một vài sự kiện, sự tham gia của bạn đều tạo ra sự khác biệt. Hãy tham dự các cuộc họp hàng tháng của chúng tôi, đăng ký các cơ hội tình nguyện, hoặc chỉ cần duy trì kết nối qua bản tin của chúng tôi.
+Mỗi gia đình tại Serene Lake đều là một phần của PTSA! Dù quý phụ huynh có thể tình nguyện đều đặn hay chỉ tham gia một vài sự kiện, thì mỗi sự góp mặt của quý vị đều thật quý báu. Kính mời quý phụ huynh đến với các buổi họp hằng tháng, đăng ký tình nguyện, hoặc theo dõi bản tin để luôn giữ liên lạc với chúng tôi.
 
-Cùng nhau, chúng ta làm cho Trường Tiểu học Serene Lake trở thành một nơi đặc biệt để các con chúng ta học tập và phát triển.
+Cùng nhau, chúng ta sẽ biến Serene Lake thành một nơi thật đặc biệt để các em học tập và lớn khôn.
 
 ---
 
-**Có câu hỏi?** Liên hệ với chúng tôi tại [info@slptsa.org](mailto:info@slptsa.org)
+**Có điều gì cần hỏi?** Xin quý phụ huynh liên hệ với chúng tôi qua email [info@slptsa.org](mailto:info@slptsa.org)

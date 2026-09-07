@@ -1,27 +1,27 @@
 ---
-title: "Вступить в Serene Lake PTSA"
+title: "Вступление в Serene Lake PTSA"
 date: 2025-10-18
 draft: false
-description: "Станьте членом Serene Lake PTSA и поддержите наших учеников и учителей."
+description: "Станьте участником Serene Lake PTSA и поддержите наших учеников и учителей."
 ---
 
-## Вступить в Serene Lake PTSA
+## Присоединяйтесь к Serene Lake PTSA
 
-Каждая семья в начальной школе Serene Lake автоматически является частью нашего сообщества PTSA! Членство простое и действительно помогает поддерживать наших учеников и учителей. Каждое членство даёт вам один голос на заседаниях PTSA.
+Каждая семья начальной школы Serene Lake автоматически становится частью нашей большой PTSA-семьи! Оформить членство совсем не сложно, а вклад в жизнь учеников и учителей — самый настоящий. Каждое членство даёт вам один голос на собраниях PTSA.
 
-Все виды членства исключительно управляются через GiveBacksᵀᴹ. Нажатие на тип членства ниже перенесёт вас на страницу покупки.
+Все членства оформляются исключительно через GiveBacksᵀᴹ. Нажмите на нужный тип членства ниже — и вы перейдёте на страницу оформления.
 
-### Виды членства
+### Типы членства
 
 <div class="membership-grid">
 
 <a href="https://slptsa.givebacks.com/shop/items/1013736" target="_blank" rel="noopener noreferrer" class="membership-card">
-  <h3>Родитель/Опекун</h3>
+  <h3>Родитель / опекун</h3>
   <p class="membership-price">$15</p>
 </a>
 
 <a href="https://slptsa.givebacks.com/shop/items/1013739" target="_blank" rel="noopener noreferrer" class="membership-card">
-  <h3>Преподаватель/Персонал</h3>
+  <h3>Педагоги и сотрудники школы</h3>
   <p class="membership-price">$15</p>
 </a>
 
@@ -31,12 +31,12 @@ description: "Станьте членом Serene Lake PTSA и поддержит
 </a>
 
 <a href="https://slptsa.givebacks.com/shop/items/1013737" target="_blank" rel="noopener noreferrer" class="membership-card">
-  <h3>Бабушка/Дедушка</h3>
+  <h3>Бабушка / дедушка</h3>
   <p class="membership-price">$15</p>
 </a>
 
 <a href="https://slptsa.givebacks.com/shop/items/1013740" target="_blank" rel="noopener noreferrer" class="membership-card">
-  <h3>Сообщество</h3>
+  <h3>Член сообщества</h3>
   <p class="membership-price">$15</p>
 </a>
 

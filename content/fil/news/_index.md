@@ -1,6 +1,6 @@
 ---
-title: "Balita at Mga Update"
+title: "Balita at mga Update"
 layout: list
 ---
 
-Manatiling updated sa pinakabagong balita ng PTSA.
+Manatiling updated po kayo sa mga pinakabagong balita, kwento, at anunsyo mula sa PTSA.

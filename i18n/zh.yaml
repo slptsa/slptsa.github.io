@@ -6,107 +6,108 @@ nav_board_members: 董事会成员
 nav_events: 活动
 nav_news: 新闻
 nav_sponsors: 赞助商
-nav_resources: 资源
+nav_resources: 家长资源
 nav_join_ptsa: 加入PTSA
-nav_volunteer: 志愿服务机会
-nav_staff_favorites: "教职员工最爱及心愿单"
+nav_volunteer: 志愿服务
+nav_staff_favorites: "老师喜好与心愿单"
 nav_school_info: 学校信息
-nav_donate: 捐款
+nav_donate: 捐款支持
 toggle_nav: 切换导航菜单
+select_language: 选择语言
 
 # Home page
-welcome: 欢迎
+welcome: 欢迎您
 join_ptsa_today: 立即加入PTSA
 view_events: 查看活动
 active_members: 活跃会员
-events_this_year: 今年的活动
-raised_for_students: 为学生筹集的资金
-support_teachers_title: 支持我们的老师！
-support_teachers_desc: "查看我们老师的最爱物品和心愿单。通过帮助满足他们的课堂需求来表达您的感谢。"
-view_staff_favorites: 查看教职员工最爱
-upcoming_events: 即将举行的活动
-view_all_events: "查看所有活动 →"
-no_upcoming_events: 目前没有即将举行的活动。请稍后再查看！
+events_this_year: 本年度活动
+raised_for_students: 为学生筹集的善款
+support_teachers_title: 一起为老师加油！
+support_teachers_desc: "看看老师们的喜好和心愿单，用一份小小的心意，帮助他们打造更温暖的课堂。"
+view_staff_favorites: 查看老师喜好
+upcoming_events: 近期活动
+view_all_events: "查看全部活动 →"
+no_upcoming_events: 目前暂无活动预告，请稍后再来看看！
 volunteer_opportunities: 志愿服务机会
-sign_up_to_help: 报名参与
-see_all_opportunities: "查看所有机会 →"
-no_volunteer_opportunities: 目前没有志愿服务机会。请稍后再查看！
+sign_up_to_help: 我要报名
+see_all_opportunities: "查看全部机会 →"
+no_volunteer_opportunities: 目前暂无志愿服务机会，请稍后再来看看！
 meet_the_board: 认识董事会
-meet_everyone: "认识所有人 →"
-latest_news: 最新消息
-view_all_news: "查看所有新闻 →"
-get_involved_today: 立即参与！
-membership_difference: 您的会员资格对我们的学校社区有所影响。
+meet_everyone: "认识每一位成员 →"
+latest_news: 最新动态
+view_all_news: "查看全部新闻 →"
+get_involved_today: 与我们一同参与！
+membership_difference: 您的加入，让我们的学校社区更加温暖有力。
 become_a_member: 成为会员
 
 # Board page
 board_default_title: PTSA董事会成员
-elected_officials: 民选官员
-elected_officials_desc: 我们的民选董事会成员任期一年，每年由PTSA成员投票选出。
+elected_officials: 民选董事
+elected_officials_desc: 我们的民选董事任期一年，每年由PTSA会员投票产生，代表大家的心声。
 elected_label: "当选："
 term_label: "任期："
 appointed_positions: 任命职位
-appointed_positions_desc: 我们的任命董事会成员与民选官员并肩工作，支持PTSA的运营和项目。
-no_board_data: 董事会成员信息目前不可用。
+appointed_positions_desc: 任命董事与民选董事并肩合作，共同支持PTSA的日常运营与各项活动。
+no_board_data: 董事会成员信息正在更新中，敬请期待。
 join_board_title: 有兴趣加入董事会吗？
-join_board_desc: 我们欢迎希望做出改变的家长和监护人！董事会选举每年春季举行。
-learn_more_ptsa: 了解更多关于PTSA的信息
+join_board_desc: 我们诚挚欢迎希望为学校做出贡献的家长与监护人加入。董事会选举每年春季举行。
+learn_more_ptsa: 进一步了解PTSA
 
 # Staff favorites
 search_teacher_label: 搜索老师
-search_teacher_placeholder: 按老师姓名搜索...
+search_teacher_placeholder: 输入老师姓名进行搜索……
 clear_search_label: 清除搜索
-no_teachers_found: 没有找到符合您搜索的老师。
+no_teachers_found: 没有找到符合条件的老师。
 view_amazon_wishlist: "🎁 查看亚马逊心愿单"
-no_wishlist: 未提供心愿单
-fav_snacks: "🍿 最爱零食"
-fav_restaurants: "🍽️ 最爱餐厅"
-fav_beverages: "☕ 最爱饮料"
-fav_stores: "🏪 最爱商店"
-fav_colors: "🎨 最爱颜色"
-fav_flowers: "🌸 最爱花卉"
-hobbies: "🎯 爱好"
-fav_things: "❤️ 最爱事物"
-classroom_needs: "📚 课堂需求"
-how_to_appreciate: "🙏 如何表达感谢"
-no_staff_data: 教职员工最爱信息目前不可用。
+no_wishlist: 尚未提供心愿单
+fav_snacks: "🍿 喜爱的零食"
+fav_restaurants: "🍽️ 喜爱的餐厅"
+fav_beverages: "☕ 喜爱的饮品"
+fav_stores: "🏪 喜爱的商店"
+fav_colors: "🎨 喜爱的颜色"
+fav_flowers: "🌸 喜爱的花卉"
+hobbies: "🎯 兴趣爱好"
+fav_things: "❤️ 喜爱之物"
+classroom_needs: "📚 课堂心愿清单"
+how_to_appreciate: "🙏 如何表达心意"
+no_staff_data: 老师喜好资料正在整理中,敬请期待。
 
 # Events
 time_label: "⏰ 时间："
 location_label: "📍 地点："
 join_zoom: "🔗 加入Zoom会议"
 volunteer_sign_up: "🙋 志愿者报名"
-no_events: 目前没有即将举行的活动。请稍后再查看！
+no_events: 目前暂无活动预告,请稍后再来看看！
 
 # News
-no_news: 目前没有最新消息。请稍后再查看！
-expires_notice: 此公告到期时间
+no_news: 目前暂无最新动态,请稍后再来看看！
+expires_notice: 此公告将于以下日期结束
 
 # Volunteer page
-ptsa_event_volunteers: PTSA活动志愿者
-sign_up_to_volunteer: "🙋 报名参加志愿服务"
-signup_coming_soon: 报名链接即将推出！
-no_volunteer_opps: 目前没有志愿服务机会。请稍后再查看！
+ptsa_event_volunteers: 活动志愿者招募
+sign_up_to_volunteer: "🙋 我要报名"
+signup_coming_soon: 报名链接即将上线!
+no_volunteer_opps: 目前暂无志愿服务机会,请稍后再来看看!
 join_ptsa_link: 加入PTSA
-view_all_events_link: 查看所有即将举行的活动
-no_events_data: 没有活动数据。
+view_all_events_link: 查看全部活动
+no_events_data: 暂无活动数据。
 open_spots_title: PTSA的开放职位
-open_spots_intro: "加入我们的团队！我们在PTSA董事会和委员会中有职位空缺。帮助为我们的学生做出改变。"
+open_spots_intro: "欢迎加入我们的团队！PTSA董事会与各委员会现有职位空缺,与我们一同为孩子们创造更美好的校园生活。"
 time_commitment: "⏱️ 时间投入："
 term: "📅 任期："
-express_interest: "✉️ 表达兴趣"
-no_positions: 目前没有开放职位。请稍后再查看，或联系我们了解未来的机会！
-no_positions_data: 没有职位数据。
+express_interest: "✉️ 我有兴趣"
+no_positions: 目前暂无空缺职位。欢迎稍后再来看看,或与我们联系了解未来的机会!
+no_positions_data: 暂无职位数据。
 
 # Footer
-footer_about_desc: 支持Mukilteo学区Serene Lake小学的学生、老师和家庭。
-footer_quick_links: 快速链接
+footer_about_desc: 用心支持Mukilteo学区Serene Lake小学的每一位学生、老师和家庭。
+footer_quick_links: 快速导航
 footer_join_ptsa: 加入PTSA
 footer_volunteer: 志愿服务
 footer_teacher_wishlists: 老师心愿单
-footer_resources: 资源
-footer_get_involved: 参与进来！
-footer_get_involved_desc: 加入我们，为我们的学校社区做出改变。
+footer_resources: 家长资源
+footer_get_involved: 与我们一起参与!
+footer_get_involved_desc: 加入我们,一同为我们的学校社区注入温暖与力量。
 footer_join_today: 立即加入PTSA
-footer_connect: 联系我们
-footer_tagline: 每个孩子。一个声音。
+footer_connect: 与我们联系
+footer_tagline: 每一个孩子,同一份声音。

@@ -2,16 +2,16 @@
 title: "Únase a Serene Lake PTSA"
 date: 2025-10-18
 draft: false
-description: "Conviértase en miembro de Serene Lake PTSA y apoye a nuestros estudiantes y maestros."
+description: "Hágase miembro de la PTSA de Serene Lake y acompañe a nuestros estudiantes y maestros."
 ---
 
 ## Únase a Serene Lake PTSA
 
-¡Cada familia en la Escuela Primaria Serene Lake es automáticamente parte de nuestra comunidad de la PTSA! La membresía es fácil y tiene un impacto real en el apoyo a nuestros estudiantes y maestros. Cada membresía le otorga un voto en las reuniones de la PTSA.
+¡Cada familia de la Escuela Primaria Serene Lake es parte natural de nuestra gran familia de la PTSA! Hacerse miembro es muy sencillo y su apoyo se traduce, de verdad, en más oportunidades para nuestros estudiantes y maestros. Cada membresía le otorga además un voto en las reuniones de la PTSA.
 
-Todas las membresías son administradas exclusivamente a través de GiveBacksᵀᴹ. Al hacer clic en un tipo de membresía a continuación, será llevado a la página de compra.
+Todas las membresías se gestionan exclusivamente a través de GiveBacksᵀᴹ. Al hacer clic en cualquier tipo de membresía, se abrirá la página segura para completar su inscripción.
 
-### Tipos de Membresía
+### Tipos de membresía
 
 <div class="membership-grid">
 
