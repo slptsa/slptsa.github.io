@@ -3,4 +3,4 @@ title: ""
 layout: board
 ---
 
-Makilala ang mga dedikadong miyembro ng Lupon ng PTSA para sa taong pampaaralan 2026-2027.
+Kilalanin po natin ang mga miyembro ng PTSA Board para sa school year 2026-2027 — mga taong buong pusong naglilingkod para sa ating mga bata at pamilya.

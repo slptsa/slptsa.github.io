@@ -1,0 +1,113 @@
+# Navigation
+nav_home: 홈
+nav_about_ptsa: PTSA 소개
+nav_about_us: 저희를 소개합니다
+nav_board_members: 이사회 임원
+nav_events: 행사
+nav_news: 소식
+nav_sponsors: 후원사
+nav_resources: 학부모 자료
+nav_join_ptsa: PTSA 가입
+nav_volunteer: 자원봉사 기회
+nav_staff_favorites: "선생님 좋아하는 것들과 위시리스트"
+nav_school_info: 학교 정보
+nav_donate: 후원하기
+toggle_nav: 내비게이션 메뉴 열기/닫기
+select_language: 언어 선택
+
+# Home page
+welcome: 환영합니다
+join_ptsa_today: 지금 PTSA에 가입하세요
+view_events: 행사 보기
+active_members: 활동 회원
+events_this_year: 올해 행사
+raised_for_students: 학생들을 위해 모금된 금액
+support_teachers_title: 선생님들을 함께 응원해 주세요!
+support_teachers_desc: "선생님들이 좋아하시는 것들과 위시리스트를 살펴보세요. 작은 정성으로 교실에 따뜻함을 더할 수 있습니다."
+view_staff_favorites: 선생님 좋아하는 것들 보기
+upcoming_events: 다가오는 행사
+view_all_events: "모든 행사 보기 →"
+no_upcoming_events: 현재 예정된 행사가 없습니다. 다시 방문해 주세요!
+volunteer_opportunities: 자원봉사 기회
+sign_up_to_help: 함께하기
+see_all_opportunities: "모든 기회 보기 →"
+no_volunteer_opportunities: 현재 자원봉사 기회가 없습니다. 다시 방문해 주세요!
+meet_the_board: 이사회 소개
+meet_everyone: "임원 모두 만나보기 →"
+latest_news: 최근 소식
+view_all_news: "모든 소식 보기 →"
+get_involved_today: 오늘 함께해 주세요!
+membership_difference: 회원 여러분의 참여가 우리 학교 공동체를 더욱 따뜻하게 만듭니다.
+become_a_member: 회원 되기
+
+# Board page
+board_default_title: PTSA 이사회 임원
+elected_officials: 선출직 임원
+elected_officials_desc: 선출직 임원들은 1년 임기로 매년 PTSA 회원들의 투표를 통해 선출됩니다.
+elected_label: "선출:"
+term_label: "임기:"
+appointed_positions: 임명직 임원
+appointed_positions_desc: 임명직 임원들은 선출직 임원들과 함께 PTSA의 운영과 프로그램을 정성껏 이끌어 갑니다.
+no_board_data: 이사회 임원 정보는 현재 준비 중입니다.
+join_board_title: 이사회에 참여하고 싶으신가요?
+join_board_desc: 학교를 위해 함께해 주실 학부모님과 보호자님을 진심으로 환영합니다! 이사회 선거는 매년 봄에 진행됩니다.
+learn_more_ptsa: PTSA에 대해 더 알아보기
+
+# Staff favorites
+search_teacher_label: 선생님 검색
+search_teacher_placeholder: 선생님 성함으로 검색하세요...
+clear_search_label: 검색어 지우기
+no_teachers_found: 검색 결과에 해당하는 선생님이 없습니다.
+view_amazon_wishlist: "🎁 아마존 위시리스트 보기"
+no_wishlist: 위시리스트가 아직 준비되지 않았습니다
+fav_snacks: "🍿 좋아하시는 간식"
+fav_restaurants: "🍽️ 좋아하시는 식당"
+fav_beverages: "☕ 좋아하시는 음료"
+fav_stores: "🏪 좋아하시는 상점"
+fav_colors: "🎨 좋아하시는 색깔"
+fav_flowers: "🌸 좋아하시는 꽃"
+hobbies: "🎯 취미"
+fav_things: "❤️ 좋아하시는 것들"
+classroom_needs: "📚 교실에 필요한 것들"
+how_to_appreciate: "🙏 감사 인사를 전하는 방법"
+no_staff_data: 선생님들의 좋아하는 것들 정보는 현재 준비 중입니다.
+
+# Events
+time_label: "⏰ 시간:"
+location_label: "📍 장소:"
+join_zoom: "🔗 Zoom 회의 참가"
+volunteer_sign_up: "🙋 자원봉사 신청"
+no_events: 현재 예정된 행사가 없습니다. 다시 방문해 주세요!
+
+# News
+no_news: 현재 새로운 소식이 없습니다. 다시 방문해 주세요!
+expires_notice: 본 공지는 다음 날짜까지 유효합니다
+
+# Volunteer page
+ptsa_event_volunteers: 행사 자원봉사자 모집
+sign_up_to_volunteer: "🙋 자원봉사 신청하기"
+signup_coming_soon: 신청 링크가 곧 열립니다!
+no_volunteer_opps: 현재 자원봉사 기회가 없습니다. 다시 방문해 주세요!
+join_ptsa_link: PTSA에 가입하기
+view_all_events_link: 모든 다가오는 행사 보기
+no_events_data: 행사 데이터가 없습니다.
+open_spots_title: PTSA의 모집 중인 자리
+open_spots_intro: "저희 팀에 함께해 주세요! PTSA 이사회와 각 위원회에서 여러분을 기다리고 있습니다. 우리 아이들을 위해 함께 마음을 모아 주세요."
+time_commitment: "⏱️ 소요 시간:"
+term: "📅 임기:"
+express_interest: "✉️ 관심 표하기"
+no_positions: 현재 모집 중인 자리가 없습니다. 다시 방문하시거나 앞으로의 기회에 대해 문의해 주세요!
+no_positions_data: 자리 데이터가 없습니다.
+
+# Footer
+footer_about_desc: Mukilteo 학군 Serene Lake 초등학교의 학생, 선생님, 그리고 가족 한 분 한 분을 정성껏 지원합니다.
+footer_quick_links: 바로가기
+footer_join_ptsa: PTSA 가입
+footer_volunteer: 자원봉사
+footer_teacher_wishlists: 선생님 위시리스트
+footer_resources: 학부모 자료
+footer_get_involved: 함께해 주세요!
+footer_get_involved_desc: 우리 학교 공동체에 따뜻한 변화를 함께 만들어 갑니다.
+footer_join_today: 지금 PTSA에 가입하세요
+footer_connect: 함께 소통해요
+footer_tagline: 모든 아이, 하나의 목소리.

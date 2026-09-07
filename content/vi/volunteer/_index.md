@@ -1,8 +1,8 @@
 ---
-title: "Cơ Hội Tình Nguyện"
+title: "Cơ hội tình nguyện"
 date: 2025-10-18
 draft: false
-description: "Hỗ trợ tại các sự kiện hoặc tham gia ban quản trị - mỗi đóng góp đều tạo ra sự khác biệt tại Trường Tiểu học Serene Lake."
+description: "Tham gia các sự kiện hay đồng hành cùng Ban điều hành — mỗi đóng góp đều mang lại sự khác biệt cho Trường Tiểu học Serene Lake."
 ---
 
-Hãy tạo ra sự khác biệt tại Trường Tiểu học Serene Lake! Dù bạn có thể dành vài giờ cho một sự kiện hay muốn đảm nhận vai trò lãnh đạo trong ban quản trị của chúng tôi, đều có chỗ cho bạn. Mỗi đóng góp giúp tạo ra những trải nghiệm tuyệt vời cho học sinh của chúng ta và củng cố cộng đồng trường học.
+Tại Trường Tiểu học Serene Lake, mỗi tấm lòng đều có thể tạo nên sự khác biệt! Dù quý phụ huynh có thể dành ra vài giờ cho một sự kiện sắp tới, hay muốn đảm nhận một vai trò dài lâu hơn trong Ban điều hành, chúng tôi luôn có một vị trí phù hợp để chào đón quý vị. Mỗi phần đóng góp của quý phụ huynh đều giúp mang đến những trải nghiệm tuyệt vời cho các em học sinh và làm cho cộng đồng nhà trường thêm ấm áp, gắn bó.

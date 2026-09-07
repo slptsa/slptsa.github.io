@@ -1,27 +1,27 @@
 ---
-title: "به سرین لیک PTSA بپیوندید"
+title: "عضویت در PTSA سرین لیک"
 date: 2025-10-18
 draft: false
-description: "عضو سرین لیک PTSA شوید و از شاگردان و معلمان ما حمایت کنید."
+description: "به خانواده PTSA سرین لیک بپیوندید و در کنار ما از شاگردان و معلمان‌مان حمایت کنید."
 ---
 
-## به سرین لیک PTSA بپیوندید
+## به PTSA سرین لیک بپیوندید
 
-هر خانواده در مکتب ابتدایی سرین لیک به طور خودکار بخشی از جامعه PTSA ما است! عضویت آسان است و تأثیر واقعی در حمایت از شاگردان و معلمان ما دارد. هر عضویت به شما یک رأی در جلسات PTSA می‌دهد.
+هر خانواده در مکتب ابتدایی سرین لیک، به‌طور طبیعی بخشی از خانواده PTSA ماست! عضویت رسمی بسیار ساده است و اثر واقعی و ارزشمندی در حمایت از شاگردان و معلمان‌مان دارد. هر عضویت، یک حق رأی در جلسات PTSA برای شما به همراه دارد.
 
-تمام عضویت‌ها به طور انحصاری از طریق GiveBacksᵀᴹ مدیریت می‌شوند. با کلیک روی نوع عضویت زیر به صفحه خرید هدایت می‌شوید.
+تمامی عضویت‌ها به‌صورت اختصاصی از طریق GiveBacksᵀᴹ انجام می‌شود. با کلیک بر روی هر یک از انواع عضویت، به صفحه خرید هدایت خواهید شد.
 
 ### انواع عضویت
 
 <div class="membership-grid">
 
 <a href="https://slptsa.givebacks.com/shop/items/1013736" target="_blank" rel="noopener noreferrer" class="membership-card">
-  <h3>والدین/سرپرست</h3>
+  <h3>والد / سرپرست</h3>
   <p class="membership-price">$15</p>
 </a>
 
 <a href="https://slptsa.givebacks.com/shop/items/1013739" target="_blank" rel="noopener noreferrer" class="membership-card">
-  <h3>استاد/کارمند</h3>
+  <h3>معلمین و کارمندان</h3>
   <p class="membership-price">$15</p>
 </a>
 
@@ -31,12 +31,12 @@ description: "عضو سرین لیک PTSA شوید و از شاگردان و م�
 </a>
 
 <a href="https://slptsa.givebacks.com/shop/items/1013737" target="_blank" rel="noopener noreferrer" class="membership-card">
-  <h3>پدربزرگ/مادربزرگ</h3>
+  <h3>پدرکلان / مادرکلان</h3>
   <p class="membership-price">$15</p>
 </a>
 
 <a href="https://slptsa.givebacks.com/shop/items/1013740" target="_blank" rel="noopener noreferrer" class="membership-card">
-  <h3>جامعه</h3>
+  <h3>عضو جامعه</h3>
   <p class="membership-price">$15</p>
 </a>
 

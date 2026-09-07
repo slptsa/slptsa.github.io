@@ -1,29 +1,29 @@
 ---
 title: ""
-description: "了解Serene Lake小学和我们美好的社区"
+description: "了解Serene Lake小学,以及我们这个温暖有爱的社区"
 ---
 
 ## Serene Lake小学
 
-Serene Lake小学是Mukilteo学区的一部分，自1975年以来一直为我们社区的学生和家庭服务。
+Serene Lake小学隶属于Mukilteo学区,自1975年起便与社区的孩子和家庭一路同行。
 
 ### 学校信息
 
 **地址：** 4709 Picnic Point Road, Edmonds, WA 98026  
 **电话：** (425) 366-3500  
-**网站：** [sl.mukilteoschools.org](https://sl.mukilteoschools.org/)
+**学校网站：** [sl.mukilteoschools.org](https://sl.mukilteoschools.org/)
 
-### 实用链接
+### 常用链接
 
-- [教职员工最爱](/zh/our-school/staff-favorites/) - 了解我们的老师！
-- [Serene Lake小学网站](https://www.mukilteoschools.org/domain/50)
+- [老师喜好与心愿单](/zh/our-school/staff-favorites/) — 走近我们可爱的老师们
+- [Serene Lake小学官网](https://www.mukilteoschools.org/domain/50)
 - [Mukilteo学区](https://www.mukilteoschools.org)
 
-### 学校时间
+### 作息时间
 
-**普通日：** 上午9:00 - 下午3:30  
-**提前放学：** 上午9:00 - 下午1:30
+**普通上课日：** 上午9:00 — 下午3:30  
+**提前放学日：** 上午9:00 — 下午1:30
 
 ### 关于我们的社区
 
-Serene Lake小学为一个多元化的家庭社区提供服务，致力于为我们的学生提供最佳的教育体验。
+Serene Lake小学服务于一个多元且富有爱心的家庭社区,大家共同努力,只为给孩子们提供最好的教育与陪伴。

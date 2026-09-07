@@ -1,37 +1,37 @@
 ---
-title: "Sobre Serene Lake PTSA"
+title: "Acerca de Serene Lake PTSA"
 date: 2026-08-27
 draft: false
-description: "Conozca sobre Serene Lake PTSA y nuestra misión de apoyar a estudiantes, maestros y familias."
+description: "Conozca a la PTSA de la Escuela Primaria Serene Lake y nuestra misión de acompañar a estudiantes, maestros y familias."
 ---
 
-La Asociación de Padres, Maestros y Estudiantes de Serene Lake (PTSA) es una vibrante comunidad de padres, maestros y personal que trabajan juntos para mejorar la experiencia educativa de todos los estudiantes de la Escuela Primaria Serene Lake.
+La PTSA de la Escuela Primaria Serene Lake es una gran familia formada por padres, maestros y personal escolar que trabajamos codo a codo para enriquecer la experiencia educativa de todos los niños de nuestra escuela.
 
-### Nuestra Misión
+### Nuestra misión
 
-Estamos comprometidos con:
+Nos dedicamos con todo el corazón a:
 
-- **Apoyar la excelencia educativa** - Proporcionar recursos y programas que enriquezcan el aprendizaje de los estudiantes
-- **Construir comunidad** - Fomentar conexiones entre familias, maestros y personal
-- **Abogar por los niños** - Representar los intereses de todos los estudiantes y familias
-- **Mejorar los programas escolares** - Financiar excursiones, asambleas, materiales para el aula y proyectos especiales
+- **Impulsar una educación de calidad** — Ofrecer recursos y programas que enriquezcan el aprendizaje de cada estudiante
+- **Fortalecer la comunidad** — Tender puentes cálidos entre familias, maestros y personal escolar
+- **Ser la voz de los niños** — Escuchar y defender los intereses de todos los estudiantes y familias
+- **Enriquecer la vida escolar** — Financiar excursiones, asambleas, materiales de aula y proyectos especiales
 
-### Lo Que Hacemos
+### Lo que hacemos
 
-La PTSA organiza y apoya numerosas actividades y eventos a lo largo del año:
+A lo largo del año, la PTSA acompaña a la escuela organizando y apoyando muchas actividades:
 
-- **Enriquecimiento educativo** - Asambleas de ciencias, programas de arte y oradores invitados
-- **Eventos sociales** - Divertidas noches familiares, celebraciones de temporada y reuniones escolares
-- **Apoyo a los maestros** - Útiles escolares, desarrollo profesional y eventos de apreciación
-- **Recaudación de fondos** - Campañas anuales para apoyar nuestros programas y actividades
-- **Coordinación de voluntarios** - Conectar a los padres con oportunidades para involucrarse
+- **Enriquecimiento educativo** — Asambleas de ciencia, programas de arte y visitas de invitados especiales
+- **Eventos comunitarios** — Noches familiares de diversión, celebraciones de temporada y encuentros escolares
+- **Apoyo a los maestros** — Materiales para el salón de clases, desarrollo profesional y eventos de agradecimiento
+- **Recaudación de fondos** — Campañas anuales para sostener nuestros programas y actividades
+- **Coordinación de voluntarios** — Conectar a las familias con las oportunidades ideales para participar
 
-### Participe
+### Cómo participar
 
-¡Cada familia es parte de la PTSA! Ya sea que tenga tiempo para ser voluntario regularmente o solo pueda asistir a algunos eventos, su participación hace la diferencia. Asista a nuestras reuniones mensuales, inscríbase para oportunidades de voluntariado, o simplemente manténgase conectado a través de nuestro boletín informativo.
+¡Cada familia es parte de la PTSA! Ya sea que pueda servir como voluntario con frecuencia o solo acompañarnos en algunos eventos, su participación cuenta muchísimo. Le invitamos con mucho gusto a asistir a nuestras reuniones mensuales, inscribirse como voluntario o mantenerse en contacto a través de nuestro boletín.
 
-Juntos, hacemos de la Escuela Primaria Serene Lake un lugar excepcional para que nuestros hijos aprendan y crezcan.
+Juntos hacemos de Serene Lake un lugar excepcional para que nuestros niños aprendan y crezcan felices.
 
 ---
 
-**¿Tiene preguntas?** Contáctenos en [info@slptsa.org](mailto:info@slptsa.org)
+**¿Tiene alguna pregunta?** Escríbanos a [info@slptsa.org](mailto:info@slptsa.org)

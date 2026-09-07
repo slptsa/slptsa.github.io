@@ -1,6 +1,6 @@
 ---
-title: "Tin Tức và Cập Nhật"
+title: "Tin tức và Cập nhật"
 layout: list
 ---
 
-Cập nhật những tin tức mới nhất từ PTSA.
+Kính mời quý phụ huynh theo dõi những tin tức mới nhất và các câu chuyện ấm áp từ PTSA.

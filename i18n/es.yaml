@@ -1,64 +1,65 @@
 # Navigation
 nav_home: Inicio
-nav_about_ptsa: Sobre la PTSA
-nav_about_us: Sobre nosotros
-nav_board_members: Miembros de la junta
+nav_about_ptsa: Acerca de la PTSA
+nav_about_us: Quiénes somos
+nav_board_members: Junta Directiva
 nav_events: Eventos
 nav_news: Noticias
 nav_sponsors: Patrocinadores
-nav_resources: Recursos
+nav_resources: Recursos para familias
 nav_join_ptsa: Únase a la PTSA
-nav_volunteer: Oportunidades de voluntariado
-nav_staff_favorites: "Favoritos del personal y listas de deseos"
+nav_volunteer: Voluntariado
+nav_staff_favorites: "Preferencias del personal y listas de deseos"
 nav_school_info: Información escolar
-nav_donate: Donar
-toggle_nav: Alternar menú de navegación
+nav_donate: Done para apoyar
+toggle_nav: Abrir o cerrar el menú
+select_language: Seleccione un idioma
 
 # Home page
-welcome: Bienvenido
-join_ptsa_today: Únase a la PTSA hoy
-view_events: Ver eventos
+welcome: Le damos la bienvenida
+join_ptsa_today: Únase hoy a la PTSA
+view_events: Ver los eventos
 active_members: Miembros activos
 events_this_year: Eventos este año
-raised_for_students: Recaudado para los estudiantes
-support_teachers_title: ¡Apoye a nuestros maestros!
-support_teachers_desc: "Vea las cosas favoritas de nuestros maestros y sus listas de deseos. Muestre su agradecimiento ayudando a satisfacer las necesidades de su salón de clases."
-view_staff_favorites: Ver favoritos del personal
+raised_for_students: Recaudado para nuestros estudiantes
+support_teachers_title: ¡Apoyemos juntos a nuestros maestros!
+support_teachers_desc: "Conozca las cosas favoritas de nuestros maestros y sus listas de deseos. Con un pequeño detalle, usted puede ayudarles a crear un salón de clases aún más acogedor."
+view_staff_favorites: Ver las preferencias del personal
 upcoming_events: Próximos eventos
 view_all_events: "Ver todos los eventos →"
-no_upcoming_events: No hay próximos eventos en este momento. ¡Vuelva pronto!
-volunteer_opportunities: Oportunidades de voluntariado
-sign_up_to_help: Inscríbase para ayudar
+no_upcoming_events: Por ahora no hay eventos programados. ¡Vuelva pronto a visitarnos!
+volunteer_opportunities: Oportunidades para servir como voluntario
+sign_up_to_help: Quiero ayudar
 see_all_opportunities: "Ver todas las oportunidades →"
-no_volunteer_opportunities: No hay oportunidades de voluntariado en este momento. ¡Vuelva pronto!
-meet_the_board: Conozca a la junta
-meet_everyone: "Conozca a todos →"
+no_volunteer_opportunities: Por el momento no hay oportunidades de voluntariado. ¡Vuelva pronto!
+meet_the_board: Conozca a nuestra Junta
+meet_everyone: "Conozca a cada integrante →"
 latest_news: Últimas noticias
 view_all_news: "Ver todas las noticias →"
-get_involved_today: ¡Participe hoy!
-membership_difference: Su membresía hace una diferencia en nuestra comunidad escolar.
+get_involved_today: ¡Acompáñenos y participe!
+membership_difference: Su participación hace toda la diferencia en nuestra comunidad escolar.
 become_a_member: Hágase miembro
 
 # Board page
-board_default_title: Miembros de la Junta de la PTSA
-elected_officials: Funcionarios electos
-elected_officials_desc: Nuestros miembros electos de la junta sirven términos de un año y son elegidos anualmente por los miembros de la PTSA.
-elected_label: "Electo:"
+board_default_title: Junta Directiva de la PTSA
+elected_officials: Miembros electos
+elected_officials_desc: Nuestros miembros electos sirven por un año y son elegidos cada año por los socios de la PTSA, representando la voz de todas las familias.
+elected_label: "Electo(a):"
 term_label: "Mandato:"
 appointed_positions: Puestos designados
-appointed_positions_desc: Nuestros miembros designados de la junta trabajan junto a los funcionarios electos para apoyar las operaciones y programas de la PTSA.
-no_board_data: La información sobre los miembros de la junta no está disponible en este momento.
-join_board_title: ¿Interesado en unirse a la junta?
-join_board_desc: ¡Damos la bienvenida a padres y tutores que quieran hacer una diferencia! Las elecciones de la junta se realizan cada primavera.
+appointed_positions_desc: Los miembros designados trabajan hombro a hombro con los electos para apoyar el día a día y los programas de la PTSA.
+no_board_data: La información sobre la Junta Directiva se está actualizando. Vuelva pronto a visitarnos.
+join_board_title: ¿Le interesa formar parte de la Junta?
+join_board_desc: Damos la bienvenida con cariño a los padres y tutores que desean aportar su granito de arena. Las elecciones se celebran cada primavera.
 learn_more_ptsa: Conozca más sobre la PTSA
 
 # Staff favorites
-search_teacher_label: Buscar un maestro
-search_teacher_placeholder: Buscar por nombre del maestro...
-clear_search_label: Borrar búsqueda
-no_teachers_found: No se encontraron maestros que coincidan con su búsqueda.
-view_amazon_wishlist: "🎁 Ver lista de deseos en Amazon"
-no_wishlist: No se proporcionó lista de deseos
+search_teacher_label: Buscar a un maestro
+search_teacher_placeholder: Escriba el nombre del maestro...
+clear_search_label: Borrar la búsqueda
+no_teachers_found: No encontramos maestros que coincidan con su búsqueda.
+view_amazon_wishlist: "🎁 Ver la lista de deseos en Amazon"
+no_wishlist: Aún no ha compartido su lista de deseos
 fav_snacks: "🍿 Bocadillos favoritos"
 fav_restaurants: "🍽️ Restaurantes favoritos"
 fav_beverages: "☕ Bebidas favoritas"
@@ -67,46 +68,46 @@ fav_colors: "🎨 Colores favoritos"
 fav_flowers: "🌸 Flores favoritas"
 hobbies: "🎯 Pasatiempos"
 fav_things: "❤️ Cosas favoritas"
-classroom_needs: "📚 Necesidades del aula"
-how_to_appreciate: "🙏 Cómo mostrar apreciación"
-no_staff_data: La información sobre los favoritos del personal no está disponible en este momento.
+classroom_needs: "📚 Necesidades del salón de clases"
+how_to_appreciate: "🙏 Cómo mostrar aprecio"
+no_staff_data: La información sobre las preferencias del personal se está preparando. Vuelva pronto.
 
 # Events
 time_label: "⏰ Hora:"
 location_label: "📍 Lugar:"
-join_zoom: "🔗 Unirse a la reunión de Zoom"
-volunteer_sign_up: "🙋 Inscribirse como voluntario"
-no_events: No hay próximos eventos en este momento. ¡Vuelva pronto!
+join_zoom: "🔗 Unirse a la reunión por Zoom"
+volunteer_sign_up: "🙋 Inscribirme como voluntario"
+no_events: Por ahora no hay eventos programados. ¡Vuelva pronto a visitarnos!
 
 # News
-no_news: No hay noticias actuales en este momento. ¡Vuelva pronto!
-expires_notice: Este anuncio vence el
+no_news: Por el momento no tenemos noticias nuevas. ¡Vuelva pronto!
+expires_notice: Este aviso vence el
 
 # Volunteer page
-ptsa_event_volunteers: Voluntarios de eventos de la PTSA
-sign_up_to_volunteer: "🙋 Inscribirse como voluntario"
-signup_coming_soon: ¡El enlace de inscripción llegará pronto!
-no_volunteer_opps: No hay oportunidades de voluntariado disponibles en este momento. ¡Vuelva pronto!
-join_ptsa_link: unirse a la PTSA
+ptsa_event_volunteers: Voluntarios para los eventos de la PTSA
+sign_up_to_volunteer: "🙋 Inscribirme como voluntario"
+signup_coming_soon: ¡Muy pronto compartiremos el enlace de inscripción!
+no_volunteer_opps: En este momento no hay oportunidades de voluntariado disponibles. ¡Vuelva pronto a visitarnos!
+join_ptsa_link: hágase miembro de la PTSA
 view_all_events_link: ver todos los próximos eventos
-no_events_data: No hay datos de eventos disponibles.
-open_spots_title: Puestos disponibles en la PTSA
-open_spots_intro: "¡Únase a nuestro equipo! Tenemos vacantes en nuestra junta y comités de la PTSA. Ayude a hacer una diferencia para nuestros estudiantes."
-time_commitment: "⏱️ Compromiso de tiempo:"
+no_events_data: No hay información de eventos disponible.
+open_spots_title: Puestos abiertos en la PTSA
+open_spots_intro: "¡Únase a nuestro equipo! Tenemos lugares disponibles en la Junta Directiva y en los comités de la PTSA. Su ayuda hace una gran diferencia para nuestros estudiantes."
+time_commitment: "⏱️ Tiempo requerido:"
 term: "📅 Mandato:"
-express_interest: "✉️ Expresar interés"
-no_positions: No hay puestos disponibles en este momento. ¡Vuelva pronto o contáctenos para conocer sobre oportunidades futuras!
-no_positions_data: No hay datos de puestos disponibles.
+express_interest: "✉️ Me interesa"
+no_positions: Por ahora no hay puestos abiertos. Vuelva pronto o escríbanos para conocer las oportunidades que vienen.
+no_positions_data: No hay información de puestos disponible.
 
 # Footer
-footer_about_desc: Apoyando a estudiantes, maestros y familias en la Escuela Primaria Serene Lake en el Distrito Escolar de Mukilteo.
+footer_about_desc: Acompañando con cariño a los estudiantes, maestros y familias de la Escuela Primaria Serene Lake, en el Distrito Escolar de Mukilteo.
 footer_quick_links: Enlaces rápidos
 footer_join_ptsa: Únase a la PTSA
 footer_volunteer: Voluntariado
-footer_teacher_wishlists: Listas de deseos de maestros
-footer_resources: Recursos
-footer_get_involved: "¡Participe!"
-footer_get_involved_desc: Únase a nosotros para hacer una diferencia en nuestra comunidad escolar.
-footer_join_today: Únase a la PTSA hoy
-footer_connect: Conéctese con nosotros
-footer_tagline: Cada niño. Una voz.
+footer_teacher_wishlists: Listas de deseos de los maestros
+footer_resources: Recursos para familias
+footer_get_involved: "¡Acompáñenos!"
+footer_get_involved_desc: Únase a nosotros y ayudemos juntos a fortalecer nuestra comunidad escolar.
+footer_join_today: Únase hoy a la PTSA
+footer_connect: Manténgase en contacto
+footer_tagline: Cada niño. Una sola voz.

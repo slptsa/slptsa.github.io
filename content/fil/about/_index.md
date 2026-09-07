@@ -2,36 +2,36 @@
 title: "Tungkol sa Serene Lake PTSA"
 date: 2026-08-27
 draft: false
-description: "Alamin ang tungkol sa Serene Lake PTSA at ang aming misyon na suportahan ang mga estudyante, guro, at pamilya."
+description: "Alamin ang tungkol sa Serene Lake Elementary PTSA at ang aming misyong suportahan ang mga estudyante, guro, at pamilya."
 ---
 
-Ang Samahan ng Magulang, Guro at Estudyante ng Serene Lake (PTSA) ay isang masigla at aktibong komunidad ng mga magulang, guro, at kawani na nagtutulungan upang mapabuti ang karanasan sa edukasyon ng lahat ng estudyante sa Serene Lake Elementary School.
+Ang Serene Lake Elementary PTSA ay isang masiglang komunidad ng mga magulang, guro, at kawani na nagkakaisa para pagandahin ang karanasan ng bawat bata sa Serene Lake Elementary School. Bayanihan po talaga ang aming diwa.
 
 ### Ang Aming Misyon
 
-Kami ay nakatuon sa:
+Buong puso po naming ipinapangako na:
 
-- **Pagsuporta sa kahusayan sa edukasyon** - Pagbibigay ng mga mapagkukunan at programa na nagpapayaman sa pag-aaral ng mga estudyante
-- **Pagtatayo ng komunidad** - Pagpapalakas ng koneksyon sa pagitan ng mga pamilya, guro, at kawani
-- **Pagtataguyod para sa mga bata** - Kinakatawan ang interes ng lahat ng estudyante at pamilya
-- **Pagpapabuti ng mga programa ng paaralan** - Pagpopondo ng mga field trip, assembly, materyales sa silid-aralan, at mga espesyal na proyekto
+- **Suportahan ang Dekalidad na Edukasyon** — Magbigay ng mga programa at kagamitan na nagpapayaman sa pagkatuto ng mga bata
+- **Palakasin ang Komunidad** — Buuin ang matibay na ugnayan sa pagitan ng mga pamilya, guro, at staff
+- **Ipaglaban ang mga Bata** — Ipahayag at pangalagaan ang boses ng bawat estudyante at pamilya
+- **Pagyamanin ang Programa ng Paaralan** — Tumulong sa pagpopondo ng mga field trip, assembly, gamit sa classroom, at mga espesyal na proyekto
 
-### Ano ang Aming Ginagawa
+### Ano ang Ginagawa Namin
 
-Ang PTSA ay nag-oorganisa at sumusuporta sa maraming aktibidad at kaganapan sa buong taon:
+Sa buong taon, marami po kaming inihahanda at sinusuportahang aktibidad:
 
-- **Pagpapayaman ng edukasyon** - Mga assembly sa agham, programa sa sining, at mga panauhing tagapagsalita
-- **Mga social na kaganapan** - Masayang family nights, mga selebrasyon ayon sa season, at mga pagtitipon ng paaralan
-- **Suporta sa guro** - Mga kagamitan sa silid-aralan, propesyonal na pag-unlad, at mga kaganapan ng pagpapahalaga
-- **Paglilikom ng pondo** - Mga taunang kampanya upang suportahan ang aming mga programa at aktibidad
-- **Koordinasyon ng boluntaryo** - Pagkonekta ng mga magulang sa mga pagkakataon para makilahok
+- **Educational Enrichment** — Mga science assembly, art program, at guest speaker
+- **Kaganapan ng Komunidad** — Family fun night, seasonal celebration, at iba pang paaralan-wide na pagtitipon
+- **Suporta sa mga Guro** — Mga classroom supply, professional development, at mga appreciation event
+- **Fundraising** — Taunang campaign na sumusuporta sa aming mga programa at aktibidad
+- **Volunteer Coordination** — Pagtutugma sa mga magulang sa mga paraang pwede nilang tumulong
 
-### Makiisa
+### Sumama Na Po Kayo
 
-Ang bawat pamilya ay bahagi ng PTSA! Kahit mayroon kang oras para mag-boluntaryo nang regular o makakapunta lamang sa ilang kaganapan, ang iyong pakikilahok ay gumagawa ng pagbabago. Dumalo sa aming mga buwanang pagpupulong, mag-sign up para sa mga pagkakataon sa pagboluntaryo, o manatiling konektado sa pamamagitan ng aming newsletter.
+Bahagi na po kayo ng PTSA sa oras na maging pamilya kayo sa Serene Lake! Regular man kayong makakapag-volunteer o kaunting event lang ang kayang dumalo, mahalaga po ang bawat handog ninyong panahon. Sumama po kayo sa aming buwanang meeting, mag-sign up sa mga volunteer opportunity, o subaybayan po kami sa pamamagitan ng aming newsletter.
 
-Magkasama, ginagawa naming natatanging lugar ang Serene Lake Elementary School para sa aming mga anak na matuto at lumago.
+Magkakasama po nating gagawing ligtas at masayang tahanan ng pagkatuto ang Serene Lake Elementary para sa ating mga anak.
 
 ---
 
-**May mga katanungan?** Makipag-ugnayan sa amin sa [info@slptsa.org](mailto:info@slptsa.org)
+**May tanong po ba?** Makipag-ugnayan sa amin sa [info@slptsa.org](mailto:info@slptsa.org)

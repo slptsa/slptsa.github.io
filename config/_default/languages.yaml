@@ -478,10 +478,67 @@ am:
         params:
           class: btn-wapta
 
+ko:
+  languageName: 한국어
+  contentDir: content/ko
+  weight: 10
+  copyright: "Copyright &copy; {{< current_year >}} Serene Lake PTSA. All Rights Reserved."
+  title: "Serene Lake PTSA"
+  params:
+    description: "세린 레이크 초등학교 학부모교사학생회 (PTSA) - 무킬티오 학군"
+    accessibility:
+      skip_text: "본문으로 건너뛰기"
+      help_text: "접근성 안내"
+      help_url: "/ko/"
+    main_cta:
+      text: "함께해 주세요!"
+      link: "https://slptsa.givebacks.com/shop"
+    footer_cta:
+      text: "함께해 주세요"
+      link: "https://slptsa.givebacks.com/shop"
+  menus:
+    main:
+      - identifier: home
+        name: 홈
+        url: /ko/
+        weight: 1
+      - identifier: about
+        name: PTSA 소개
+        url: /ko/about/
+        weight: 10
+      - identifier: board
+        name: 이사회
+        url: /ko/board/
+        parent: about
+        weight: 11
+      - identifier: events
+        name: 행사
+        url: /ko/events/
+        weight: 30
+      - identifier: news
+        name: 소식
+        url: /ko/news/
+        weight: 40
+      - identifier: our-school
+        name: 우리 학교
+        url: /ko/our-school/
+        weight: 50
+      - identifier: staff-favorites
+        name: "선생님 좋아하는 것들"
+        url: /ko/our-school/staff-favorites/
+        parent: our-school
+        weight: 51
+      - identifier: wapta
+        name: WA-PTA
+        url: https://www.wastatepta.org
+        weight: 60
+        params:
+          class: btn-wapta
+
 fil:
   languageName: Filipino
   contentDir: content/fil
-  weight: 10
+  weight: 11
   copyright: "Copyright &copy; {{< current_year >}} Serene Lake PTSA. All Rights Reserved."
   title: "Serene Lake PTSA"
   params:
