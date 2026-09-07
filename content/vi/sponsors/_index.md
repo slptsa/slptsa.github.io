@@ -11,7 +11,7 @@ Serene Lake PTSA xin gửi lời cảm ơn sâu sắc đến từng nhà tài tr
 
 ---
 
-## Nhà tài trợ năm học 2024-2025
+## Nhà tài trợ năm học 2024-2025 {#current-sponsors}
 
 Chúng tôi xin trân trọng giới thiệu các đối tác đồng hành trong năm học này:
 
@@ -120,7 +120,7 @@ Khi tài trợ cho Serene Lake PTSA, quý vị sẽ:
 - **Được nhiều người biết đến** — Tiếp cận cộng đồng phụ huynh và các nhà giáo đầy nhiệt huyết
 - **Tạo nên ảnh hưởng thiết thực** — Trực tiếp góp phần vào thành công của các em học sinh trong cộng đồng
 
-### Các hạng mục tài trợ
+### Các hạng mục tài trợ {#sponsorship-levels}
 
 #### 🦦 Rái Cá Elite - $2,500 trở lên
 
@@ -195,7 +195,7 @@ Xin chân thành cảm ơn các doanh nghiệp đã đồng hành cùng những 
 Chúng tôi luôn chào đón sự hợp tác từ các doanh nghiệp và tổ chức địa phương cùng chung tâm huyết với giáo dục và cộng đồng.
 
 **Xin liên hệ với chúng tôi để biết thêm chi tiết:**
-- Email: [sponsors@serenelake.org](mailto:sponsors@serenelake.org)
+- Email: [info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com)
 - Điện thoại: (XXX) XXX-XXXX
 - Địa chỉ gửi thư: Serene Lake PTSA, 4709 Picnic Point Road, Edmonds, WA 98026
 
@@ -215,7 +215,7 @@ Nếu chưa thể cam kết một gói tài trợ đầy đủ, quý doanh nghi�
 
 Nhiều doanh nghiệp có chương trình đối ứng các khoản đóng góp thiện nguyện của nhân viên. Xin quý vị vui lòng hỏi thăm bộ phận nhân sự để biết công ty có tham gia chương trình này không. PTSA là tổ chức phi lợi nhuận theo điều khoản 501(c)(3), phần đóng góp của quý vị có thể được khấu trừ thuế.
 
-**Mã số thuế:** [XX-XXXXXXX]
+**Mã số thuế:** 51-0137495
 
 ---
 
@@ -223,4 +223,4 @@ Nhiều doanh nghiệp có chương trình đối ứng các khoản đóng góp
 
 Sự đồng hành của quý vị đang tạo nên những thay đổi thật ý nghĩa trong cuộc sống của các em học sinh Trường Tiểu học Serene Lake. Cùng nhau, chúng ta đang xây dựng một cộng đồng nhà trường thêm ấm áp, vững mạnh và tràn đầy sức sống.
 
-**Có thắc mắc về việc tài trợ?** Xin quý vị vui lòng liên hệ với Điều phối viên Tài trợ qua email [sponsors@serenelake.org](mailto:sponsors@serenelake.org)
+**Có thắc mắc về việc tài trợ?** Xin quý vị vui lòng liên hệ với Điều phối viên Tài trợ qua email [info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com)

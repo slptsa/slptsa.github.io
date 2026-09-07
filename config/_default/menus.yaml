@@ -29,6 +29,20 @@ main:
     url: /our-school/staff-favorites/
     parent: our-school
     weight: 51
+  - identifier: sponsors
+    name: Sponsors
+    url: /sponsors/
+    weight: 55
+  - identifier: current-sponsors
+    name: Current Sponsors
+    url: /sponsors/#current-sponsors
+    parent: sponsors
+    weight: 56
+  - identifier: sponsorship-tiers
+    name: Sponsorship Tiers
+    url: /sponsors/#sponsorship-levels
+    parent: sponsors
+    weight: 57
   - identifier: wapta
     name: WA-PTA
     url: https://www.wastatepta.org

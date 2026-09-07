@@ -11,7 +11,7 @@ Serene Lake PTSA由衷感谢每一位社区赞助商的慷慨支持。正是他�
 
 ---
 
-## 2024-2025学年赞助商
+## 2024-2025学年赞助商 {#current-sponsors}
 
 我们自豪地向大家介绍本学年的合作伙伴：
 
@@ -94,7 +94,7 @@ Serene Lake PTSA由衷感谢每一位社区赞助商的慷慨支持。正是他�
 - **提升知名度** — 走近热心参与的家庭与教育工作者
 - **带来影响** — 直接为身边孩子的成长贡献力量
 
-### 赞助级别
+### 赞助级别 {#sponsorship-levels}
 
 #### 🦦 精英水獭 — $2,500 及以上
 
@@ -169,7 +169,7 @@ Serene Lake PTSA由衷感谢每一位社区赞助商的慷慨支持。正是他�
 我们欢迎与我们志同道合、共同支持教育与社区的本地企业和机构携手合作。
 
 **联系我们了解更多：**
-- 邮箱：[sponsors@serenelake.org](mailto:sponsors@serenelake.org)
+- 邮箱：[info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com)
 - 电话：(XXX) XXX-XXXX
 - 邮寄地址：Serene Lake PTSA, [学校地址]
 
@@ -189,7 +189,7 @@ Serene Lake PTSA由衷感谢每一位社区赞助商的慷慨支持。正是他�
 
 许多雇主会为员工的公益捐款提供等额配对。请与您所在公司的HR部门确认相关计划。PTSA是501(c)(3)非营利组织,您的捐款可能可以享受税务减免。
 
-**税号：** [XX-XXXXXXX]
+**税号：** 51-0137495
 
 ---
 
@@ -197,4 +197,4 @@ Serene Lake PTSA由衷感谢每一位社区赞助商的慷慨支持。正是他�
 
 您的支持,正在为Serene Lake小学的孩子们带来切实的改变。让我们携手同行,共同打造一个更加温暖、更有活力的校园大家庭。
 
-**关于赞助有任何问题?** 欢迎联系我们的赞助商联络人：[sponsors@serenelake.org](mailto:sponsors@serenelake.org)
+**关于赞助有任何问题?** 欢迎联系我们的赞助商联络人：[info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com)

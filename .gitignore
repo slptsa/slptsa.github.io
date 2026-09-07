@@ -1,6 +1,7 @@
 # Hugo generated files
 public/
-resource/_gen/
+resources/_gen/
+hugo_stats.json
 
 # Hugo cache
 .hugo_build.lock

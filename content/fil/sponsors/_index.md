@@ -11,7 +11,7 @@ Taos-pusong nagpapasalamat po ang Serene Lake PTSA sa mapagbigay na suporta ng b
 
 ---
 
-## Mga Sponsor 2024-2025
+## Mga Sponsor 2024-2025 {#current-sponsors}
 
 Buong pagmamalaki po naming ipinakikilala ang aming mga kasalukuyang kasosyo:
 
@@ -120,7 +120,7 @@ Kapag naging sponsor kayo ng Serene Lake PTSA, kayo ay:
 - **Nagkakaroon ng Visibility** — Naaabot ang isang aktibong grupo ng mga pamilya at guro
 - **Gumagawa ng Tunay na Epekto** — Direktang nakakatulong sa tagumpay ng mga bata sa ating komunidad
 
-### Mga Antas ng Sponsorship
+### Mga Antas ng Sponsorship {#sponsorship-levels}
 
 #### 🦦 Elite Otter - $2,500+
 
@@ -195,7 +195,7 @@ Espesyal na pasasalamat po sa mga negosyong nag-sponsor ng mga partikular na PTS
 Bukas po kami sa pakikipagtulungan sa mga lokal na negosyo at organisasyong may parehong hangarin: suportahan ang edukasyon at ang ating komunidad.
 
 **Makipag-ugnayan po kayo sa amin para malaman pa:**
-- Email: [sponsors@serenelake.org](mailto:sponsors@serenelake.org)
+- Email: [info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com)
 - Telepono: (XXX) XXX-XXXX
 - Sulat: Serene Lake PTSA, 4709 Picnic Point Road, Edmonds, WA 98026
 
@@ -215,7 +215,7 @@ Kung hindi po ninyo kaya sa ngayon ang buong sponsorship, marami pa pong paraan 
 
 Marami pong employer ang tumutumbas sa charitable donation ng kanilang mga empleyado. Sabihan po ninyo ang HR department ninyo kung nakikilahok ang inyong kompanya. Ang PTSA ay isang 501(c)(3) organization, at maaari pong maging tax-deductible ang inyong donasyon.
 
-**Tax ID:** [XX-XXXXXXX]
+**Tax ID:** 51-0137495
 
 ---
 
@@ -223,4 +223,4 @@ Marami pong employer ang tumutumbas sa charitable donation ng kanilang mga emple
 
 Ang inyong suporta ay gumagawa ng tunay na pagbabago sa buhay ng mga bata sa Serene Lake Elementary. Magkakasama po nating pinapatibay ang isang mas malusog at mas masiglang school community.
 
-**May tanong po ba tungkol sa sponsorship?** Makipag-ugnayan sa aming Sponsorship Coordinator sa [sponsors@serenelake.org](mailto:sponsors@serenelake.org)
+**May tanong po ba tungkol sa sponsorship?** Makipag-ugnayan sa aming Sponsorship Coordinator sa [info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com)

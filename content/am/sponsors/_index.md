@@ -11,7 +11,7 @@ Serene Lake PTSA ከማህበረሰባችን ስፖንሰሮች ለሚያገኘ�
 
 ---
 
-## የ2024-2025 ስፖንሰሮች
+## የ2024-2025 ስፖንሰሮች {#current-sponsors}
 
 የዚህ ዓመት አጋሮቻችንን በኩራት እናስተዋውቅዎ፦
 
@@ -120,7 +120,7 @@ Serene Lake PTSA ከማህበረሰባችን ስፖንሰሮች ለሚያገኘ�
 - **ተለይተው ይታያሉ** — ተሳታፊ ወደሆኑ ቤተሰቦችና አስተማሪዎች ይደርሳሉ
 - **ትርጉም ያለው ለውጥ ያመጣሉ** — በአካባቢያችን ላሉ ተማሪዎች ስኬት በቀጥታ አስተዋጽኦ ያደርጋሉ
 
-### የስፖንሰርሺፕ ደረጃዎች
+### የስፖንሰርሺፕ ደረጃዎች {#sponsorship-levels}
 
 #### 🦦 የልዩ ኦተር - $2,500+
 
@@ -195,7 +195,7 @@ Serene Lake PTSA ከማህበረሰባችን ስፖንሰሮች ለሚያገኘ�
 ለትምህርትና ለማህበረሰብ ተልእኮ ከእኛ ጋር አንድ የሆኑ የአካባቢ ንግዶችንና ድርጅቶችን በአጋርነት በደስታ እንቀበላለን።
 
 **የበለጠ ለማወቅ ያግኙን፦**
-- ኢሜይል፦ [sponsors@serenelake.org](mailto:sponsors@serenelake.org)
+- ኢሜይል፦ [info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com)
 - ስልክ፦ (XXX) XXX-XXXX
 - የፖስታ አድራሻ፦ Serene Lake PTSA, [School Address]
 
@@ -215,7 +215,7 @@ Serene Lake PTSA ከማህበረሰባችን ስፖንሰሮች ለሚያገኘ�
 
 ብዙ ቀጣሪዎች ሠራተኞቻቸው የሚያደርጉትን የበጎ አድራጎት ስጦታ ያዛምዳሉ። ኩባንያዎ በዚህ ፕሮግራም ውስጥ የሚሳተፍ መሆኑን ለማወቅ የHR ክፍልዎን ይጠይቁ። PTSA 501(c)(3) ድርጅት ስለሆነ፣ ስጦታዎ ከግብር ተቀናሽ ሊሆን ይችላል።
 
-**የግብር መለያ ቁጥር:** [XX-XXXXXXX]
+**የግብር መለያ ቁጥር:** 51-0137495
 
 ---
 
@@ -223,4 +223,4 @@ Serene Lake PTSA ከማህበረሰባችን ስፖንሰሮች ለሚያገኘ�
 
 የእርስዎ ድጋፍ በSerene Lake አንደኛ ደረጃ ትምህርት ቤት ተማሪዎች ሕይወት ላይ እውነተኛ ለውጥ ያመጣል። አብረን ጠንካራና ሞቅ ያለ የትምህርት ቤት ማህበረሰብ እየገነባን ነው።
 
-**ስለ ስፖንሰርሺፕ ጥያቄ አለዎት?** የስፖንሰርሺፕ አስተባባሪያችንን በ [sponsors@serenelake.org](mailto:sponsors@serenelake.org) ያግኙ።
+**ስለ ስፖንሰርሺፕ ጥያቄ አለዎት?** የስፖንሰርሺፕ አስተባባሪያችንን በ [info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com) ያግኙ።

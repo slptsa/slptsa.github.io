@@ -11,7 +11,7 @@ Serene Lake PTSA는 지역사회 후원사 여러분의 따뜻하고 아낌없�
 
 ---
 
-## 2024-2025년 후원사
+## 2024-2025년 후원사 {#current-sponsors}
 
 이번 학년도에 함께해 주시는 후원사 여러분을 자랑스럽게 소개합니다.
 
@@ -120,7 +120,7 @@ Serene Lake PTSA를 후원해 주시면 다음과 같은 뜻깊은 일에 함께
 - **관심을 얻습니다** — 열정적으로 참여하는 가정과 교육자 여러분께 이름을 알리실 수 있습니다
 - **변화를 만듭니다** — 지역 아이들의 성장에 직접 기여하실 수 있습니다
 
-### 후원 등급
+### 후원 등급 {#sponsorship-levels}
 
 #### 🦦 엘리트 수달 - $2,500+
 
@@ -195,7 +195,7 @@ Serene Lake PTSA를 후원해 주시면 다음과 같은 뜻깊은 일에 함께
 교육과 공동체를 향한 마음을 함께 나누어 주실 지역 기업과 단체 여러분의 뜻깊은 협력을 언제나 환영합니다.
 
 **더 자세히 알아보시려면 연락 주세요.**
-- 이메일: [sponsors@serenelake.org](mailto:sponsors@serenelake.org)
+- 이메일: [info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com)
 - 전화: (XXX) XXX-XXXX
 - 우편 주소: Serene Lake PTSA, 4709 Picnic Point Road, Edmonds, WA 98026
 
@@ -215,7 +215,7 @@ Serene Lake PTSA를 후원해 주시면 다음과 같은 뜻깊은 일에 함께
 
 많은 기업이 직원의 자선 기부금에 대해 동일한 금액을 매칭해 드리는 프로그램을 운영하고 있습니다. 근무하시는 회사의 인사 부서에 참여 가능 여부를 문의해 보세요. PTSA는 501(c)(3) 비영리 단체이므로, 여러분의 기부금은 세제 혜택 대상이 될 수 있습니다.
 
-**세금 ID:** [XX-XXXXXXX]
+**세금 ID:** 51-0137495
 
 ---
 
@@ -223,4 +223,4 @@ Serene Lake PTSA를 후원해 주시면 다음과 같은 뜻깊은 일에 함께
 
 여러분의 따뜻한 지원은 Serene Lake 초등학교 아이들의 삶에 실질적인 변화를 만들어 갑니다. 우리 함께 더 든든하고 더 활기찬 학교 공동체를 만들어 가요.
 
-**후원에 대해 궁금하신 점이 있으신가요?** 저희 후원사 담당자에게 언제든지 편하게 연락 주세요: [sponsors@serenelake.org](mailto:sponsors@serenelake.org)
+**후원에 대해 궁금하신 점이 있으신가요?** 저희 후원사 담당자에게 언제든지 편하게 연락 주세요: [info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com)

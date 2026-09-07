@@ -11,7 +11,7 @@ The Serene Lake PTSA is grateful for the generous support of our community spons
 
 ---
 
-## 2024-2025 Sponsors
+## 2024-2025 Sponsors {#current-sponsors}
 
 We proudly recognize our current sponsors:
 
@@ -120,7 +120,7 @@ When you sponsor Serene Lake PTSA, you:
 - **Gain Visibility** - Reach an engaged audience of families and educators
 - **Make an Impact** - Directly contribute to the success of local students
 
-### Sponsorship Levels
+### Sponsorship Levels {#sponsorship-levels}
 
 #### 🦦 Elite Otter - $2,500+
 
@@ -195,7 +195,7 @@ Special thanks to businesses that have sponsored specific PTSA events:
 We welcome partnerships with local businesses and organizations that share our commitment to education and community.
 
 **Contact us to learn more:**
-- Email: [sponsors@serenelake.org](mailto:sponsors@serenelake.org)
+- Email: [info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com)
 - Phone: (XXX) XXX-XXXX
 - Mail: Serene Lake PTSA, [School Address]
 
@@ -215,7 +215,7 @@ Can't commit to a full sponsorship? Here are other ways businesses can help:
 
 Many employers match charitable donations made by their employees. Check with your HR department to see if your company participates. The PTSA is a 501(c)(3) organization, and your donation may be tax-deductible.
 
-**Tax ID:** [XX-XXXXXXX]
+**Tax ID:** 51-0137495
 
 ---
 
@@ -223,4 +223,4 @@ Many employers match charitable donations made by their employees. Check with yo
 
 Your support makes a real difference in the lives of Serene Lake Elementary students. Together, we're building a stronger, more vibrant school community.
 
-**Questions about sponsorship?** Contact our Sponsorship Coordinator at [sponsors@serenelake.org](mailto:sponsors@serenelake.org)
+**Questions about sponsorship?** Contact our Sponsorship Coordinator at [info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com)

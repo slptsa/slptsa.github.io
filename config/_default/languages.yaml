@@ -71,6 +71,20 @@ prs:
         url: /prs/our-school/staff-favorites/
         parent: our-school
         weight: 51
+      - identifier: sponsors
+        name: حامیان
+        url: /prs/sponsors/
+        weight: 55
+      - identifier: current-sponsors
+        name: حامیان کنونی
+        url: /prs/sponsors/#current-sponsors
+        parent: sponsors
+        weight: 56
+      - identifier: sponsorship-tiers
+        name: سطوح حمایت
+        url: /prs/sponsors/#sponsorship-levels
+        parent: sponsors
+        weight: 57
       - identifier: wapta
         name: WA-PTA
         url: https://www.wastatepta.org
@@ -128,6 +142,20 @@ uk:
         url: /uk/our-school/staff-favorites/
         parent: our-school
         weight: 51
+      - identifier: sponsors
+        name: Спонсори
+        url: /uk/sponsors/
+        weight: 55
+      - identifier: current-sponsors
+        name: Поточні спонсори
+        url: /uk/sponsors/#current-sponsors
+        parent: sponsors
+        weight: 56
+      - identifier: sponsorship-tiers
+        name: Рівні спонсорства
+        url: /uk/sponsors/#sponsorship-levels
+        parent: sponsors
+        weight: 57
       - identifier: wapta
         name: WA-PTA
         url: https://www.wastatepta.org
@@ -185,6 +213,20 @@ ru:
         url: /ru/our-school/staff-favorites/
         parent: our-school
         weight: 51
+      - identifier: sponsors
+        name: Спонсоры
+        url: /ru/sponsors/
+        weight: 55
+      - identifier: current-sponsors
+        name: Текущие спонсоры
+        url: /ru/sponsors/#current-sponsors
+        parent: sponsors
+        weight: 56
+      - identifier: sponsorship-tiers
+        name: Уровни спонсорства
+        url: /ru/sponsors/#sponsorship-levels
+        parent: sponsors
+        weight: 57
       - identifier: wapta
         name: WA-PTA
         url: https://www.wastatepta.org
@@ -242,6 +284,20 @@ es:
         url: /es/our-school/staff-favorites/
         parent: our-school
         weight: 51
+      - identifier: sponsors
+        name: Patrocinadores
+        url: /es/sponsors/
+        weight: 55
+      - identifier: current-sponsors
+        name: Patrocinadores actuales
+        url: /es/sponsors/#current-sponsors
+        parent: sponsors
+        weight: 56
+      - identifier: sponsorship-tiers
+        name: Niveles de patrocinio
+        url: /es/sponsors/#sponsorship-levels
+        parent: sponsors
+        weight: 57
       - identifier: wapta
         name: WA-PTA
         url: https://www.wastatepta.org
@@ -300,6 +356,20 @@ ps:
         url: /ps/our-school/staff-favorites/
         parent: our-school
         weight: 51
+      - identifier: sponsors
+        name: مرستندویه ملګري
+        url: /ps/sponsors/
+        weight: 55
+      - identifier: current-sponsors
+        name: اوسني مرستندویه ملګري
+        url: /ps/sponsors/#current-sponsors
+        parent: sponsors
+        weight: 56
+      - identifier: sponsorship-tiers
+        name: د مرستندویه توب کچې
+        url: /ps/sponsors/#sponsorship-levels
+        parent: sponsors
+        weight: 57
       - identifier: wapta
         name: WA-PTA
         url: https://www.wastatepta.org
@@ -357,6 +427,20 @@ vi:
         url: /vi/our-school/staff-favorites/
         parent: our-school
         weight: 51
+      - identifier: sponsors
+        name: Nhà tài trợ
+        url: /vi/sponsors/
+        weight: 55
+      - identifier: current-sponsors
+        name: Nhà tài trợ hiện tại
+        url: /vi/sponsors/#current-sponsors
+        parent: sponsors
+        weight: 56
+      - identifier: sponsorship-tiers
+        name: Các hạng mục tài trợ
+        url: /vi/sponsors/#sponsorship-levels
+        parent: sponsors
+        weight: 57
       - identifier: wapta
         name: WA-PTA
         url: https://www.wastatepta.org
@@ -414,6 +498,20 @@ zh:
         url: /zh/our-school/staff-favorites/
         parent: our-school
         weight: 51
+      - identifier: sponsors
+        name: 赞助商
+        url: /zh/sponsors/
+        weight: 55
+      - identifier: current-sponsors
+        name: 当前赞助商
+        url: /zh/sponsors/#current-sponsors
+        parent: sponsors
+        weight: 56
+      - identifier: sponsorship-tiers
+        name: 赞助等级
+        url: /zh/sponsors/#sponsorship-levels
+        parent: sponsors
+        weight: 57
       - identifier: wapta
         name: WA-PTA
         url: https://www.wastatepta.org
@@ -471,6 +569,20 @@ am:
         url: /am/our-school/staff-favorites/
         parent: our-school
         weight: 51
+      - identifier: sponsors
+        name: ስፖንሰሮች
+        url: /am/sponsors/
+        weight: 55
+      - identifier: current-sponsors
+        name: አሁን ያሉ ስፖንሰሮች
+        url: /am/sponsors/#current-sponsors
+        parent: sponsors
+        weight: 56
+      - identifier: sponsorship-tiers
+        name: የስፖንሰርሺፕ ደረጃዎች
+        url: /am/sponsors/#sponsorship-levels
+        parent: sponsors
+        weight: 57
       - identifier: wapta
         name: WA-PTA
         url: https://www.wastatepta.org
@@ -528,6 +640,20 @@ ko:
         url: /ko/our-school/staff-favorites/
         parent: our-school
         weight: 51
+      - identifier: sponsors
+        name: 후원사
+        url: /ko/sponsors/
+        weight: 55
+      - identifier: current-sponsors
+        name: 현재 후원사
+        url: /ko/sponsors/#current-sponsors
+        parent: sponsors
+        weight: 56
+      - identifier: sponsorship-tiers
+        name: 후원 등급
+        url: /ko/sponsors/#sponsorship-levels
+        parent: sponsors
+        weight: 57
       - identifier: wapta
         name: WA-PTA
         url: https://www.wastatepta.org
@@ -585,6 +711,20 @@ fil:
         url: /fil/our-school/staff-favorites/
         parent: our-school
         weight: 51
+      - identifier: sponsors
+        name: Mga Sponsor
+        url: /fil/sponsors/
+        weight: 55
+      - identifier: current-sponsors
+        name: Mga Kasalukuyang Sponsor
+        url: /fil/sponsors/#current-sponsors
+        parent: sponsors
+        weight: 56
+      - identifier: sponsorship-tiers
+        name: Mga Antas ng Sponsorship
+        url: /fil/sponsors/#sponsorship-levels
+        parent: sponsors
+        weight: 57
       - identifier: wapta
         name: WA-PTA
         url: https://www.wastatepta.org

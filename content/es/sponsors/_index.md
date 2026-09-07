@@ -11,7 +11,7 @@ Serene Lake PTSA agradece con cariño el generoso apoyo de cada uno de nuestros 
 
 ---
 
-## Patrocinadores 2024-2025
+## Patrocinadores 2024-2025 {#current-sponsors}
 
 Con mucho orgullo les presentamos a nuestros patrocinadores actuales:
 
@@ -120,7 +120,7 @@ Cuando usted patrocina a Serene Lake PTSA:
 - **Gana visibilidad** — Llega a un público comprometido de familias y educadores
 - **Deja huella** — Contribuye directamente al éxito de los niños de nuestra comunidad
 
-### Niveles de patrocinio
+### Niveles de patrocinio {#sponsorship-levels}
 
 #### 🦦 Nutria Élite - $2,500+
 
@@ -195,7 +195,7 @@ Un agradecimiento muy especial a las empresas que han patrocinado eventos espec�
 Damos la bienvenida a las empresas y organizaciones locales que comparten nuestro compromiso con la educación y la comunidad.
 
 **Contáctenos para conocer más:**
-- Correo electrónico: [sponsors@serenelake.org](mailto:sponsors@serenelake.org)
+- Correo electrónico: [info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com)
 - Teléfono: (XXX) XXX-XXXX
 - Correo postal: Serene Lake PTSA, 4709 Picnic Point Road, Edmonds, WA 98026
 
@@ -215,7 +215,7 @@ Damos la bienvenida a las empresas y organizaciones locales que comparten nuestr
 
 Muchos empleadores igualan las donaciones benéficas que hacen sus empleados. Consulte con el departamento de Recursos Humanos de su empresa para saber si participa en algún programa así. La PTSA es una organización 501(c)(3) y su donación puede ser deducible de impuestos.
 
-**Número de identificación fiscal (Tax ID):** [XX-XXXXXXX]
+**Número de identificación fiscal (Tax ID):** 51-0137495
 
 ---
 
@@ -223,4 +223,4 @@ Muchos empleadores igualan las donaciones benéficas que hacen sus empleados. Co
 
 Su apoyo genera un cambio real en la vida de los estudiantes de la Escuela Primaria Serene Lake. Juntos construimos una comunidad escolar más fuerte, más cálida y más vibrante.
 
-**¿Tiene preguntas sobre el patrocinio?** Escríbale a nuestra Coordinadora de Patrocinios a [sponsors@serenelake.org](mailto:sponsors@serenelake.org)
+**¿Tiene preguntas sobre el patrocinio?** Escríbale a nuestra Coordinadora de Patrocinios a [info@slptsa.org](mailto:info@slptsa.org) or [sereneptsa@gmail.com](mailto:sereneptsa@gmail.com)
