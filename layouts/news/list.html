@@ -16,8 +16,34 @@
           {{ $isVisible := false }}
           {{ if le $postDate $now }}
             {{ if .expiry_date }}
-              {{ $expiryDate := time .expiry_date }}
-              {{ if ge $expiryDate $now }}{{ $isVisible = true }}{{ end }}
+              {{/* Validate expiry date before calling time to handle bad data from Sheets */}}
+              {{ $safeExpiry := "" }}
+              {{ $parts := split .expiry_date "-" }}
+              {{ if eq (len $parts) 3 }}
+                {{ $p0 := index $parts 0 }}
+                {{ $p1 := index $parts 1 }}
+                {{ $p2 := index $parts 2 }}
+                {{ $isoDate := .expiry_date }}
+                {{ $month := $p1 | int }}
+                {{ $day := $p2 | int }}
+                {{ if le (len $p0) 2 }}
+                  {{ $isoDate = printf "%s-%s-%s" $p2 $p0 $p1 }}
+                  {{ $month = $p0 | int }}
+                  {{ $day = $p1 | int }}
+                {{ end }}
+                {{ $maxDay := 31 }}
+                {{ if or (eq $month 4) (eq $month 6) (eq $month 9) (eq $month 11) }}{{ $maxDay = 30 }}{{ end }}
+                {{ if eq $month 2 }}{{ $maxDay = 29 }}{{ end }}
+                {{ if and (ge $month 1) (le $month 12) (ge $day 1) (le $day $maxDay) }}
+                  {{ $safeExpiry = $isoDate }}
+                {{ end }}
+              {{ end }}
+              {{ if $safeExpiry }}
+                {{ $expiryDate := time $safeExpiry }}
+                {{ if ge $expiryDate $now }}{{ $isVisible = true }}{{ end }}
+              {{ else }}
+                {{ $isVisible = true }}
+              {{ end }}
             {{ else }}
               {{ $isVisible = true }}
             {{ end }}
@@ -56,12 +82,35 @@
           </div>
 
           {{ if .expiry_date }}
-          {{ $expiryDate := time .expiry_date }}
+          {{ $safeExpiry := "" }}
+          {{ $parts := split .expiry_date "-" }}
+          {{ if eq (len $parts) 3 }}
+            {{ $p0 := index $parts 0 }}
+            {{ $p1 := index $parts 1 }}
+            {{ $p2 := index $parts 2 }}
+            {{ $isoDate := .expiry_date }}
+            {{ $month := $p1 | int }}
+            {{ $day := $p2 | int }}
+            {{ if le (len $p0) 2 }}
+              {{ $isoDate = printf "%s-%s-%s" $p2 $p0 $p1 }}
+              {{ $month = $p0 | int }}
+              {{ $day = $p1 | int }}
+            {{ end }}
+            {{ $maxDay := 31 }}
+            {{ if or (eq $month 4) (eq $month 6) (eq $month 9) (eq $month 11) }}{{ $maxDay = 30 }}{{ end }}
+            {{ if eq $month 2 }}{{ $maxDay = 29 }}{{ end }}
+            {{ if and (ge $month 1) (le $month 12) (ge $day 1) (le $day $maxDay) }}
+              {{ $safeExpiry = $isoDate }}
+            {{ end }}
+          {{ end }}
+          {{ if $safeExpiry }}
+          {{ $expiryDate := time $safeExpiry }}
           {{ $daysUntilExpiry := div (sub $expiryDate.Unix $now.Unix) 86400 }}
           {{ if and (gt $daysUntilExpiry 0) (le $daysUntilExpiry 7) }}
           <div class="article-footer">
             <p class="expiry-notice">⏰ {{ i18n "expires_notice" }} {{ $expiryDate.Format "January 2, 2006" }}</p>
           </div>
+          {{ end }}
           {{ end }}
           {{ end }}
         </article>

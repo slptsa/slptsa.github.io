@@ -59,6 +59,53 @@ function fetchJson(url) {
 }
 
 /**
+ * Returns the max valid day for a given year/month (1-indexed)
+ */
+function getMaxDay(year, month) {
+  const maxDays = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  if (month === 2 && ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0)) return 29;
+  return maxDays[month] || 31;
+}
+
+/**
+ * Normalize a date string to YYYY-MM-DD.
+ * Handles MM/DD/YYYY and MM-DD-YYYY from Google Sheets locale exports.
+ * Caps invalid days (e.g. Sep 31 → Sep 30) rather than crashing the build.
+ */
+function normalizeDate(value) {
+  if (!value || typeof value !== 'string') return value;
+  const trimmed = value.trim();
+  if (!trimmed) return '';
+
+  // Already YYYY-MM-DD — validate/fix the day
+  const isoMatch = trimmed.match(/^(\d{4})-(\d{2})-(\d{2})(T.*)?$/);
+  if (isoMatch) {
+    if (isoMatch[4]) return trimmed; // keep datetime strings as-is
+    const year = parseInt(isoMatch[1], 10);
+    const month = parseInt(isoMatch[2], 10);
+    const day = parseInt(isoMatch[3], 10);
+    const maxDay = getMaxDay(year, month);
+    if (month < 1 || month > 12) return '';
+    const safeDay = Math.min(Math.max(day, 1), maxDay);
+    return `${isoMatch[1]}-${isoMatch[2]}-${String(safeDay).padStart(2, '0')}`;
+  }
+
+  // MM/DD/YYYY or MM-DD-YYYY (Google Sheets US locale export)
+  const usMatch = trimmed.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})$/);
+  if (usMatch) {
+    const month = parseInt(usMatch[1], 10);
+    const day = parseInt(usMatch[2], 10);
+    const year = parseInt(usMatch[3], 10);
+    if (month < 1 || month > 12) return '';
+    const maxDay = getMaxDay(year, month);
+    const safeDay = Math.min(Math.max(day, 1), maxDay);
+    return `${year}-${String(month).padStart(2, '0')}-${String(safeDay).padStart(2, '0')}`;
+  }
+
+  return trimmed; // unrecognised format — pass through unchanged
+}
+
+/**
  * Normalize boolean values
  */
 function normalizeBoolean(value) {
@@ -87,8 +134,12 @@ function normalizeData(data) {
         continue;
       }
 
+      // Normalize date fields (any key containing "date")
+      if (typeof value === 'string' && /date/i.test(key)) {
+        normalized[key] = normalizeDate(value);
+      }
       // Trim strings
-      if (typeof value === 'string') {
+      else if (typeof value === 'string') {
         normalized[key] = value.trim();
       }
       // Handle boolean-looking strings

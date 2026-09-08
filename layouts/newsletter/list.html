@@ -3,7 +3,7 @@
   <section class="newsletter-section">
     <div class="container">
 
-      {{ $issues := .Pages | sort "Date" "desc" }}
+      {{ $issues := .Pages.ByDate.Reverse }}
 
       {{ if $issues }}
       <div class="newsletter-issues">
