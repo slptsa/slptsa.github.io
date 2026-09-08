@@ -49,7 +49,7 @@ Buong pagmamalaki po naming ipinakikilala ang aming mga kasalukuyang kasosyo:
 ---
 -->
 
-### 🦦 Gold Otter Sponsors - $1,000+
+### 🦦 Gold Otter Sponsors
 
 <p class="tier-thank-you">Taos-pusong pasasalamat po sa aming mga mapagbigay na Gold Otter sponsor para sa kanilang $1,000+ na donasyon!</p>
 
@@ -82,7 +82,7 @@ Buong pagmamalaki po naming ipinakikilala ang aming mga kasalukuyang kasosyo:
 
 ---
 
-### 🦦 Silver Otter Sponsors - $750+
+### 🦦 Silver Otter Sponsors
 
 <p class="tier-thank-you">Taos-pusong pasasalamat po sa aming mga mapagbigay na Silver Otter sponsor para sa kanilang $750+ na donasyon!</p>
 
@@ -108,3 +108,7 @@ Buong pagmamalaki po naming ipinakikilala ang aming mga kasalukuyang kasosyo:
   -->
 
 </div>
+
+---
+
+Interesado sa pagiging sponsor? [Tingnan ang mga antas at impormasyon ng sponsorship →](tiers/)

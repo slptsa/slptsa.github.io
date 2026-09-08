@@ -82,3 +82,7 @@ Serene Lake PTSA由衷感谢每一位社区赞助商的慷慨支持。正是他�
   <!-- 添加银色水獭赞助商时,请参照上方"金色水獭"的写法,并将Logo放入 /static/img/sponsors/silver/ 目录 -->
 
 </div>
+
+---
+
+有意成为赞助商？[查看赞助等级和信息 →](tiers/)

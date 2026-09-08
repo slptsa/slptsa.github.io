@@ -49,7 +49,7 @@ Con mucho orgullo les presentamos a nuestros patrocinadores actuales:
 ---
 -->
 
-### 🦦 Patrocinadores Nutria de Oro - $1,000+
+### 🦦 Patrocinadores Nutria de Oro
 
 <p class="tier-thank-you">¡Gracias de todo corazón a nuestros generosos patrocinadores Nutria de Oro por sus contribuciones de $1,000 o más!</p>
 
@@ -82,7 +82,7 @@ Con mucho orgullo les presentamos a nuestros patrocinadores actuales:
 
 ---
 
-### 🦦 Patrocinadores Nutria de Plata - $750+
+### 🦦 Patrocinadores Nutria de Plata
 
 <p class="tier-thank-you">¡Gracias de todo corazón a nuestros generosos patrocinadores Nutria de Plata por sus contribuciones de $750 o más!</p>
 
@@ -108,3 +108,7 @@ Con mucho orgullo les presentamos a nuestros patrocinadores actuales:
   -->
 
 </div>
+
+---
+
+¿Le interesa convertirse en patrocinador? [Ver niveles e información de patrocinio →](tiers/)
