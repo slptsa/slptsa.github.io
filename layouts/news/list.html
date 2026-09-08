@@ -16,26 +16,32 @@
           {{ $isVisible := false }}
           {{ if le $postDate $now }}
             {{ if .expiry_date }}
-              {{/* Validate expiry date before calling time to handle bad data from Sheets */}}
+              {{/* Safe expiry: strip time component, handle both YYYY-MM-DD and MM-DD-YYYY,
+                   strip leading zeros before int() to avoid octal parsing failure on "09" etc. */}}
               {{ $safeExpiry := "" }}
-              {{ $parts := split .expiry_date "-" }}
+              {{ $rawExpiry := .expiry_date }}
+              {{ $datePart := $rawExpiry }}
+              {{ if strings.Contains $rawExpiry "T" }}
+                {{ $datePart = index (split $rawExpiry "T") 0 }}
+              {{ end }}
+              {{ $parts := split $datePart "-" }}
               {{ if eq (len $parts) 3 }}
                 {{ $p0 := index $parts 0 }}
                 {{ $p1 := index $parts 1 }}
                 {{ $p2 := index $parts 2 }}
-                {{ $isoDate := .expiry_date }}
-                {{ $month := $p1 | int }}
-                {{ $day := $p2 | int }}
+                {{ $useDate := $rawExpiry }}
+                {{ $month := strings.TrimLeft "0" $p1 | default "0" | int }}
+                {{ $day   := strings.TrimLeft "0" $p2 | default "0" | int }}
                 {{ if le (len $p0) 2 }}
-                  {{ $isoDate = printf "%s-%s-%s" $p2 $p0 $p1 }}
-                  {{ $month = $p0 | int }}
-                  {{ $day = $p1 | int }}
+                  {{ $useDate = printf "%s-%s-%s" $p2 $p0 $p1 }}
+                  {{ $month = strings.TrimLeft "0" $p0 | default "0" | int }}
+                  {{ $day   = strings.TrimLeft "0" $p1 | default "0" | int }}
                 {{ end }}
                 {{ $maxDay := 31 }}
                 {{ if or (eq $month 4) (eq $month 6) (eq $month 9) (eq $month 11) }}{{ $maxDay = 30 }}{{ end }}
                 {{ if eq $month 2 }}{{ $maxDay = 29 }}{{ end }}
                 {{ if and (ge $month 1) (le $month 12) (ge $day 1) (le $day $maxDay) }}
-                  {{ $safeExpiry = $isoDate }}
+                  {{ $safeExpiry = $useDate }}
                 {{ end }}
               {{ end }}
               {{ if $safeExpiry }}
@@ -83,24 +89,29 @@
 
           {{ if .expiry_date }}
           {{ $safeExpiry := "" }}
-          {{ $parts := split .expiry_date "-" }}
+          {{ $rawExpiry := .expiry_date }}
+          {{ $datePart := $rawExpiry }}
+          {{ if strings.Contains $rawExpiry "T" }}
+            {{ $datePart = index (split $rawExpiry "T") 0 }}
+          {{ end }}
+          {{ $parts := split $datePart "-" }}
           {{ if eq (len $parts) 3 }}
             {{ $p0 := index $parts 0 }}
             {{ $p1 := index $parts 1 }}
             {{ $p2 := index $parts 2 }}
-            {{ $isoDate := .expiry_date }}
-            {{ $month := $p1 | int }}
-            {{ $day := $p2 | int }}
+            {{ $useDate := $rawExpiry }}
+            {{ $month := strings.TrimLeft "0" $p1 | default "0" | int }}
+            {{ $day   := strings.TrimLeft "0" $p2 | default "0" | int }}
             {{ if le (len $p0) 2 }}
-              {{ $isoDate = printf "%s-%s-%s" $p2 $p0 $p1 }}
-              {{ $month = $p0 | int }}
-              {{ $day = $p1 | int }}
+              {{ $useDate = printf "%s-%s-%s" $p2 $p0 $p1 }}
+              {{ $month = strings.TrimLeft "0" $p0 | default "0" | int }}
+              {{ $day   = strings.TrimLeft "0" $p1 | default "0" | int }}
             {{ end }}
             {{ $maxDay := 31 }}
             {{ if or (eq $month 4) (eq $month 6) (eq $month 9) (eq $month 11) }}{{ $maxDay = 30 }}{{ end }}
             {{ if eq $month 2 }}{{ $maxDay = 29 }}{{ end }}
             {{ if and (ge $month 1) (le $month 12) (ge $day 1) (le $day $maxDay) }}
-              {{ $safeExpiry = $isoDate }}
+              {{ $safeExpiry = $useDate }}
             {{ end }}
           {{ end }}
           {{ if $safeExpiry }}
