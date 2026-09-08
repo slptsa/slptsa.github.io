@@ -6,6 +6,7 @@ nav_board_members: የቦርድ አባላት
 nav_events: ዝግጅቶች
 nav_news: ዜናዎች
 nav_sponsors: ስፖንሰሮች
+nav_newsletter: "ጋዜጣ"
 nav_current_sponsors: "አሁን ያሉ ስፖንሰሮች"
 nav_sponsorship_tiers: "የስፖንሰርሺፕ ደረጃዎች"
 nav_resources: ለወላጆች የሚያግዙ መረጃዎች
@@ -113,3 +114,6 @@ footer_get_involved_desc: በትምህርት ቤት ማህበረሰባችን ው
 footer_join_today: ዛሬውኑ PTSAን ይቀላቀሉ
 footer_connect: ከእኛ ጋር ይገናኙ
 footer_tagline: ለእያንዳንዱ ልጅ። አንድ ድምጽ።
+newsletter_read: "ጋዜጣ ያንብቡ"
+newsletter_all_issues: "ሁሉም ጋዜጦች"
+newsletter_none: "እስካሁን ምንም ጋዜጣ የለም። ቆይተው ይመልከቱ!"

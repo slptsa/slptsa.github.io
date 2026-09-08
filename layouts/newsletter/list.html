@@ -1,0 +1,52 @@
+{{ define "main" }}
+<div class="newsletter-page">
+  <section class="newsletter-section">
+    <div class="container">
+
+      {{ $issues := .Pages | sort "Date" "desc" }}
+
+      {{ if $issues }}
+      <div class="newsletter-issues">
+        {{ range $issues }}
+        <article class="newsletter-issue">
+          <div class="issue-header">
+            <h2 class="issue-title">
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h2>
+            <span class="issue-date">{{ .Date.Format "January 2006" }}</span>
+          </div>
+          {{ if .Params.summary }}
+          <p class="issue-summary">{{ .Params.summary }}</p>
+          {{ end }}
+          <a href="{{ .Permalink }}" class="issue-read-more">{{ i18n "newsletter_read" }} →</a>
+        </article>
+        {{ end }}
+      </div>
+      {{ else }}
+      <p class="newsletter-none">{{ i18n "newsletter_none" }}</p>
+      {{ end }}
+
+    </div>
+  </section>
+</div>
+
+<style>
+.newsletter-page { padding: 2rem 0; }
+.newsletter-issues { display: flex; flex-direction: column; gap: 1.5rem; }
+.newsletter-issue { background: white; border-radius: 8px; padding: 1.75rem 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 4px solid #2B9B9E; transition: box-shadow 0.2s ease; }
+.newsletter-issue:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.13); }
+.issue-header { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+.issue-title { font-size: 1.4rem; font-weight: bold; margin: 0; }
+.issue-title a { color: #2D2D2D; text-decoration: none; }
+.issue-title a:hover { color: #2B9B9E; }
+.issue-date { font-size: 0.9rem; color: #666; white-space: nowrap; }
+.issue-summary { color: #444; line-height: 1.6; margin: 0.5rem 0 0.75rem; }
+.issue-read-more { color: #2B9B9E; font-weight: 600; text-decoration: none; font-size: 0.95rem; }
+.issue-read-more:hover { text-decoration: underline; }
+.newsletter-none { text-align: center; color: #666; font-size: 1.1rem; padding: 3rem 0; }
+@media (max-width: 600px) {
+  .newsletter-issue { padding: 1.25rem; }
+  .issue-header { flex-direction: column; gap: 0.25rem; }
+}
+</style>
+{{ end }}

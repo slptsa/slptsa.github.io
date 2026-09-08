@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="newsletter-single">
+  <div class="container">
+
+    <div class="issue-nav">
+      <a href="{{ "/newsletter/" | relLangURL }}" class="back-link">← {{ i18n "newsletter_all_issues" }}</a>
+    </div>
+
+    <header class="issue-header">
+      <h1 class="issue-title">{{ .Title }}</h1>
+      <p class="issue-date">{{ .Date.Format "January 2006" }}</p>
+    </header>
+
+    <div class="issue-body">
+      {{ .Content }}
+    </div>
+
+    <div class="issue-footer">
+      <a href="{{ "/newsletter/" | relLangURL }}" class="back-link">← {{ i18n "newsletter_all_issues" }}</a>
+    </div>
+
+  </div>
+</div>
+
+<style>
+.newsletter-single { padding: 2rem 0 3rem; }
+.issue-nav { margin-bottom: 1.5rem; }
+.back-link { color: #2B9B9E; text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+.back-link:hover { text-decoration: underline; }
+.issue-header { margin-bottom: 2rem; padding-bottom: 1.25rem; border-bottom: 2px solid #E8E8E8; }
+.issue-title { font-size: 2rem; font-weight: bold; color: #2D2D2D; margin: 0 0 0.4rem; }
+.issue-date { color: #666; font-size: 1rem; margin: 0; }
+.issue-body { color: #2D2D2D; line-height: 1.85; font-size: 1.05rem; }
+.issue-body h2 { font-size: 1.4rem; margin-top: 2rem; color: #0D5C75; }
+.issue-body h3 { font-size: 1.15rem; margin-top: 1.5rem; color: #2D2D2D; }
+.issue-body p { margin: 1rem 0; }
+.issue-body ul, .issue-body ol { margin: 1rem 0; padding-left: 1.75rem; }
+.issue-body li { margin: 0.4rem 0; }
+.issue-footer { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid #E8E8E8; }
+@media (max-width: 600px) {
+  .issue-title { font-size: 1.5rem; }
+}
+</style>
+{{ end }}
