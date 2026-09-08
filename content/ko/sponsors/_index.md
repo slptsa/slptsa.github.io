@@ -51,7 +51,7 @@ Serene Lake PTSA는 지역사회 후원사 여러분의 따뜻하고 아낌없�
 
 ### 🦦 골드 수달 후원
 
-<p class="tier-thank-you">$1,000 이상 정성껏 후원해 주신 골드 수달 후원사 여러분께 진심으로 감사드립니다!</p>
+<p class="tier-thank-you">골드 수달 후원사 여러분께 진심으로 감사드립니다!</p>
 
 <div class="sponsor-tier-grid gold-otter">
 
@@ -84,7 +84,7 @@ Serene Lake PTSA는 지역사회 후원사 여러분의 따뜻하고 아낌없�
 
 ### 🦦 실버 수달 후원
 
-<p class="tier-thank-you">$750 이상 정성껏 후원해 주신 실버 수달 후원사 여러분께 진심으로 감사드립니다!</p>
+<p class="tier-thank-you">실버 수달 후원사 여러분께 진심으로 감사드립니다!</p>
 
 <div class="sponsor-tier-grid silver-otter">
 

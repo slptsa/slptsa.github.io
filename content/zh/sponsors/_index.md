@@ -51,7 +51,7 @@ Serene Lake PTSA由衷感谢每一位社区赞助商的慷慨支持。正是他�
 
 ### 🦦 金色水獭赞助商 - $1,000 及以上
 
-<p class="tier-thank-you">衷心感谢各位金色水獭赞助商$1,000及以上的慷慨捐助!</p>
+<p class="tier-thank-you">衷心感谢各位金色水獭赞助商的慷慨支持!</p>
 
 <div class="sponsor-tier-grid gold-otter">
 
@@ -75,7 +75,7 @@ Serene Lake PTSA由衷感谢每一位社区赞助商的慷慨支持。正是他�
 
 ### 🦦 银色水獭赞助商 - $750 及以上
 
-<p class="tier-thank-you">衷心感谢各位银色水獭赞助商$750及以上的慷慨捐助!</p>
+<p class="tier-thank-you">衷心感谢各位银色水獭赞助商的慷慨支持!</p>
 
 <div class="sponsor-tier-grid silver-otter">
 
