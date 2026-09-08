@@ -49,7 +49,7 @@ We proudly recognize our current sponsors:
 ---
 -->
 
-### 🦦 Gold Otter Sponsors - $1,000+
+### 🦦 Gold Otter Sponsors
 
 <p class="tier-thank-you">Thank you to our generous Gold Otter sponsors for their $1,000+ donations!</p>
 
@@ -82,7 +82,7 @@ We proudly recognize our current sponsors:
 
 ---
 
-### 🦦 Silver Otter Sponsors - $750+
+### 🦦 Silver Otter Sponsors
 
 <p class="tier-thank-you">Thank you to our generous Silver Otter sponsors for their $750+ donations!</p>
 
@@ -108,3 +108,7 @@ We proudly recognize our current sponsors:
   -->
 
 </div>
+
+---
+
+Interested in becoming a sponsor? [View sponsorship tiers and information →](tiers/)

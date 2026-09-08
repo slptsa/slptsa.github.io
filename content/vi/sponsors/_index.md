@@ -108,3 +108,7 @@ Chúng tôi xin trân trọng giới thiệu các đối tác đồng hành tron
   -->
 
 </div>
+
+---
+
+Bạn muốn trở thành nhà tài trợ? [Xem các hạng mục và thông tin tài trợ →](tiers/)
