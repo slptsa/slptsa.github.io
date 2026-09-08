@@ -43,8 +43,15 @@
           <a href="{{ "/news/" | relLangURL }}">{{ i18n "nav_news" }}</a>
         </li>
 
-        <li class="nav-item">
-          <a href="{{ "/sponsors/" | relLangURL }}">{{ i18n "nav_sponsors" }}</a>
+        <li class="nav-item has-dropdown">
+          <button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            {{ i18n "nav_sponsors" }}
+            <span class="dropdown-arrow">▼</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="{{ "/sponsors/#current-sponsors" | relLangURL }}">{{ i18n "nav_current_sponsors" }}</a></li>
+            <li><a href="{{ "/sponsors/#sponsorship-levels" | relLangURL }}">{{ i18n "nav_sponsorship_tiers" }}</a></li>
+          </ul>
         </li>
 
         <li class="nav-item has-dropdown">
