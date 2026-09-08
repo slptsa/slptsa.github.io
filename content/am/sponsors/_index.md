@@ -51,7 +51,7 @@ Serene Lake PTSA ከማህበረሰባችን ስፖንሰሮች ለሚያገኘ�
 
 ### 🦦 የወርቅ ኦተር ስፖንሰሮች
 
-<p class="tier-thank-you">ለወርቅ ኦተር ስፖንሰሮቻችን ስለ $1,000+ ልግስና ድጋፍ ከልብ እናመሰግናለን!</p>
+<p class="tier-thank-you">ለወርቅ ኦተር ስፖንሰሮቻችን ከልብ እናመሰግናለን!</p>
 
 <div class="sponsor-tier-grid gold-otter">
 
@@ -84,7 +84,7 @@ Serene Lake PTSA ከማህበረሰባችን ስፖንሰሮች ለሚያገኘ�
 
 ### 🦦 የብር ኦተር ስፖንሰሮች
 
-<p class="tier-thank-you">ለብር ኦተር ስፖንሰሮቻችን ስለ $750+ ልግስና ድጋፍ ከልብ እናመሰግናለን!</p>
+<p class="tier-thank-you">ለብር ኦተር ስፖንሰሮቻችን ከልብ እናመሰግናለን!</p>
 
 <div class="sponsor-tier-grid silver-otter">
 

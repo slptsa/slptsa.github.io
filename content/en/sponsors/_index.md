@@ -11,7 +11,7 @@ The Serene Lake PTSA is grateful for the generous support of our community spons
 
 ---
 
-## 2024-2025 Sponsors {#current-sponsors}
+## 2026-2027 Sponsors {#current-sponsors}
 
 We proudly recognize our current sponsors:
 
@@ -51,7 +51,7 @@ We proudly recognize our current sponsors:
 
 ### 🦦 Gold Otter Sponsors
 
-<p class="tier-thank-you">Thank you to our generous Gold Otter sponsors for their $1,000+ donations!</p>
+<p class="tier-thank-you">Thank you to our generous Gold Otter sponsors!</p>
 
 <div class="sponsor-tier-grid gold-otter">
 
@@ -84,7 +84,7 @@ We proudly recognize our current sponsors:
 
 ### 🦦 Silver Otter Sponsors
 
-<p class="tier-thank-you">Thank you to our generous Silver Otter sponsors for their $750+ donations!</p>
+<p class="tier-thank-you">Thank you to our generous Silver Otter sponsors!</p>
 
 <div class="sponsor-tier-grid silver-otter">
 

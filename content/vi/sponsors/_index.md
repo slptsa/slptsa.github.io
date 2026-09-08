@@ -51,7 +51,7 @@ Chúng tôi xin trân trọng giới thiệu các đối tác đồng hành tron
 
 ### 🦦 Nhà tài trợ Rái Cá Vàng - $1,000 trở lên
 
-<p class="tier-thank-you">Xin chân thành cảm ơn các Nhà tài trợ Rái Cá Vàng đã hào phóng đóng góp từ $1,000 trở lên!</p>
+<p class="tier-thank-you">Xin chân thành cảm ơn các Nhà tài trợ Rái Cá Vàng!</p>
 
 <div class="sponsor-tier-grid gold-otter">
 
@@ -84,7 +84,7 @@ Chúng tôi xin trân trọng giới thiệu các đối tác đồng hành tron
 
 ### 🦦 Nhà tài trợ Rái Cá Bạc - $750 trở lên
 
-<p class="tier-thank-you">Xin chân thành cảm ơn các Nhà tài trợ Rái Cá Bạc đã hào phóng đóng góp từ $750 trở lên!</p>
+<p class="tier-thank-you">Xin chân thành cảm ơn các Nhà tài trợ Rái Cá Bạc!</p>
 
 <div class="sponsor-tier-grid silver-otter">
 
