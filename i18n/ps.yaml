@@ -6,6 +6,7 @@ nav_board_members: د هیئت غړي
 nav_events: پېښې
 nav_news: خبرونه
 nav_sponsors: زموږ مرستندویه ملګري
+nav_newsletter: "خبرپاڼه"
 nav_current_sponsors: "اوسني مرستندویه ملګري"
 nav_sponsorship_tiers: "د مرستندویه توب کچې"
 nav_resources: د کورنیو سرچینې
@@ -112,3 +113,6 @@ footer_get_involved_desc: راځئ چې د خپلې ښوونځۍ ټولنې لپ
 footer_join_today: نن ورځ زموږ د PTSA غړي شئ
 footer_connect: زموږ سره په اړیکه کې پاتې شئ
 footer_tagline: هر ماشوم، یو غږ.
+newsletter_read: "خبرپاڼه ولولئ"
+newsletter_all_issues: "ټولې خبرپاڼې"
+newsletter_none: "لاهم خبرپاڼه نشته. وروسته بیا راشئ!"

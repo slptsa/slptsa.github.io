@@ -6,6 +6,7 @@ nav_board_members: 이사회 임원
 nav_events: 행사
 nav_news: 소식
 nav_sponsors: 후원사
+nav_newsletter: "뉴스레터"
 nav_current_sponsors: "현재 후원사"
 nav_sponsorship_tiers: "후원 등급"
 nav_resources: 학부모 자료
@@ -113,3 +114,6 @@ footer_get_involved_desc: 우리 학교 공동체에 따뜻한 변화를 함께 
 footer_join_today: 지금 PTSA에 가입하세요
 footer_connect: 함께 소통해요
 footer_tagline: 모든 아이, 하나의 목소리.
+newsletter_read: "뉴스레터 읽기"
+newsletter_all_issues: "모든 뉴스레터"
+newsletter_none: "아직 뉴스레터가 없습니다. 나중에 다시 확인해 주세요!"

@@ -6,6 +6,7 @@ nav_board_members: 董事会成员
 nav_events: 活动
 nav_news: 新闻
 nav_sponsors: 赞助商
+nav_newsletter: "新闻通讯"
 nav_current_sponsors: "当前赞助商"
 nav_sponsorship_tiers: "赞助等级"
 nav_resources: 家长资源
@@ -113,3 +114,6 @@ footer_get_involved_desc: 加入我们,一同为我们的学校社区注入温�
 footer_join_today: 立即加入PTSA
 footer_connect: 与我们联系
 footer_tagline: 每一个孩子,同一份声音。
+newsletter_read: "阅读新闻通讯"
+newsletter_all_issues: "所有新闻通讯"
+newsletter_none: "暂无新闻通讯，请稍后再来！"

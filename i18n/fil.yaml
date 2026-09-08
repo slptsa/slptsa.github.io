@@ -6,6 +6,7 @@ nav_board_members: Mga Miyembro ng Board
 nav_events: Mga Kaganapan
 nav_news: Balita
 nav_sponsors: Mga Sponsor
+nav_newsletter: "Newsletter"
 nav_current_sponsors: "Mga Kasalukuyang Sponsor"
 nav_sponsorship_tiers: "Mga Antas ng Sponsorship"
 nav_resources: Mga Impormasyon para sa Magulang
@@ -113,3 +114,6 @@ footer_get_involved_desc: Samahan po ninyo kami sa paggawa ng pagbabago para sa 
 footer_join_today: Sumali sa PTSA Ngayon
 footer_connect: Makipag-ugnayan sa Amin
 footer_tagline: Bawat bata. Iisang boses.
+newsletter_read: "Basahin ang newsletter"
+newsletter_all_issues: "Lahat ng newsletter"
+newsletter_none: "Wala pang newsletter. Bumalik na lang po kayo!"
