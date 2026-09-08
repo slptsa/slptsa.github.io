@@ -26,7 +26,6 @@ When you sponsor Serene Lake PTSA, you:
 - Banner display at major school events
 - Verbal recognition at PTSA meetings
 - Dedicated thank-you in monthly newsletters
-- VIP seating at special events
 
 #### 🦦 Platinum Otter - $1,500+
 
