@@ -1,10 +1,13 @@
 {{ $translations := .AllTranslations }}
 {{ if gt (len $translations) 1 }}
 <li class="nav-item has-dropdown lang-switcher">
-  <button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false" aria-label="{{ i18n "select_language" | default "Select language" }}">
+  {{/* Desktop: collapsible toggle */}}
+  <button type="button" class="dropdown-toggle lang-desktop-toggle" aria-haspopup="true" aria-expanded="false" aria-label="{{ i18n "select_language" | default "Select language" }}">
     <span aria-hidden="true">🌐</span> <span class="lang-current-name">{{ .Language.LanguageName }}</span>
     <span class="dropdown-arrow" aria-hidden="true">▼</span>
   </button>
+  {{/* Mobile: always-visible static header (no toggle needed) */}}
+  <div class="lang-mobile-header" aria-hidden="true">🌐 {{ i18n "select_language" | default "Language" }}</div>
   <ul class="dropdown-menu lang-menu">
     {{ range $translations }}
     <li{{ if eq .Language.Lang $.Language.Lang }} class="lang-active"{{ end }}>
