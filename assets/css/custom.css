@@ -2749,12 +2749,53 @@ body.page-home #content header {
   overflow-y: auto;
 }
 
+/* Mobile: show languages as always-visible pill grid — no nested dropdown */
 @media (max-width: 768px) {
+  .lang-desktop-toggle {
+    display: none !important;
+  }
+  .lang-mobile-header {
+    padding: 0.6rem 1rem 0.25rem;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.85rem;
+  }
   .lang-switcher .lang-menu {
-    right: auto;
-    left: auto;
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.4rem;
+    padding: 0.25rem 1rem 0.75rem;
+    background: transparent;
+    box-shadow: none;
     max-height: none;
-    overflow-y: visible;
+    position: static;
+    min-width: 0;
+  }
+  .lang-switcher .lang-menu li {
+    flex: 0 0 auto;
+  }
+  .lang-switcher .lang-menu a {
+    display: block;
+    padding: 0.3rem 0.65rem;
+    font-size: 0.82rem;
+    white-space: nowrap;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    border-left: none !important;
+    color: var(--color-accent);
+  }
+  .lang-switcher .lang-menu a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-left-color: transparent !important;
+  }
+  .lang-switcher .lang-menu li.lang-active a {
+    background: rgba(255, 255, 255, 0.3);
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 769px) {
+  .lang-mobile-header {
+    display: none;
   }
 }
 
