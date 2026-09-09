@@ -21,7 +21,7 @@
             {{ if ge $eventDate $now }}{{ $isUpcoming = true }}{{ end }}
           {{ end }}
           {{ if $isUpcoming }}
-            {{ $monthKey := $eventDate.Format "2006-01" }}
+            {{ $monthKey := time.Format "2006-01" $eventDate }}
             {{ $monthEvents := index $eventsByMonth $monthKey | default slice }}
             {{ $monthEvents = $monthEvents | append . }}
             {{ $eventsByMonth = merge $eventsByMonth (dict $monthKey $monthEvents) }}
@@ -35,7 +35,7 @@
         {{ $monthDate := time $firstEvent.date }}
 
         <div class="month-section">
-          <h2 class="month-header">{{ $monthDate.Format "January 2006" }}</h2>
+          <h2 class="month-header">{{ time.Format "January 2006" $monthDate }}</h2>
 
           <div class="events-cards-grid">
             {{ range $monthEvents }}
@@ -46,11 +46,11 @@
                 <div class="event-date-badge">
                   {{ if and .multi_day .end_date }}
                     {{ $endDate := time .end_date }}
-                    <span class="date-range">{{ $eventDate.Format "Jan 2" }} - {{ $endDate.Format "Jan 2" }}</span>
+                    <span class="date-range">{{ time.Format "Jan 2" $eventDate }} - {{ time.Format "Jan 2" $endDate }}</span>
                   {{ else }}
                     <div class="date-badge-content">
-                      <span class="month">{{ $eventDate.Format "Jan" }}</span>
-                      <span class="day">{{ $eventDate.Format "02" }}</span>
+                      <span class="month">{{ time.Format "Jan" $eventDate }}</span>
+                      <span class="day">{{ time.Format "02" $eventDate }}</span>
                     </div>
                   {{ end }}
                 </div>

@@ -209,7 +209,7 @@
       <a class="link-btn" href="{{ if .volunteer_link }}{{ .volunteer_link }}{{ else }}{{ .zoom_link }}{{ end }}" target="_blank" rel="noopener">
         <span class="icon">{{ if eq .category "fundraiser" }}🎉{{ else if eq .category "meeting" }}📅{{ else }}⭐{{ end }}</span>
         <span class="text">{{ .title }}
-          <span class="sub">{{ $eventDate.Format "Jan 2" }}{{ if .time }} &middot; {{ .time }}{{ end }}{{ if .location }} &middot; {{ .location }}{{ end }}</span>
+          <span class="sub">{{ time.Format "Jan 2" $eventDate }}{{ if .time }} &middot; {{ .time }}{{ end }}{{ if .location }} &middot; {{ .location }}{{ end }}</span>
         </span>
       </a>
       {{ end }}

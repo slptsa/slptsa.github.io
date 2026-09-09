@@ -69,7 +69,7 @@
           <div class="article-header">
             <h2 class="article-title">{{ .title }}</h2>
             <div class="article-meta">
-              <span class="article-date">📅 {{ $postDate.Format "January 2, 2006" }}</span>
+              <span class="article-date">📅 {{ time.Format "January 2, 2006" $postDate }}</span>
               {{ if .author }}
               <span class="article-author">✍️ {{ .author }}</span>
               {{ end }}
@@ -119,7 +119,7 @@
           {{ $daysUntilExpiry := div (sub $expiryDate.Unix $now.Unix) 86400 }}
           {{ if and (gt $daysUntilExpiry 0) (le $daysUntilExpiry 7) }}
           <div class="article-footer">
-            <p class="expiry-notice">⏰ {{ i18n "expires_notice" }} {{ $expiryDate.Format "January 2, 2006" }}</p>
+            <p class="expiry-notice">⏰ {{ i18n "expires_notice" }} {{ time.Format "January 2, 2006" $expiryDate }}</p>
           </div>
           {{ end }}
           {{ end }}
