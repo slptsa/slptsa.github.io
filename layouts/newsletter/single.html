@@ -8,7 +8,7 @@
 
     <header class="issue-header">
       <h1 class="issue-title">{{ .Title }}</h1>
-      <p class="issue-date">{{ .Date.Format "January 2006" }}</p>
+      <p class="issue-date">{{ time.Format "January 2006" .Date }}</p>
     </header>
 
     <div class="issue-body">

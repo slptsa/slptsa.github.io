@@ -13,7 +13,7 @@
             <h2 class="issue-title">
               <a href="{{ .Permalink }}">{{ .Title }}</a>
             </h2>
-            <span class="issue-date">{{ .Date.Format "January 2006" }}</span>
+            <span class="issue-date">{{ time.Format "January 2006" .Date }}</span>
           </div>
           {{ if .Params.summary }}
           <p class="issue-summary">{{ .Params.summary }}</p>
