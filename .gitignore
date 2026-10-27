@@ -44,3 +44,6 @@ Desktop.ini
 
 # Local development
 .hugo_build.lock
+
+# Source documents (Word drafts for page content)
+*.docx

@@ -60,19 +60,11 @@
       <div class="section-card">
         <h2>{{ i18n "upcoming_events" }}</h2>
         {{ $events := .Site.Data.events.upcoming }}
-        {{ $now := now }}
         {{ if $events }}
         {{ $futureEvents := slice }}
         {{ range $events }}
           {{ if .date }}
-            {{ $eventDate := time .date }}
-            {{ $isUpcoming := false }}
-            {{ if and .multi_day .end_date }}
-              {{ $endDate := time .end_date }}
-              {{ if ge $endDate $now }}{{ $isUpcoming = true }}{{ end }}
-            {{ else }}
-              {{ if ge $eventDate $now }}{{ $isUpcoming = true }}{{ end }}
-            {{ end }}
+            {{ $isUpcoming := partial "events/is-upcoming.html" . }}
             {{ if $isUpcoming }}
               {{ $futureEvents = $futureEvents | append . }}
             {{ end }}
@@ -87,7 +79,12 @@
               <span class="day">{{ time.Format "02" .date }}</span>
             </div>
             <div class="event-info">
+              {{ $detailsURL := partial "events/page-url.html" . }}
+              {{ if $detailsURL }}
+              <h3><a href="{{ $detailsURL }}">{{ .title }}</a></h3>
+              {{ else }}
               <h3>{{ .title }}</h3>
+              {{ end }}
               <p>{{ .time }} • {{ .location }}</p>
             </div>
           </div>
@@ -103,19 +100,11 @@
       <div class="section-card">
         <h2>{{ i18n "volunteer_opportunities" }}</h2>
         {{ $events := .Site.Data.events.upcoming }}
-        {{ $now := now }}
         {{ if $events }}
         {{ $volunteerEvents := slice }}
         {{ range $events }}
           {{ if and .date .volunteers_needed }}
-            {{ $eventDate := time .date }}
-            {{ $isUpcoming := false }}
-            {{ if and .multi_day .end_date }}
-              {{ $endDate := time .end_date }}
-              {{ if ge $endDate $now }}{{ $isUpcoming = true }}{{ end }}
-            {{ else }}
-              {{ if ge $eventDate $now }}{{ $isUpcoming = true }}{{ end }}
-            {{ end }}
+            {{ $isUpcoming := partial "events/is-upcoming.html" . }}
             {{ if $isUpcoming }}
               {{ $volunteerEvents = $volunteerEvents | append . }}
             {{ end }}

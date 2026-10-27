@@ -1,0 +1,82 @@
+{{ define "main" }}
+{{/* Dedicated event page. Date, time and location come from the matching row in
+     data/events/upcoming.yaml (front matter `event:` = the row's title), so the
+     Google Sheet stays the single source for scheduling details. */}}
+{{ $event := dict }}
+{{ with .Params.event }}
+  {{ range where site.Data.events.upcoming "title" . }}{{ $event = . }}{{ end }}
+  {{ if not $event }}
+    {{ warnf "%s: no row titled %q in data/events/upcoming.yaml" $.File.Path . }}
+  {{ end }}
+{{ end }}
+
+<div class="event-page">
+
+  <a href="{{ "/events/" | relLangURL }}" class="event-page-back">{{ i18n "event_back_to_all" }}</a>
+
+  {{ with .Resources.GetMatch (.Params.banner | default "banner.*") }}
+  {{ $small := .Resize "800x webp" }}
+  {{ $large := .Resize "1600x webp" }}
+  <img class="event-page-banner"
+       src="{{ $large.RelPermalink }}"
+       srcset="{{ $small.RelPermalink }} 800w, {{ $large.RelPermalink }} 1600w"
+       sizes="(max-width: 1200px) 100vw, 1200px"
+       width="{{ $large.Width }}" height="{{ $large.Height }}"
+       alt="{{ $.Params.banner_alt }}">
+  {{ end }}
+
+  <h1 class="event-page-title">{{ .Title }}</h1>
+
+  {{ if $event.date }}
+    {{ $start := time $event.date }}
+    {{ $upcoming := partial "events/is-upcoming.html" $event }}
+
+    {{ if not $upcoming }}
+    <p class="event-page-passed">{{ i18n "event_has_passed" }}</p>
+    {{ end }}
+
+    <div class="event-page-facts">
+      <div class="event-page-fact">
+        <span class="event-page-fact-label">{{ i18n "date_label" }}</span>
+        <span>
+          {{ time.Format "Monday, January 2, 2006" $start }}
+          {{ if and $event.multi_day $event.end_date }} – {{ time.Format "Monday, January 2, 2006" $event.end_date }}{{ end }}
+        </span>
+      </div>
+      {{ with $event.time }}
+      <div class="event-page-fact">
+        <span class="event-page-fact-label">{{ i18n "time_label" }}</span>
+        <span>{{ . }}</span>
+      </div>
+      {{ end }}
+      {{ if or $event.location $.Params.address }}
+      <div class="event-page-fact">
+        <span class="event-page-fact-label">{{ i18n "location_label" }}</span>
+        <span>
+          {{ $event.location }}
+          {{ with $.Params.address }}
+          <br><a href="https://www.google.com/maps/search/?api=1&query={{ . | urlquery }}" target="_blank" rel="noopener">{{ . }}</a>
+          {{ end }}
+        </span>
+      </div>
+      {{ end }}
+    </div>
+
+    {{ if $upcoming }}
+    <div class="event-page-actions">
+      {{ if and $event.zoom_meeting $event.zoom_link }}
+      <a href="{{ $event.zoom_link }}" target="_blank" rel="noopener" class="btn-event-action btn-zoom">{{ i18n "join_zoom" }}</a>
+      {{ end }}
+      {{ if and $event.volunteers_needed $event.volunteer_link }}
+      <a href="{{ $event.volunteer_link }}" target="_blank" rel="noopener" class="btn-event-action btn-volunteer">{{ i18n "volunteer_sign_up" }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  {{ end }}
+
+  <div class="event-page-body">
+    {{ .Content }}
+  </div>
+
+</div>
+{{ end }}

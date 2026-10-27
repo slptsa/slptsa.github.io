@@ -1,0 +1,13 @@
+{{/* Returns the URL of an event's dedicated page, or "" if it has none.
+     Takes one event row from data/events/upcoming.yaml.
+     A details_url column in the Sheet wins; otherwise we look for a page in the
+     current language whose front matter has `event:` equal to the row's title. */}}
+{{ $url := "" }}
+{{ with .details_url }}
+  {{ $url = . }}
+{{ else }}
+  {{ with where site.RegularPages "Params.event" .title }}
+    {{ $url = (index . 0).RelPermalink }}
+  {{ end }}
+{{ end }}
+{{ return $url }}
