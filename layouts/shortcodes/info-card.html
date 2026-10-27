@@ -1,0 +1,4 @@
+<div class="info-card">
+  {{ with .Get "title" }}<h3>{{ . }}</h3>{{ end }}
+  {{ .Inner | .Page.RenderString (dict "display" "block") }}
+</div>

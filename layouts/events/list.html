@@ -5,7 +5,6 @@
     <div class="container">
 
       {{ $events := .Site.Data.events.upcoming }}
-      {{ $now := now }}
 
       {{ if $events }}
 
@@ -13,13 +12,7 @@
       {{ range $events }}
         {{ if .date }}
           {{ $eventDate := time .date }}
-          {{ $isUpcoming := false }}
-          {{ if and .multi_day .end_date }}
-            {{ $endDate := time .end_date }}
-            {{ if ge $endDate $now }}{{ $isUpcoming = true }}{{ end }}
-          {{ else }}
-            {{ if ge $eventDate $now }}{{ $isUpcoming = true }}{{ end }}
-          {{ end }}
+          {{ $isUpcoming := partial "events/is-upcoming.html" . }}
           {{ if $isUpcoming }}
             {{ $monthKey := time.Format "2006-01" $eventDate }}
             {{ $monthEvents := index $eventsByMonth $monthKey | default slice }}
@@ -77,6 +70,11 @@
               </div>
 
               <div class="event-card-actions">
+                {{ with partial "events/page-url.html" . }}
+                <a href="{{ . }}" class="btn-event-action btn-details">
+                  {{ i18n "event_details" }}
+                </a>
+                {{ end }}
                 {{ if .zoom_meeting }}
                   {{ if .zoom_link }}
                   <a href="{{ .zoom_link }}" target="_blank" class="btn-event-action btn-zoom">

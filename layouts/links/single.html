@@ -182,17 +182,10 @@
 
   <!-- Upcoming events -->
   {{ $events := .Site.Data.events.upcoming }}
-  {{ $now := now }}
   {{ $upcoming := slice }}
   {{ range $events }}
     {{ if .date }}
-      {{ $eventDate := time .date }}
-      {{ $show := false }}
-      {{ if and .multi_day .end_date }}
-        {{ if ge (time .end_date) $now }}{{ $show = true }}{{ end }}
-      {{ else }}
-        {{ if ge $eventDate $now }}{{ $show = true }}{{ end }}
-      {{ end }}
+      {{ $show := partial "events/is-upcoming.html" . }}
       {{ if $show }}
         {{ $upcoming = $upcoming | append . }}
       {{ end }}

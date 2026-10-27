@@ -1,0 +1,13 @@
+{{/* Returns true if an event row from data/events/upcoming.yaml hasn't finished yet.
+     An event counts as upcoming until the end of its last day (end_date for
+     multi-day events, otherwise date), so it stays listed on the day it happens.
+     Sheet dates arrive as midnight Pacific, so "end of day" is that plus 24h. */}}
+{{ $upcoming := false }}
+{{ with .date }}
+  {{ $lastDay := time . }}
+  {{ if and $.multi_day $.end_date }}
+    {{ $lastDay = time $.end_date }}
+  {{ end }}
+  {{ $upcoming = gt ($lastDay.Add (time.ParseDuration "24h")) now }}
+{{ end }}
+{{ return $upcoming }}

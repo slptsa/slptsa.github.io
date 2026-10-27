@@ -13,21 +13,13 @@
       <h2 class="section-title">{{ i18n "ptsa_event_volunteers" }}</h2>
 
       {{ $events := .Site.Data.events.upcoming }}
-      {{ $now := now }}
 
       {{ if $events }}
 
       {{ $volunteerEvents := slice }}
       {{ range $events }}
         {{ if and .date .volunteers_needed }}
-          {{ $eventDate := time .date }}
-          {{ $isUpcoming := false }}
-          {{ if and .multi_day .end_date }}
-            {{ $endDate := time .end_date }}
-            {{ if ge $endDate $now }}{{ $isUpcoming = true }}{{ end }}
-          {{ else }}
-            {{ if ge $eventDate $now }}{{ $isUpcoming = true }}{{ end }}
-          {{ end }}
+          {{ $isUpcoming := partial "events/is-upcoming.html" . }}
           {{ if $isUpcoming }}
             {{ $volunteerEvents = $volunteerEvents | append . }}
           {{ end }}

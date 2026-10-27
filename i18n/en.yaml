@@ -80,6 +80,10 @@ location_label: "📍 Location:"
 join_zoom: "🔗 Join Zoom Meeting"
 volunteer_sign_up: "🙋 Volunteer Sign Up"
 no_events: No upcoming events at this time. Check back soon!
+date_label: "📅 Date:"
+event_details: "Learn More →"
+event_back_to_all: "← All Events"
+event_has_passed: "This event has already happened. Thank you to everyone who came!"
 
 # News
 no_news: No current news at this time. Check back soon!
