@@ -269,6 +269,27 @@ body.page-home #content header {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+/* Always-visible Donate button in the mobile nav bar - Hidden on Desktop */
+.mobile-donate {
+  display: none;
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-radius: 8px;
+  padding: 0.6rem 1.5rem;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.mobile-donate:hover,
+.mobile-donate:focus-visible {
+  background-color: var(--color-light-gray);
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
 /* ============================================
    HOMEPAGE - HERO SECTION
    ============================================ */
@@ -2000,11 +2021,22 @@ body.page-home #content header {
     transform: rotate(180deg);
   }
 
-  .nav-item.btn-donate > a {
-    padding: 0.75rem 1rem !important;
-    margin-top: 0.5rem;
+  /* Donate lives in the nav bar on mobile, so drop the copy inside the menu */
+  .nav-item.btn-donate {
+    display: none;
   }
-  
+
+  .main-nav .container {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+  }
+
+  .mobile-donate {
+    display: inline-block;
+    margin-inline-start: 1rem;
+  }
+
   .hero-simple {
     padding: 2rem 0;
   }
