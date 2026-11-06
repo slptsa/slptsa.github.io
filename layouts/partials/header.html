@@ -13,6 +13,8 @@
 
   <nav class="main-nav">
     <div class="container">
+      <a href="{{ .Site.Params.donation_url }}" class="mobile-donate">{{ i18n "nav_donate" }}</a>
+
       <button class="mobile-menu-toggle" aria-label="{{ i18n "toggle_nav" }}" aria-expanded="false">
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
@@ -32,6 +34,7 @@
           <ul class="dropdown-menu">
             <li><a href="{{ "/about/" | relLangURL }}">{{ i18n "nav_about_us" }}</a></li>
             <li><a href="{{ "/board/" | relLangURL }}">{{ i18n "nav_board_members" }}</a></li>
+            <li><a href="{{ "/about/minutes/" | relLangURL }}">{{ i18n "nav_meeting_minutes" }}</a></li>
           </ul>
         </li>
 

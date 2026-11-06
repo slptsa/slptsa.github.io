@@ -117,3 +117,6 @@ footer_tagline: 모든 아이, 하나의 목소리.
 newsletter_read: "뉴스레터 읽기"
 newsletter_all_issues: "모든 뉴스레터"
 newsletter_none: "아직 뉴스레터가 없습니다. 나중에 다시 확인해 주세요!"
+nav_meeting_minutes: "회의록"
+minutes_open_folder: "Google 드라이브에서 폴더 열기"
+minutes_none: "회의록이 곧 이곳에 게시됩니다. 다음 회의 이후에 다시 확인해 주세요!"
