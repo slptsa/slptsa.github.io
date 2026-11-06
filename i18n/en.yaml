@@ -120,3 +120,6 @@ footer_tagline: Every child. One voice.
 newsletter_read: "Read Newsletter"
 newsletter_all_issues: "All Newsletters"
 newsletter_none: "No newsletters yet. Check back soon!"
+nav_meeting_minutes: "Meeting Minutes"
+minutes_open_folder: "Open folder in Google Drive"
+minutes_none: "Meeting minutes will be posted here soon. Check back after our next meeting!"

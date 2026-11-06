@@ -16,6 +16,9 @@ images: ["/img/social-share.png"]
 ### donation link ###
 donation_url: "https://www.givebacks.com/causes/slptsa/campaigns/dbce996c9087"
 
+### meeting minutes Google Drive folder (share link or folder ID; folder must be "Anyone with the link can view") ###
+minutes_folder_url: "https://drive.google.com/drive/folders/1QXi1ChL_m_LNa6JWiTQT30MnT5jPu2qb?usp=sharing"
+
 ### contact email ###
 email: "info@slptsa.org"
 
