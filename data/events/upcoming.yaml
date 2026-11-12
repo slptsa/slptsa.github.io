@@ -58,7 +58,7 @@
   volunteer_link: "https://www.signupgenius.com/go/10C054AA8AC2FA1F5C07-60806624-craft#/"
   zoom_meeting: false
   zoom_link: ""
-- title: "Winter Craft/Movie Night"
+- title: "Winter Craft Night"
   date: "2027-01-14T08:00:00.000Z"
   end_date: ""
   time: "6:00-8:00"
@@ -104,18 +104,6 @@
   multi_day: true
   volunteers_needed: true
   volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-59468388-book#/"
-  zoom_meeting: false
-  zoom_link: ""
-- title: "Movie Night"
-  date: "2027-04-22T07:00:00.000Z"
-  end_date: ""
-  time: "6:00-8:00"
-  location: "School Gym"
-  description: "Check our Social Media to vote on what we're watching"
-  category: "community"
-  multi_day: false
-  volunteers_needed: true
-  volunteer_link: "https://www.signupgenius.com/go/508044DACAC23A1F49-58696554-april#/"
   zoom_meeting: false
   zoom_link: ""
 - title: "Ollie's Summer Fest"
