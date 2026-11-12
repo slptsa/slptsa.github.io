@@ -120,11 +120,13 @@ To override theme templates:
 ## CI/CD Pipeline
 
 ### Hugo Build & Deploy (`.github/workflows/hugo.yml`)
-1. Installs Hugo Extended v0.148.1 and Dart Sass
+1. Installs Hugo Extended v0.128.0 and Dart Sass
 2. Checks out repository with submodules
 3. Runs `npm ci` to install dependencies
 4. Builds with `hugo --gc --minify`
 5. Deploys to GitHub Pages
+
+**Note**: The workflow installs a specific Hugo version (0.128.0), but package.json specifies hugo-extended ^0.148.1. Consider aligning these versions.
 
 ### Google Sheets Data Sync (`.github/workflows/sync-data.yml`)
 Automatically syncs data from Google Sheets to YAML files:
