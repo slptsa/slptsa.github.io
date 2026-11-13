@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="updates-page">
+  <div class="container">
+    {{ with .Content }}<div class="updates-intro">{{ . }}</div>{{ end }}
+    {{ partial "mailerlite-signup.html" . }}
+  </div>
+</div>
+<style>
+.updates-page { padding: 2rem 0; }
+.content .updates-page .updates-intro { max-width: 560px; margin: 0 auto; color: #444; line-height: 1.6; font-size: 1.05rem; text-align: center; }
+</style>
+{{ end }}
