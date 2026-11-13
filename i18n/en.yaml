@@ -12,6 +12,7 @@ nav_sponsorship_tiers: "Sponsorship Tiers"
 nav_resources: Resources
 nav_join_ptsa: Join PTSA
 nav_volunteer: Volunteer Opportunities
+nav_event_updates: Get Event Updates
 nav_staff_favorites: "Staff Favorites & Wish Lists"
 nav_school_info: School Information
 nav_donate: Donate
@@ -21,6 +22,7 @@ toggle_nav: Toggle navigation menu
 welcome: Welcome
 join_ptsa_today: Join PTSA Today
 view_events: View Events
+get_event_updates: Get Event Updates
 active_members: Active Members
 events_this_year: Events This Year
 raised_for_students: Raised for Students
