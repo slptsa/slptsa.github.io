@@ -119,3 +119,17 @@ newsletter_none: "لاهم خبرپاڼه نشته. وروسته بیا راشئ
 nav_meeting_minutes: "د غونډو صورت جلسې"
 minutes_open_folder: "فولډر په Google Drive کې پرانیزئ"
 minutes_none: "د غونډو صورت جلسې ډېر ژر دلته خپرېږي. زموږ له راتلونکې غونډې وروسته بیا راشئ!"
+
+# Event updates signup (MailerLite)
+nav_event_updates: "د پېښو خبرونه ترلاسه کړئ"
+signup_heading: "د پېښو او رضاکارۍ برېښنالیکونه"
+signup_text: "د PTSA د راتلونکو پېښو او د رضاکارۍ د فرصتونو په اړه برېښنالیکونه ترلاسه کړئ. هر څوک کولی شي نوم لیکنه وکړي، که غړی وي او که نه، او تاسو هر وخت کولی شئ ګډون لغوه کړئ."
+signup_name: "نوم"
+signup_email: "برېښنالیک"
+signup_button: "ګډون وکړئ"
+signup_loading: "د پورته کېدو په حال کې..."
+signup_thanks_heading: "مننه!"
+signup_thanks_text: "تاسو په لیست کې شامل شوئ. د PTSA د پېښو او د رضاکارۍ د فرصتونو لپاره خپل برېښنالیک وګورئ."
+
+# Homepage campaign button (see hero_campaign in params.yaml)
+hero_campaign_text: "د Disney Stars ملاتړ وکړئ!"

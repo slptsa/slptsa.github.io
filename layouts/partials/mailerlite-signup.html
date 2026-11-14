@@ -5,22 +5,22 @@
 
     <div class="ml-form-embedBody row-form">
       <div class="signup-content">
-        <h3>Get Event &amp; Volunteer Emails</h3>
-        <p>Get emails about upcoming PTSA events and volunteer opportunities. Anyone can sign up, member or not, and you can unsubscribe at any time.</p>
+        <h3>{{ i18n "signup_heading" }}</h3>
+        <p>{{ i18n "signup_text" }}</p>
       </div>
 
       <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/2783271/forms/203724719586805000/subscribe" data-code="" method="post" target="_blank">
         <div class="signup-fields">
           <div class="ml-form-fieldRow">
             <div class="ml-field-group ml-field-name">
-              <label for="ml-name" class="sr-only">Name</label>
-              <input id="ml-name" type="text" class="form-control" name="fields[name]" placeholder="Name" autocomplete="given-name">
+              <label for="ml-name" class="sr-only">{{ i18n "signup_name" }}</label>
+              <input id="ml-name" type="text" class="form-control" name="fields[name]" placeholder="{{ i18n "signup_name" }}" autocomplete="given-name">
             </div>
           </div>
           <div class="ml-form-fieldRow ml-last-item">
             <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
-              <label for="ml-email" class="sr-only">Email</label>
-              <input id="ml-email" type="email" class="form-control" name="fields[email]" placeholder="Email" autocomplete="email" aria-required="true">
+              <label for="ml-email" class="sr-only">{{ i18n "signup_email" }}</label>
+              <input id="ml-email" type="email" class="form-control" name="fields[email]" placeholder="{{ i18n "signup_email" }}" autocomplete="email" aria-required="true">
             </div>
           </div>
         </div>
@@ -28,10 +28,10 @@
         <input type="hidden" name="ml-submit" value="1">
 
         <div class="ml-form-embedSubmit">
-          <button type="submit" class="primary">Subscribe</button>
+          <button type="submit" class="primary">{{ i18n "signup_button" }}</button>
           <button disabled="disabled" style="display: none;" type="button" class="loading">
             <span class="ml-form-embedSubmitLoad"></span>
-            <span class="sr-only">Loading...</span>
+            <span class="sr-only">{{ i18n "signup_loading" }}</span>
           </button>
         </div>
 
@@ -40,8 +40,8 @@
     </div>
 
     <div class="ml-form-successBody row-success" style="display: none">
-      <h3>Thank you!</h3>
-      <p>You're on the list. Watch your inbox for PTSA events and volunteer opportunities.</p>
+      <h3>{{ i18n "signup_thanks_heading" }}</h3>
+      <p>{{ i18n "signup_thanks_text" }}</p>
     </div>
 
   </div>

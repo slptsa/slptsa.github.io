@@ -16,6 +16,14 @@ images: ["/img/social-share.png"]
 ### donation link ###
 donation_url: "https://www.givebacks.com/causes/slptsa/campaigns/dbce996c9087"
 
+### homepage campaign button ###
+# While set, replaces the "Join PTSA Today" button at the top of the homepage.
+# end_date (YYYY-MM-DD) is the last day it shows; leave empty to show until removed.
+# Button text is the "hero_campaign_text" key in each i18n/*.yaml file.
+hero_campaign:
+  url: "https://www.paypal.com/ncp/payment/G4M6NZXVEA28S"
+  end_date: "2027-03-31"
+
 ### meeting minutes Google Drive folder (share link or folder ID; folder must be "Anyone with the link can view") ###
 minutes_folder_url: "https://drive.google.com/drive/folders/1QXi1ChL_m_LNa6JWiTQT30MnT5jPu2qb?usp=sharing"
 

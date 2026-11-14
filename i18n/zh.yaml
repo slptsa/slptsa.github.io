@@ -120,3 +120,17 @@ newsletter_none: "暂无新闻通讯，请稍后再来！"
 nav_meeting_minutes: "会议记录"
 minutes_open_folder: "在 Google 云端硬盘中打开文件夹"
 minutes_none: "会议记录即将发布于此。请在下次会议后再来查看！"
+
+# Event updates signup (MailerLite)
+nav_event_updates: "订阅活动通知"
+signup_heading: "活动和志愿服务邮件"
+signup_text: "接收有关 PTSA 近期活动和志愿服务机会的电子邮件。无论是否为会员，任何人都可以订阅，并可随时取消订阅。"
+signup_name: "姓名"
+signup_email: "电子邮件"
+signup_button: "订阅"
+signup_loading: "加载中..."
+signup_thanks_heading: "谢谢！"
+signup_thanks_text: "您已成功订阅。请留意您的收件箱，获取 PTSA 活动和志愿服务机会的信息。"
+
+# Homepage campaign button (see hero_campaign in params.yaml)
+hero_campaign_text: "支持 Disney Stars！"

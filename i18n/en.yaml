@@ -12,7 +12,6 @@ nav_sponsorship_tiers: "Sponsorship Tiers"
 nav_resources: Resources
 nav_join_ptsa: Join PTSA
 nav_volunteer: Volunteer Opportunities
-nav_event_updates: Get Event Updates
 nav_staff_favorites: "Staff Favorites & Wish Lists"
 nav_school_info: School Information
 nav_donate: Donate
@@ -22,7 +21,6 @@ toggle_nav: Toggle navigation menu
 welcome: Welcome
 join_ptsa_today: Join PTSA Today
 view_events: View Events
-get_event_updates: Get Event Updates
 active_members: Active Members
 events_this_year: Events This Year
 raised_for_students: Raised for Students
@@ -125,3 +123,17 @@ newsletter_none: "No newsletters yet. Check back soon!"
 nav_meeting_minutes: "Meeting Minutes"
 minutes_open_folder: "Open folder in Google Drive"
 minutes_none: "Meeting minutes will be posted here soon. Check back after our next meeting!"
+
+# Event updates signup (MailerLite)
+nav_event_updates: "Get Event Updates"
+signup_heading: "Get Event & Volunteer Emails"
+signup_text: "Get emails about upcoming PTSA events and volunteer opportunities. Anyone can sign up, member or not, and you can unsubscribe at any time."
+signup_name: "Name"
+signup_email: "Email"
+signup_button: "Subscribe"
+signup_loading: "Loading..."
+signup_thanks_heading: "Thank you!"
+signup_thanks_text: "You're on the list. Watch your inbox for PTSA events and volunteer opportunities."
+
+# Homepage campaign button (see hero_campaign in params.yaml)
+hero_campaign_text: "Support Disney Stars!"

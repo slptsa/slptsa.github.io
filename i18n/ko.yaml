@@ -120,3 +120,17 @@ newsletter_none: "아직 뉴스레터가 없습니다. 나중에 다시 확인�
 nav_meeting_minutes: "회의록"
 minutes_open_folder: "Google 드라이브에서 폴더 열기"
 minutes_none: "회의록이 곧 이곳에 게시됩니다. 다음 회의 이후에 다시 확인해 주세요!"
+
+# Event updates signup (MailerLite)
+nav_event_updates: "행사 소식 받기"
+signup_heading: "행사 및 자원봉사 이메일 받기"
+signup_text: "PTSA의 다가오는 행사와 자원봉사 기회에 대한 이메일을 받아 보세요. 회원 여부와 관계없이 누구나 신청할 수 있으며, 언제든지 구독을 취소할 수 있습니다."
+signup_name: "이름"
+signup_email: "이메일"
+signup_button: "구독하기"
+signup_loading: "로딩 중..."
+signup_thanks_heading: "감사합니다!"
+signup_thanks_text: "구독이 완료되었습니다. PTSA 행사와 자원봉사 기회 소식을 이메일로 확인해 주세요."
+
+# Homepage campaign button (see hero_campaign in params.yaml)
+hero_campaign_text: "Disney Stars를 응원해 주세요!"

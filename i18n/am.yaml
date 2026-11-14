@@ -120,3 +120,17 @@ newsletter_none: "እስካሁን ምንም ጋዜጣ የለም። ቆይተው 
 nav_meeting_minutes: "የስብሰባ ቃለ-ጉባኤዎች"
 minutes_open_folder: "አቃፊውን በGoogle Drive ይክፈቱ"
 minutes_none: "የስብሰባ ቃለ-ጉባኤዎች በቅርቡ እዚህ ይለጠፋሉ። ከሚቀጥለው ስብሰባችን በኋላ ይመለሱ!"
+
+# Event updates signup (MailerLite)
+nav_event_updates: "የዝግጅት መረጃ ያግኙ"
+signup_heading: "የዝግጅትና የበጎ ፈቃድ ኢሜይሎች"
+signup_text: "ስለ PTSA መጪ ዝግጅቶችና የበጎ ፈቃድ አገልግሎት እድሎች ኢሜይል ያግኙ። አባል ይሁኑም አይሁኑም ማንኛውም ሰው መመዝገብ ይችላል፣ በማንኛውም ጊዜም ምዝገባዎን መሰረዝ ይችላሉ።"
+signup_name: "ስም"
+signup_email: "ኢሜይል"
+signup_button: "ይመዝገቡ"
+signup_loading: "በመጫን ላይ..."
+signup_thanks_heading: "እናመሰግናለን!"
+signup_thanks_text: "በዝርዝሩ ውስጥ ገብተዋል። ስለ PTSA ዝግጅቶችና የበጎ ፈቃድ እድሎች ኢሜይልዎን ይከታተሉ።"
+
+# Homepage campaign button (see hero_campaign in params.yaml)
+hero_campaign_text: "Disney Stars-ን ይደግፉ!"

@@ -120,3 +120,17 @@ newsletter_none: "Бюлетенів поки немає. Заходьте пі�
 nav_meeting_minutes: "Протоколи зборів"
 minutes_open_folder: "Відкрити папку в Google Диску"
 minutes_none: "Протоколи зборів незабаром з'являться тут. Завітайте після наших наступних зборів!"
+
+# Event updates signup (MailerLite)
+nav_event_updates: "Новини про події"
+signup_heading: "Розсилка про події та волонтерство"
+signup_text: "Отримуйте листи про майбутні події PTSA та можливості для волонтерів. Підписатися може будь-хто, незалежно від членства, а відписатися можна будь-коли."
+signup_name: "Ім'я"
+signup_email: "Ел. пошта"
+signup_button: "Підписатися"
+signup_loading: "Завантаження..."
+signup_thanks_heading: "Дякуємо!"
+signup_thanks_text: "Ви в списку розсилки. Стежте за листами про події PTSA та можливості для волонтерів."
+
+# Homepage campaign button (see hero_campaign in params.yaml)
+hero_campaign_text: "Підтримайте Disney Stars!"
