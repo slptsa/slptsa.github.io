@@ -120,3 +120,17 @@ newsletter_none: "Wala pang newsletter. Bumalik na lang po kayo!"
 nav_meeting_minutes: "Mga Katitikan ng Pulong"
 minutes_open_folder: "Buksan ang folder sa Google Drive"
 minutes_none: "Malapit nang i-post dito ang mga katitikan ng pulong. Bumalik pagkatapos ng susunod naming pulong!"
+
+# Event updates signup (MailerLite)
+nav_event_updates: "Kumuha ng Balita sa mga Kaganapan"
+signup_heading: "Mga Email tungkol sa Kaganapan at Pagboboluntaryo"
+signup_text: "Makatanggap ng mga email tungkol sa mga paparating na kaganapan ng PTSA at mga pagkakataong magboluntaryo. Kahit sino ay puwedeng mag-sign up, miyembro man o hindi, at puwede kang mag-unsubscribe anumang oras."
+signup_name: "Pangalan"
+signup_email: "Email"
+signup_button: "Mag-subscribe"
+signup_loading: "Naglo-load..."
+signup_thanks_heading: "Salamat!"
+signup_thanks_text: "Kasama ka na sa listahan. Abangan sa iyong inbox ang mga kaganapan at pagkakataong magboluntaryo ng PTSA."
+
+# Homepage campaign button (see hero_campaign in params.yaml)
+hero_campaign_text: "Suportahan ang Disney Stars!"

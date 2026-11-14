@@ -120,3 +120,17 @@ newsletter_none: "Chưa có bản tin. Hãy quay lại sau!"
 nav_meeting_minutes: "Biên bản họp"
 minutes_open_folder: "Mở thư mục trên Google Drive"
 minutes_none: "Biên bản họp sẽ sớm được đăng tại đây. Hãy quay lại sau cuộc họp tiếp theo của chúng tôi!"
+
+# Event updates signup (MailerLite)
+nav_event_updates: "Nhận tin sự kiện"
+signup_heading: "Nhận email về sự kiện và tình nguyện"
+signup_text: "Nhận email về các sự kiện sắp tới của PTSA và các cơ hội tình nguyện. Bất kỳ ai cũng có thể đăng ký, dù là hội viên hay không, và quý vị có thể hủy đăng ký bất cứ lúc nào."
+signup_name: "Tên"
+signup_email: "Email"
+signup_button: "Đăng ký"
+signup_loading: "Đang tải..."
+signup_thanks_heading: "Cảm ơn quý vị!"
+signup_thanks_text: "Quý vị đã có tên trong danh sách. Hãy kiểm tra hộp thư để nhận tin về các sự kiện và cơ hội tình nguyện của PTSA."
+
+# Homepage campaign button (see hero_campaign in params.yaml)
+hero_campaign_text: "Ủng hộ Disney Stars!"

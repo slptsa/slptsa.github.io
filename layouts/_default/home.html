@@ -7,9 +7,32 @@
         <h1>{{ i18n "welcome" }}</h1>
         <p class="lead">{{ .Description }}</p>
         <div class="hero-cta">
+          {{/* A campaign button (params.yaml hero_campaign) takes the Join spot until the day after its end_date. */}}
+          {{ $campaign := site.Params.hero_campaign }}
+          {{ $endsAt := "" }}
+          {{ $showCampaign := false }}
+          {{ with $campaign }}{{ with .url }}{{ $showCampaign = true }}{{ end }}{{ end }}
+          {{ if and $showCampaign $campaign.end_date }}
+            {{ $endsAt = (time.AsTime $campaign.end_date "America/Los_Angeles").AddDate 0 0 1 }}
+            {{ if not (now.Before $endsAt) }}{{ $showCampaign = false }}{{ end }}
+          {{ end }}
+          {{ if $showCampaign }}
+          <a href="{{ $campaign.url }}" class="btn btn-primary btn-large hero-campaign-btn" target="_blank" rel="noopener"{{ with $endsAt }} data-ends="{{ .Format "2006-01-02T15:04:05Z07:00" }}"{{ end }}>{{ i18n "hero_campaign_text" }}</a>
+          <a href="{{ "/join/" | relLangURL }}" class="btn btn-primary btn-large hero-join-btn" style="display: none;">{{ i18n "join_ptsa_today" }}</a>
+          <script>
+            (function () {
+              var btn = document.querySelector('.hero-campaign-btn[data-ends]');
+              if (btn && Date.now() >= Date.parse(btn.dataset.ends)) {
+                btn.remove();
+                document.querySelector('.hero-join-btn').style.display = '';
+              }
+            })();
+          </script>
+          {{ else }}
           <a href="{{ "/join/" | relLangURL }}" class="btn btn-primary btn-large">{{ i18n "join_ptsa_today" }}</a>
+          {{ end }}
           <a href="{{ "/events/" | relLangURL }}" class="btn btn-secondary btn-large">{{ i18n "view_events" }}</a>
-          <a href="{{ "/updates/" | relURL }}" class="btn btn-secondary btn-large">{{ i18n "get_event_updates" }}</a>
+          <a href="{{ "/updates/" | relLangURL }}" class="btn btn-secondary btn-large">{{ i18n "nav_event_updates" }}</a>
         </div>
       </div>
     </div>

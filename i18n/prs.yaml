@@ -120,3 +120,17 @@ newsletter_none: "در حال حاضر خبرنامه‌ای وجود ندارد
 nav_meeting_minutes: "صورت جلسه‌ها"
 minutes_open_folder: "باز کردن پوشه در Google Drive"
 minutes_none: "صورت جلسه‌ها به زودی در اینجا نشر می‌شوند. بعد از جلسهٔ بعدی ما دوباره سر بزنید!"
+
+# Event updates signup (MailerLite)
+nav_event_updates: "دریافت خبرهای رویدادها"
+signup_heading: "ایمیل‌های رویدادها و فرصت‌های داوطلبی"
+signup_text: "ایمیل‌هایی درباره رویدادهای آینده PTSA و فرصت‌های داوطلبی دریافت کنید. هر کسی می‌تواند ثبت نام کند، چه عضو باشد چه نباشد، و هر وقت بخواهید می‌توانید اشتراک خود را لغو کنید."
+signup_name: "نام"
+signup_email: "ایمیل"
+signup_button: "ثبت نام"
+signup_loading: "در حال بارگذاری..."
+signup_thanks_heading: "تشکر!"
+signup_thanks_text: "شما در فهرست ثبت شدید. منتظر ایمیل‌های ما درباره رویدادها و فرصت‌های داوطلبی PTSA باشید."
+
+# Homepage campaign button (see hero_campaign in params.yaml)
+hero_campaign_text: "از Disney Stars حمایت کنید!"
