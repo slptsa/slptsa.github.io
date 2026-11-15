@@ -38,3 +38,19 @@
   elected: true
   election_date: "2026-06-01T07:00:00.000Z"
   term: "2026-2027"
+- name: "Holly Costley"
+  position: "Social Media Chair"
+  email: "sereneptsa@gmail.com"
+  photo: ""
+  bio: ""
+  elected: false
+  election_date: "2026-06-01T07:00:00.000Z"
+  term: "2026-2027"
+- name: "Christine Pham"
+  position: "Event Coordinator"
+  email: "sereneptsa@gmail.com"
+  photo: ""
+  bio: ""
+  elected: false
+  election_date: "2026-06-01T07:00:00.000Z"
+  term: "2026-2027"
