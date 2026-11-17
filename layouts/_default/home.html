@@ -161,7 +161,7 @@
         {{ $members := .Site.Data.board.members }}
         {{ if $members }}
         <div class="board-preview">
-          {{ range first 4 $members }}
+          {{ range $members }}
           <div class="board-mini">
             <h4>{{ .name }}</h4>
             <p class="position">{{ .position }}</p>
