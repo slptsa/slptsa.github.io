@@ -14,7 +14,8 @@ custom_css:
 images: ["/img/social-share.png"]
 
 ### donation link ###
-donation_url: "https://www.givebacks.com/causes/slptsa/campaigns/dbce996c9087"
+donation_url: "https://www.paypal.com/ncp/payment/G4M6NZXVEA28S"
+donation_old: "https://www.givebacks.com/causes/slptsa/campaigns/dbce996c9087"
 
 ### homepage campaign button ###
 # While set, replaces the "Join PTSA Today" button at the top of the homepage.
