@@ -16,7 +16,7 @@ Come check out our great vendors! Dozens of local merchants will be in the gym w
 {{< info-card title="Food" >}}
 - Sourdough breads and such
 - Puerto Rican pastries
-- Tamales, cake pops and cotton candy
+- Cake pops and cotton candy
 - Jams, jellies, hot sauces and pickles
 {{< /info-card >}}
 
